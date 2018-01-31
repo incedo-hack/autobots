@@ -24,6 +24,20 @@ class recprec(object):
             data = json.load(data_file)
         return data
 
+    def html_load_json(self, infile):
+        data = self.load_json(infile)
+        table = ""
+        for line in reversed(sorted(data.keys())):
+            table += '<tr><td>{}</td><td>{}</td><td>{}</td><td><div ' \
+                     'class="mid-graph"><div class="six ' \
+                     'mid-graph-bar-status">{}</div></div></td></tr>'.format(
+                line,
+                data[line]['name'],
+                data[line]['skill'],
+                data[line]['weight'],
+            )
+        return table
+
     def write_db(self):
         data = self.load_json("data.json")
         data[self._recid]["weight"] = self._weight
@@ -63,3 +77,4 @@ class recprec(object):
 #c = recprec()
 #c.stream = 'Y|Y|Y|Y|Y|Y|Y|1'  # setter called
 #c.calc_weight()
+#c.html_load_json("data.json")
