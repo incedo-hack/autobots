@@ -1,0 +1,115 @@
+/*--------------------------------------------------| Page - 1 |------------------------------------------------*/
+body{
+	background-color: #CFD8DC;
+}
+.dark-header{
+	background-color: #343a40!important;
+}
+.hackathon{
+	font-size: 18px;
+	color: #fff;
+	cursor: pointer;
+}
+.card-holder{
+	margin: 20px;
+	background-color: #fff;
+	border-radius: 8px;
+	padding: 20px;
+  	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.card-holder table{
+	margin-top: 40px;
+}
+.card-holder thead{
+	background: #607D8B;
+	color: #fff;
+}
+.table-hover{
+	cursor: pointer;
+}
+.table-fixed tbody tr:hover{
+	background-color: #ECEFF1!important;
+}
+.addbutton{
+	margin: 10px 30px 0px 0px;
+	width: 125px;
+}
+.card-holder{
+	margin: 20px;
+	background-color: #fff;
+	border-radius: 8px;
+	padding: 20px;
+  	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.backtab {
+    background-color: #f1f1f1;
+    color: black;
+}
+.circle {
+    border-radius: 50%;
+    padding: 10px;
+    border: 2px solid #212529;
+}
+
+.low-graph,
+.mid-graph,
+.green-graph{
+	  width: 90%;
+	  background-color: #ddd;
+	  border-radius: 5px;
+}
+.low-graph-bar-status,
+.mid-graph-bar-status,
+.green-graph-bar-status{
+  height: 24px;
+  text-align: center;
+  line-height: 24px;
+  color: white;
+  border-radius: 5px;
+}
+.low-graph-bar-status{
+	background-color: #F44336;
+}
+.mid-graph-bar-status{
+	background-color: #FFC107;
+
+}
+.green-graph-bar-status{
+	background-color: #8BC34A;
+	
+}
+
+.three{
+	width: 30%;
+}
+.six{
+	width: 60%;
+}
+.nine{
+	width: 90%;
+}
+.previous {
+	border:2px solid #212529;
+    color: #212529;
+	display: inline-block;
+	margin-right:15px;
+	padding: 0px 15px;
+	border-radius: 50%;
+	padding-bottom: 5px;
+}
+.previous:hover{
+	color: #212529;
+	text-decoration: none;
+}
+
+
+.card-block{
+	margin: 15px 0px;
+	background-color: #CFD8DC;
+	padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+.card-block:hover{
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}

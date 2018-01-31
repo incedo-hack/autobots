@@ -1,0 +1,43 @@
+{
+  "mapping" : [
+    {
+      "number" : 0,
+      "_desc" : "notice_period_more_than_1mth",
+      "weight" : 1
+    },
+    {
+      "number" : 1,
+      "_desc" : "notice_period_more_than_2mth",
+      "weight" : 1
+    },
+    {
+      "number" : 2,
+      "_desc" : "notice_period_more_than_3mth",
+      "weight" : 1
+    },
+    {
+      "number" : 3,
+      "_desc" : "possess_other_offer",
+      "weight" : 1
+    },
+    {
+      "number" : 4,
+      "_desc" : "offered_higher_package",
+      "weight" : 1
+    },
+    {
+      "number" : 5,
+      "_desc" : "notice_period",
+      "weight" : 1
+    },
+    {
+      "number" : 6,
+      "_desc" : "notice_period",
+      "weight" : 1
+    },
+    {
+      "number": 7,
+      "_desc": "notice_period"
+    }
+  ]
+}
