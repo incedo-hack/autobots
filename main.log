@@ -1,12 +1,473 @@
-INFO 2018-01-29 18:27:43,846 - Calculating weight for id 1
-INFO 2018-01-29 18:27:43,859 - Updated weight for [1 : Kalpesh Tawde] to 7
-INFO 2018-01-30 12:30:32,976 - Calculating weight for id 1
-INFO 2018-01-30 12:30:32,976 - Updated weight for [1 : Kalpesh Tawde] to 5
-INFO 2018-01-30 14:28:26,134 - Calculating weight for id 1
-INFO 2018-01-30 14:28:26,134 - Updated weight for [1 : Kalpesh Tawde] to 5
-INFO 2018-01-30 14:28:28,884 - Calculating weight for id 1
-INFO 2018-01-30 14:28:28,884 - Updated weight for [1 : Kalpesh Tawde] to 5
-INFO 2018-01-30 14:28:33,276 - Calculating weight for id 1
-INFO 2018-01-30 14:28:33,276 - Updated weight for [1 : Kalpesh Tawde] to 5
-INFO 2018-01-30 14:28:50,948 - Calculating weight for id 1
-INFO 2018-01-30 14:28:50,948 - Updated weight for [1 : Kalpesh Tawde] to 6
+ERROR 2018-01-31 18:52:30,263 - Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\views.py", line 7, in index
+    return render_to_response("index.html")
+  File "C:\Python27\lib\site-packages\django\shortcuts.py", line 21, in render_to_response
+    content = loader.render_to_string(template_name, context, using=using)
+  File "C:\Python27\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "C:\Python27\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 207, in render
+    return self._render(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "C:\Python27\lib\site-packages\django\template\library.py", line 203, in render
+    output = self.func(*resolved_args, **resolved_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\templatetags\tags.py", line 13, in getList
+    return obj.load_json("/static/scripts/data.json")
+  File "C:\Users\ktawde\hackathon\autobots\predire\static\scripts\recruit_predict.py", line 23, in load_json
+    with open(infile) as data_file:
+IOError: [Errno 2] No such file or directory: '/static/scripts/data.json'
+ERROR 2018-01-31 18:52:32,171 - Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\views.py", line 7, in index
+    return render_to_response("index.html")
+  File "C:\Python27\lib\site-packages\django\shortcuts.py", line 21, in render_to_response
+    content = loader.render_to_string(template_name, context, using=using)
+  File "C:\Python27\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "C:\Python27\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 207, in render
+    return self._render(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "C:\Python27\lib\site-packages\django\template\library.py", line 203, in render
+    output = self.func(*resolved_args, **resolved_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\templatetags\tags.py", line 13, in getList
+    return obj.load_json("/static/scripts/data.json")
+  File "C:\Users\ktawde\hackathon\autobots\predire\static\scripts\recruit_predict.py", line 23, in load_json
+    with open(infile) as data_file:
+IOError: [Errno 2] No such file or directory: '/static/scripts/data.json'
+ERROR 2018-01-31 18:52:33,095 - Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\views.py", line 7, in index
+    return render_to_response("index.html")
+  File "C:\Python27\lib\site-packages\django\shortcuts.py", line 21, in render_to_response
+    content = loader.render_to_string(template_name, context, using=using)
+  File "C:\Python27\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "C:\Python27\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 207, in render
+    return self._render(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "C:\Python27\lib\site-packages\django\template\library.py", line 203, in render
+    output = self.func(*resolved_args, **resolved_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\templatetags\tags.py", line 13, in getList
+    return obj.load_json("/static/scripts/data.json")
+  File "C:\Users\ktawde\hackathon\autobots\predire\static\scripts\recruit_predict.py", line 23, in load_json
+    with open(infile) as data_file:
+IOError: [Errno 2] No such file or directory: '/static/scripts/data.json'
+ERROR 2018-01-31 18:52:33,584 - Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\views.py", line 7, in index
+    return render_to_response("index.html")
+  File "C:\Python27\lib\site-packages\django\shortcuts.py", line 21, in render_to_response
+    content = loader.render_to_string(template_name, context, using=using)
+  File "C:\Python27\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "C:\Python27\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 207, in render
+    return self._render(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "C:\Python27\lib\site-packages\django\template\library.py", line 203, in render
+    output = self.func(*resolved_args, **resolved_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\templatetags\tags.py", line 13, in getList
+    return obj.load_json("/static/scripts/data.json")
+  File "C:\Users\ktawde\hackathon\autobots\predire\static\scripts\recruit_predict.py", line 23, in load_json
+    with open(infile) as data_file:
+IOError: [Errno 2] No such file or directory: '/static/scripts/data.json'
+ERROR 2018-01-31 18:52:34,032 - Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\views.py", line 7, in index
+    return render_to_response("index.html")
+  File "C:\Python27\lib\site-packages\django\shortcuts.py", line 21, in render_to_response
+    content = loader.render_to_string(template_name, context, using=using)
+  File "C:\Python27\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "C:\Python27\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 207, in render
+    return self._render(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "C:\Python27\lib\site-packages\django\template\library.py", line 203, in render
+    output = self.func(*resolved_args, **resolved_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\templatetags\tags.py", line 13, in getList
+    return obj.load_json("/static/scripts/data.json")
+  File "C:\Users\ktawde\hackathon\autobots\predire\static\scripts\recruit_predict.py", line 23, in load_json
+    with open(infile) as data_file:
+IOError: [Errno 2] No such file or directory: '/static/scripts/data.json'
+ERROR 2018-01-31 18:52:34,288 - Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\views.py", line 7, in index
+    return render_to_response("index.html")
+  File "C:\Python27\lib\site-packages\django\shortcuts.py", line 21, in render_to_response
+    content = loader.render_to_string(template_name, context, using=using)
+  File "C:\Python27\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "C:\Python27\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 207, in render
+    return self._render(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "C:\Python27\lib\site-packages\django\template\library.py", line 203, in render
+    output = self.func(*resolved_args, **resolved_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\templatetags\tags.py", line 13, in getList
+    return obj.load_json("/static/scripts/data.json")
+  File "C:\Users\ktawde\hackathon\autobots\predire\static\scripts\recruit_predict.py", line 23, in load_json
+    with open(infile) as data_file:
+IOError: [Errno 2] No such file or directory: '/static/scripts/data.json'
+ERROR 2018-01-31 18:52:34,367 - Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\views.py", line 7, in index
+    return render_to_response("index.html")
+  File "C:\Python27\lib\site-packages\django\shortcuts.py", line 21, in render_to_response
+    content = loader.render_to_string(template_name, context, using=using)
+  File "C:\Python27\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "C:\Python27\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 207, in render
+    return self._render(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "C:\Python27\lib\site-packages\django\template\library.py", line 203, in render
+    output = self.func(*resolved_args, **resolved_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\templatetags\tags.py", line 13, in getList
+    return obj.load_json("/static/scripts/data.json")
+  File "C:\Users\ktawde\hackathon\autobots\predire\static\scripts\recruit_predict.py", line 23, in load_json
+    with open(infile) as data_file:
+IOError: [Errno 2] No such file or directory: '/static/scripts/data.json'
+ERROR 2018-01-31 18:52:34,575 - Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\views.py", line 7, in index
+    return render_to_response("index.html")
+  File "C:\Python27\lib\site-packages\django\shortcuts.py", line 21, in render_to_response
+    content = loader.render_to_string(template_name, context, using=using)
+  File "C:\Python27\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "C:\Python27\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 207, in render
+    return self._render(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "C:\Python27\lib\site-packages\django\template\library.py", line 203, in render
+    output = self.func(*resolved_args, **resolved_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\templatetags\tags.py", line 13, in getList
+    return obj.load_json("/static/scripts/data.json")
+  File "C:\Users\ktawde\hackathon\autobots\predire\static\scripts\recruit_predict.py", line 23, in load_json
+    with open(infile) as data_file:
+IOError: [Errno 2] No such file or directory: '/static/scripts/data.json'
+ERROR 2018-01-31 18:52:34,812 - Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\views.py", line 7, in index
+    return render_to_response("index.html")
+  File "C:\Python27\lib\site-packages\django\shortcuts.py", line 21, in render_to_response
+    content = loader.render_to_string(template_name, context, using=using)
+  File "C:\Python27\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "C:\Python27\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 207, in render
+    return self._render(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "C:\Python27\lib\site-packages\django\template\library.py", line 203, in render
+    output = self.func(*resolved_args, **resolved_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\templatetags\tags.py", line 13, in getList
+    return obj.load_json("/static/scripts/data.json")
+  File "C:\Users\ktawde\hackathon\autobots\predire\static\scripts\recruit_predict.py", line 23, in load_json
+    with open(infile) as data_file:
+IOError: [Errno 2] No such file or directory: '/static/scripts/data.json'
+ERROR 2018-01-31 18:52:34,928 - Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\views.py", line 7, in index
+    return render_to_response("index.html")
+  File "C:\Python27\lib\site-packages\django\shortcuts.py", line 21, in render_to_response
+    content = loader.render_to_string(template_name, context, using=using)
+  File "C:\Python27\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "C:\Python27\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 207, in render
+    return self._render(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "C:\Python27\lib\site-packages\django\template\library.py", line 203, in render
+    output = self.func(*resolved_args, **resolved_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\templatetags\tags.py", line 13, in getList
+    return obj.load_json("/static/scripts/data.json")
+  File "C:\Users\ktawde\hackathon\autobots\predire\static\scripts\recruit_predict.py", line 23, in load_json
+    with open(infile) as data_file:
+IOError: [Errno 2] No such file or directory: '/static/scripts/data.json'
+ERROR 2018-01-31 18:52:35,325 - Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\views.py", line 7, in index
+    return render_to_response("index.html")
+  File "C:\Python27\lib\site-packages\django\shortcuts.py", line 21, in render_to_response
+    content = loader.render_to_string(template_name, context, using=using)
+  File "C:\Python27\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "C:\Python27\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 207, in render
+    return self._render(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "C:\Python27\lib\site-packages\django\template\library.py", line 203, in render
+    output = self.func(*resolved_args, **resolved_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\templatetags\tags.py", line 13, in getList
+    return obj.load_json("/static/scripts/data.json")
+  File "C:\Users\ktawde\hackathon\autobots\predire\static\scripts\recruit_predict.py", line 23, in load_json
+    with open(infile) as data_file:
+IOError: [Errno 2] No such file or directory: '/static/scripts/data.json'
+ERROR 2018-01-31 18:52:35,430 - Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\views.py", line 7, in index
+    return render_to_response("index.html")
+  File "C:\Python27\lib\site-packages\django\shortcuts.py", line 21, in render_to_response
+    content = loader.render_to_string(template_name, context, using=using)
+  File "C:\Python27\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "C:\Python27\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 207, in render
+    return self._render(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "C:\Python27\lib\site-packages\django\template\library.py", line 203, in render
+    output = self.func(*resolved_args, **resolved_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\templatetags\tags.py", line 13, in getList
+    return obj.load_json("/static/scripts/data.json")
+  File "C:\Users\ktawde\hackathon\autobots\predire\static\scripts\recruit_predict.py", line 23, in load_json
+    with open(infile) as data_file:
+IOError: [Errno 2] No such file or directory: '/static/scripts/data.json'
+ERROR 2018-01-31 18:52:35,634 - Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\views.py", line 7, in index
+    return render_to_response("index.html")
+  File "C:\Python27\lib\site-packages\django\shortcuts.py", line 21, in render_to_response
+    content = loader.render_to_string(template_name, context, using=using)
+  File "C:\Python27\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "C:\Python27\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 207, in render
+    return self._render(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "C:\Python27\lib\site-packages\django\template\library.py", line 203, in render
+    output = self.func(*resolved_args, **resolved_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\templatetags\tags.py", line 13, in getList
+    return obj.load_json("/static/scripts/data.json")
+  File "C:\Users\ktawde\hackathon\autobots\predire\static\scripts\recruit_predict.py", line 23, in load_json
+    with open(infile) as data_file:
+IOError: [Errno 2] No such file or directory: '/static/scripts/data.json'
+ERROR 2018-01-31 18:52:35,799 - Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\views.py", line 7, in index
+    return render_to_response("index.html")
+  File "C:\Python27\lib\site-packages\django\shortcuts.py", line 21, in render_to_response
+    content = loader.render_to_string(template_name, context, using=using)
+  File "C:\Python27\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "C:\Python27\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 207, in render
+    return self._render(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "C:\Python27\lib\site-packages\django\template\library.py", line 203, in render
+    output = self.func(*resolved_args, **resolved_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\templatetags\tags.py", line 13, in getList
+    return obj.load_json("/static/scripts/data.json")
+  File "C:\Users\ktawde\hackathon\autobots\predire\static\scripts\recruit_predict.py", line 23, in load_json
+    with open(infile) as data_file:
+IOError: [Errno 2] No such file or directory: '/static/scripts/data.json'
+ERROR 2018-01-31 19:27:23,671 - Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\views.py", line 7, in index
+    return render_to_response("index.html")
+  File "C:\Python27\lib\site-packages\django\shortcuts.py", line 21, in render_to_response
+    content = loader.render_to_string(template_name, context, using=using)
+  File "C:\Python27\lib\site-packages\django\template\loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Python27\lib\site-packages\django\template\loader.py", line 18, in get_template
+    engines = _engine_list(using)
+  File "C:\Python27\lib\site-packages\django\template\loader.py", line 72, in _engine_list
+    return engines.all() if using is None else [engines[using]]
+  File "C:\Python27\lib\site-packages\django\template\utils.py", line 89, in all
+    return [self[alias] for alias in self]
+  File "C:\Python27\lib\site-packages\django\template\utils.py", line 80, in __getitem__
+    engine = engine_cls(params)
+  File "C:\Python27\lib\site-packages\django\template\backends\django.py", line 30, in __init__
+    options['libraries'] = self.get_templatetag_libraries(libraries)
+  File "C:\Python27\lib\site-packages\django\template\backends\django.py", line 48, in get_templatetag_libraries
+    libraries = get_installed_libraries()
+  File "C:\Python27\lib\site-packages\django\template\backends\django.py", line 113, in get_installed_libraries
+    for name in get_package_libraries(pkg):
+  File "C:\Python27\lib\site-packages\django\template\backends\django.py", line 126, in get_package_libraries
+    module = import_module(entry[1])
+  File "C:\Python27\lib\importlib\__init__.py", line 37, in import_module
+    __import__(name)
+  File "C:\Users\ktawde\hackathon\autobots\predire\templatetags\tags.py", line 2, in <module>
+    from predire.static.scripts.recruit_predict import recprec
+  File "C:\Users\ktawde\hackathon\autobots\predire\static\scripts\recruit_predict.py", line 75, in <module>
+    c.html_load_json("C:/Users/ktawde/hackathon/autobots/data.json")
+  File "C:\Users\ktawde\hackathon\autobots\predire\static\scripts\recruit_predict.py", line 33, in html_load_json
+    data[line]['weight'],
+IndexError: tuple index out of range
