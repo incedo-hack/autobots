@@ -471,3 +471,66 @@ Traceback (most recent call last):
   File "C:\Users\ktawde\hackathon\autobots\predire\static\scripts\recruit_predict.py", line 33, in html_load_json
     data[line]['weight'],
 IndexError: tuple index out of range
+WARNING 2018-01-31 20:15:11,240 - Not Found: /base-score.html
+ERROR 2018-01-31 21:47:03,061 - Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\views.py", line 7, in index
+    return render_to_response("index.html")
+  File "C:\Python27\lib\site-packages\django\shortcuts.py", line 21, in render_to_response
+    content = loader.render_to_string(template_name, context, using=using)
+  File "C:\Python27\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "C:\Python27\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 207, in render
+    return self._render(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "C:\Python27\lib\site-packages\django\template\library.py", line 203, in render
+    output = self.func(*resolved_args, **resolved_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\templatetags\tags.py", line 9, in getList
+    return obj.html_load_json("data.json")
+  File "C:\Users\ktawde\hackathon\autobots\predire\static\scripts\recruit_predict.py", line 37, in html_load_json
+    engine.number_to_words(data[line]['weight']),
+TypeError: unbound method number_to_words() must be called with engine instance as first argument (got int instance instead)
+ERROR 2018-01-31 21:55:54,763 - Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\views.py", line 7, in index
+    return render_to_response("index.html")
+  File "C:\Python27\lib\site-packages\django\shortcuts.py", line 21, in render_to_response
+    content = loader.render_to_string(template_name, context, using=using)
+  File "C:\Python27\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "C:\Python27\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 207, in render
+    return self._render(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "C:\Python27\lib\site-packages\django\template\library.py", line 203, in render
+    output = self.func(*resolved_args, **resolved_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\templatetags\tags.py", line 9, in getList
+    return obj.html_load_json("data.json")
+  File "C:\Users\ktawde\hackathon\autobots\predire\static\scripts\recruit_predict.py", line 38, in html_load_json
+    self._inf.number_to_words(int(math.ceil(data[line]['weight']) / 10)),
+NameError: global name 'math' is not defined

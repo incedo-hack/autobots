@@ -1,5 +1,7 @@
 import json
 import logging
+import inflect
+import math
 
 
 class recprec(object):
@@ -9,6 +11,7 @@ class recprec(object):
         self._recid = None
         self._weight = 0
         self._mapping = self.load_json("mapping.json")
+        self._inf = inflect.engine()
         logging.basicConfig(
             filename = "main.log",
             level = logging.DEBUG,
@@ -29,12 +32,13 @@ class recprec(object):
         table = ""
         for line in reversed(sorted(data.keys())):
             table += '<tr><td>{}</td><td>{}</td><td>{}</td><td><div ' \
-                     'class="mid-graph"><div class="six ' \
+                     'class="mid-graph"><div class="{} ' \
                      'mid-graph-bar-status">{}</div></div></td></tr>'.format(
                 line,
                 data[line]['name'],
                 data[line]['skill'],
-                data[line]['weight'],
+                self._inf.number_to_words(int(math.ceil(data[line]['weight']) / 10)),
+                data[line]['weight']
             )
         return table
 

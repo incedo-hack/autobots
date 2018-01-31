@@ -1,31 +1,37 @@
 {
   "1": {
     "name": "Kalpesh Tawde",
-    "weight": 7,
+    "weight": 70,
     "skill": "Python",
     "mapping": "Y|Y|Y|Y|Y|Y|Y"
   },
   "3": {
     "name": "Shruti Agarawal",
-    "weight": 0,
+    "weight": 30,
     "skill": "Java",
     "mapping": "Y|Y|N|Y|N|Y|Y"
   },
   "2": {
     "name": "Sagar Jagtap",
-    "weight": 0,
+    "weight": 40,
     "skill": "UI",
     "mapping": "Y|Y|N|Y|N|Y|Y"
   },
   "5": {
     "name": "Gaurav Gupta",
-    "weight": 5,
+    "weight": 80,
     "skill": "Java",
     "mapping": "Y|Y|N|Y|N|Y|Y"
   },
   "4": {
     "name": "Mahesh Waikar",
-    "weight": 0,
+    "weight": 60,
+    "skill": "Python",
+    "mapping": "Y|Y|N|Y|N|Y|Y"
+  },
+  "6": {
+    "name": "Pratyush",
+    "weight": 90,
     "skill": "Python",
     "mapping": "Y|Y|N|Y|N|Y|Y"
   }

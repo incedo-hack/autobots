@@ -67,27 +67,48 @@ body{
   color: white;
   border-radius: 5px;
 }
-.low-graph-bar-status{
+
+.one{
+	width: 10%;
 	background-color: #F44336;
 }
-.mid-graph-bar-status{
-	background-color: #FFC107;
-
+.two{
+	width: 20%;
+	background-color: #F44336;
 }
-.green-graph-bar-status{
-	background-color: #8BC34A;
-	
-}
-
 .three{
 	width: 30%;
+	background-color: #F44336;
+}
+.four{
+	width: 40%;
+	background-color: #FFC107;
+}
+.five{
+	width: 50%;
+	background-color: #FFC107;
 }
 .six{
 	width: 60%;
+	background-color: #FFC107;
+}
+.seven{
+	width: 70%;
+	background-color: #FFC107;
+}
+.eight{
+	width: 80%;
+	background-color: #8BC34A;
 }
 .nine{
 	width: 90%;
+	background-color: #8BC34A;
 }
+.ten{
+	width: 100%;
+	background-color: #8BC34A;
+}
+
 .previous {
 	border:2px solid #212529;
     color: #212529;
