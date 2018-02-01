@@ -9,8 +9,9 @@ class recprec(object):
     def __init__(self):
         self._stream = None
         self._recid = None
-        self._weight = 0
-        self._mapping = self.load_json("mapping.json")
+        self._weight = 100
+        self.mapping_desc = {}
+        self._mapping = self.load_json('mapping.json')
         self._inf = inflect.engine()
         logging.basicConfig(
             filename = "main.log",
@@ -43,9 +44,10 @@ class recprec(object):
         return table
 
     def write_db(self):
-        data = self.load_json("data.json")
+        data = self.load_json('data.json')
         data[self._recid]["weight"] = self._weight
-        data[self._recid]["mapping"] = "|".join(self._stream)
+        #data[self._recid]["mapping"] = "|".join(self._stream)
+        data[self._recid]["mapping"] = self.mapping_desc
         with open('data.json', 'w') as outfile:
             json.dump(data, outfile)
 
@@ -63,6 +65,7 @@ class recprec(object):
         """
         self.logger.info("Calculating weight for id {}".format(self._recid))
         for idx, flag in enumerate(self._stream):
+            self.mapping_desc[self._mapping["mapping"][idx]["_desc"]] = flag
             if flag == "Y":
                 self._weight += self._mapping["mapping"][idx]["weight"]
         self.write_db()
