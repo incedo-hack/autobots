@@ -2,17 +2,17 @@
   "mapping" : [
     {
       "number" : 0,
-      "_desc" : "radio",
+      "_desc" : "lt_1mth_check",
       "weight" : 30
     },
     {
       "number" : 1,
-      "_desc" : "radio",
+      "_desc" : "lt_2mth_check",
       "weight" : -15
     },
     {
       "number" : 2,
-      "_desc" : "radio",
+      "_desc" : "lt_3mth_check",
       "weight" : -25
     },
     {

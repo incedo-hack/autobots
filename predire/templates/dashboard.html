@@ -1,4 +1,3 @@
-{{id}}
 <!doctype html>
 <html lang="en">
    <head>
@@ -44,6 +43,7 @@
       <div class="container">
          <form id="skills-form">
             <input type="hidden" name="id" value="{{id}}">
+            <input type="hidden" name="submit" value="True  ">
             <div class="row">
                <div class="col-md-4">
                   <div class="card radio-card">
@@ -52,19 +52,20 @@
                         <ul>
                            <li>
                               <label class="radio-package">1 Month
-                              <input type="radio" name="radio" checked>
+                                 <input type="radio" name="radio"
+                                        {{lt_1mth_check}}>
                               <span class="checkmark"></span>
                               </label>
                            </li>
                            <li>
                               <label class="radio-package">2 Month
-                              <input type="radio" name="radio">
+                              <input type="radio" name="radio" {{lt_2mth_check}}>
                               <span class="checkmark"></span>
                               </label>
                            </li>
                            <li>
                               <label class="radio-package">3 Month
-                              <input type="radio" name="radio">
+                              <input type="radio" name="radio" {{lt_3mth_check}}>
                               <span class="checkmark"></span>
                               </label>
                            </li>

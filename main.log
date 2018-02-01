@@ -1474,3 +1474,408 @@ INFO 2018-02-01 21:47:13,763 - Calculating weight for id None
 INFO 2018-02-01 21:47:13,770 - Updated weight for [3 : Shruti Agarawal] to 100
 INFO 2018-02-01 21:47:15,526 - Calculating weight for id None
 INFO 2018-02-01 21:47:15,533 - Updated weight for [3 : Shruti Agarawal] to 75
+INFO 2018-02-01 21:54:53,596 - Calculating weight for id None
+INFO 2018-02-01 21:54:53,621 - Updated weight for [3 : Shruti Agarawal] to 75
+INFO 2018-02-01 21:54:56,006 - Calculating weight for id None
+INFO 2018-02-01 21:54:56,015 - Updated weight for [3 : Shruti Agarawal] to 75
+INFO 2018-02-01 22:00:23,016 - Calculating weight for id None
+INFO 2018-02-01 22:00:23,025 - Updated weight for [3 : Shruti Agarawal] to 100
+INFO 2018-02-01 22:00:26,282 - Calculating weight for id None
+INFO 2018-02-01 22:00:26,289 - Updated weight for [3 : Shruti Agarawal] to 130
+INFO 2018-02-01 22:00:29,641 - Calculating weight for id None
+INFO 2018-02-01 22:00:29,648 - Updated weight for [3 : Shruti Agarawal] to 115
+INFO 2018-02-01 22:00:32,252 - Calculating weight for id None
+INFO 2018-02-01 22:00:32,260 - Updated weight for [3 : Shruti Agarawal] to 90
+INFO 2018-02-01 22:00:49,799 - Calculating weight for id None
+INFO 2018-02-01 22:00:49,809 - Updated weight for [3 : Shruti Agarawal] to 75
+INFO 2018-02-01 22:00:52,286 - Calculating weight for id None
+INFO 2018-02-01 22:00:52,295 - Updated weight for [3 : Shruti Agarawal] to 72
+INFO 2018-02-01 22:00:54,829 - Calculating weight for id None
+INFO 2018-02-01 22:00:54,838 - Updated weight for [4 : Mahesh Waikar] to 100
+INFO 2018-02-01 22:00:57,802 - Calculating weight for id None
+INFO 2018-02-01 22:00:57,809 - Updated weight for [3 : Shruti Agarawal] to 100
+INFO 2018-02-01 22:01:01,461 - Calculating weight for id None
+INFO 2018-02-01 22:01:01,467 - Updated weight for [1 : Kalpesh Tawde] to 100
+INFO 2018-02-01 22:01:03,671 - Calculating weight for id None
+INFO 2018-02-01 22:01:03,678 - Updated weight for [1 : Kalpesh Tawde] to 85
+INFO 2018-02-01 22:01:07,197 - Calculating weight for id None
+INFO 2018-02-01 22:01:07,204 - Updated weight for [2 : Sagar Jagtap] to 100
+INFO 2018-02-01 22:01:09,700 - Calculating weight for id None
+INFO 2018-02-01 22:01:09,706 - Updated weight for [1 : Kalpesh Tawde] to 100
+INFO 2018-02-01 22:01:25,523 - Calculating weight for id None
+INFO 2018-02-01 22:01:25,528 - Updated weight for [3 : Shruti Agarawal] to 100
+INFO 2018-02-01 22:01:28,384 - Calculating weight for id None
+INFO 2018-02-01 22:01:28,392 - Updated weight for [3 : Shruti Agarawal] to 97
+INFO 2018-02-01 22:01:34,026 - Calculating weight for id None
+INFO 2018-02-01 22:01:34,030 - Updated weight for [3 : Shruti Agarawal] to 100
+INFO 2018-02-01 22:01:37,773 - Calculating weight for id None
+INFO 2018-02-01 22:01:37,776 - Updated weight for [3 : Shruti Agarawal] to 100
+INFO 2018-02-01 22:02:09,003 - Calculating weight for id None
+INFO 2018-02-01 22:02:09,013 - Updated weight for [6 : Pratyush] to 100
+INFO 2018-02-01 22:02:11,779 - Calculating weight for id None
+INFO 2018-02-01 22:02:11,789 - Updated weight for [6 : Pratyush] to 110
+INFO 2018-02-01 22:02:14,588 - Calculating weight for id None
+INFO 2018-02-01 22:02:14,599 - Updated weight for [6 : Pratyush] to 107
+INFO 2018-02-01 22:03:05,539 - Calculating weight for id None
+INFO 2018-02-01 22:03:05,549 - Updated weight for [5 : Gaurav Gupta] to 100
+INFO 2018-02-01 22:03:23,700 - Calculating weight for id None
+INFO 2018-02-01 22:03:23,704 - Updated weight for [5 : Gaurav Gupta] to 100
+INFO 2018-02-01 22:03:57,621 - Calculating weight for id None
+INFO 2018-02-01 22:03:57,630 - Updated weight for [6 : Pratyush] to 100
+INFO 2018-02-01 22:04:01,015 - Calculating weight for id None
+INFO 2018-02-01 22:04:01,023 - Updated weight for [6 : Pratyush] to 100
+INFO 2018-02-01 22:06:42,503 - Calculating weight for id None
+INFO 2018-02-01 22:06:42,509 - Updated weight for [6 : Pratyush] to 100
+INFO 2018-02-01 22:20:02,153 - Calculating weight for id None
+INFO 2018-02-01 22:20:02,391 - Updated weight for [6 : Pratyush] to 100
+INFO 2018-02-01 22:21:22,322 - Calculating weight for id None
+INFO 2018-02-01 22:21:22,328 - Updated weight for [6 : Pratyush] to 100
+INFO 2018-02-01 22:21:30,029 - Calculating weight for id None
+INFO 2018-02-01 22:21:30,033 - Updated weight for [6 : Pratyush] to 100
+INFO 2018-02-01 22:21:34,638 - Calculating weight for id None
+INFO 2018-02-01 22:21:34,648 - Updated weight for [6 : Pratyush] to 110
+INFO 2018-02-01 22:21:38,006 - Calculating weight for id None
+INFO 2018-02-01 22:21:38,009 - Updated weight for [6 : Pratyush] to 110
+INFO 2018-02-01 22:21:39,381 - Calculating weight for id None
+INFO 2018-02-01 22:21:39,384 - Updated weight for [6 : Pratyush] to 110
+INFO 2018-02-01 22:23:17,604 - Calculating weight for id None
+ERROR 2018-02-01 22:23:17,604 - Internal Server Error: /dashboard.html
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\views.py", line 27, in dashboard
+    calc_weight, id_name, id_mapping = obj.calc_weight_switch(dict, id)
+  File "C:\Users\ktawde\hackathon\autobots\predire\static\scripts\recruit_predict.py", line 87, in calc_weight_switch
+    for mapping in self._data[id]["mapping"]:
+KeyError: u''
+INFO 2018-02-01 22:24:47,960 - Calculating weight for id None
+INFO 2018-02-01 22:24:47,967 - Updated weight for [5 : Gaurav Gupta] to 97
+INFO 2018-02-01 22:24:51,562 - Calculating weight for id None
+INFO 2018-02-01 22:24:51,572 - Updated weight for [5 : Gaurav Gupta] to 127
+INFO 2018-02-01 22:24:56,503 - Calculating weight for id None
+INFO 2018-02-01 22:24:56,513 - Updated weight for [5 : Gaurav Gupta] to 112
+INFO 2018-02-01 22:24:58,743 - Calculating weight for id None
+INFO 2018-02-01 22:24:58,756 - Updated weight for [5 : Gaurav Gupta] to 102
+INFO 2018-02-01 22:25:01,061 - Calculating weight for id None
+INFO 2018-02-01 22:25:01,069 - Updated weight for [5 : Gaurav Gupta] to 132
+INFO 2018-02-01 22:25:04,924 - Calculating weight for id None
+INFO 2018-02-01 22:25:04,930 - Updated weight for [5 : Gaurav Gupta] to 117
+INFO 2018-02-01 22:25:07,148 - Calculating weight for id None
+INFO 2018-02-01 22:25:07,160 - Updated weight for [5 : Gaurav Gupta] to 120
+INFO 2018-02-01 22:26:11,533 - Calculating weight for id None
+INFO 2018-02-01 22:26:11,543 - Updated weight for [5 : Gaurav Gupta] to 95
+INFO 2018-02-01 22:26:14,460 - Calculating weight for id None
+INFO 2018-02-01 22:26:14,464 - Updated weight for [5 : Gaurav Gupta] to 95
+INFO 2018-02-01 22:26:17,543 - Calculating weight for id None
+INFO 2018-02-01 22:26:17,555 - Updated weight for [5 : Gaurav Gupta] to 80
+INFO 2018-02-01 22:26:23,417 - Calculating weight for id None
+INFO 2018-02-01 22:26:23,424 - Updated weight for [4 : Mahesh Waikar] to 100
+INFO 2018-02-01 22:26:31,296 - Calculating weight for id None
+INFO 2018-02-01 22:26:31,302 - Updated weight for [4 : Mahesh Waikar] to 100
+INFO 2018-02-01 22:26:34,217 - Calculating weight for id None
+INFO 2018-02-01 22:26:34,227 - Updated weight for [4 : Mahesh Waikar] to 107
+INFO 2018-02-01 22:26:37,242 - Calculating weight for id None
+INFO 2018-02-01 22:26:37,252 - Updated weight for [4 : Mahesh Waikar] to 137
+INFO 2018-02-01 22:26:39,578 - Calculating weight for id None
+INFO 2018-02-01 22:26:39,588 - Updated weight for [4 : Mahesh Waikar] to 112
+INFO 2018-02-01 22:28:37,997 - Calculating weight for id None
+INFO 2018-02-01 22:28:38,003 - Updated weight for [4 : Mahesh Waikar] to 112
+INFO 2018-02-01 22:28:42,088 - Calculating weight for id None
+INFO 2018-02-01 22:28:42,092 - Updated weight for [4 : Mahesh Waikar] to 107
+INFO 2018-02-01 22:28:44,723 - Calculating weight for id None
+INFO 2018-02-01 22:28:44,726 - Updated weight for [4 : Mahesh Waikar] to 107
+INFO 2018-02-01 22:28:46,453 - Calculating weight for id None
+INFO 2018-02-01 22:28:46,461 - Updated weight for [4 : Mahesh Waikar] to 92
+INFO 2018-02-01 22:28:53,223 - Calculating weight for id None
+INFO 2018-02-01 22:28:53,233 - Updated weight for [4 : Mahesh Waikar] to 97
+INFO 2018-02-01 22:28:56,811 - Calculating weight for id None
+INFO 2018-02-01 22:28:56,819 - Updated weight for [4 : Mahesh Waikar] to 67
+INFO 2018-02-01 22:28:59,197 - Calculating weight for id None
+INFO 2018-02-01 22:28:59,203 - Updated weight for [4 : Mahesh Waikar] to 57
+INFO 2018-02-01 22:29:00,984 - Calculating weight for id None
+INFO 2018-02-01 22:29:00,999 - Updated weight for [4 : Mahesh Waikar] to 60
+INFO 2018-02-01 22:29:35,536 - Calculating weight for id None
+INFO 2018-02-01 22:29:35,545 - Updated weight for [5 : Gaurav Gupta] to 137
+ERROR 2018-02-01 22:29:48,670 - Internal Server Error: /dashboard.html
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\views.py", line 32, in dashboard
+    id_mapping["name"] = id_name
+UnboundLocalError: local variable 'id_name' referenced before assignment
+INFO 2018-02-01 22:30:09,042 - Calculating weight for id None
+INFO 2018-02-01 22:30:09,062 - Updated weight for [5 : Gaurav Gupta] to 115
+INFO 2018-02-01 22:30:11,260 - Calculating weight for id None
+INFO 2018-02-01 22:30:11,269 - Updated weight for [5 : Gaurav Gupta] to 115
+INFO 2018-02-01 22:30:24,813 - Calculating weight for id None
+INFO 2018-02-01 22:30:24,825 - Updated weight for [4 : Mahesh Waikar] to 67
+INFO 2018-02-01 22:30:53,641 - Calculating weight for id None
+INFO 2018-02-01 22:30:53,670 - Updated weight for [4 : Mahesh Waikar] to 100
+INFO 2018-02-01 22:30:58,140 - Calculating weight for id None
+INFO 2018-02-01 22:30:58,148 - Updated weight for [4 : Mahesh Waikar] to 92
+INFO 2018-02-01 22:32:29,732 - Calculating weight for id None
+INFO 2018-02-01 22:32:29,740 - Updated weight for [6 : Pratyush] to 100
+INFO 2018-02-01 22:32:31,513 - Calculating weight for id None
+INFO 2018-02-01 22:32:31,516 - Updated weight for [6 : Pratyush] to 100
+INFO 2018-02-01 22:32:33,681 - Calculating weight for id None
+INFO 2018-02-01 22:32:33,690 - Updated weight for [6 : Pratyush] to 97
+INFO 2018-02-01 22:32:34,891 - Calculating weight for id None
+INFO 2018-02-01 22:32:34,898 - Updated weight for [6 : Pratyush] to 97
+INFO 2018-02-01 22:32:37,022 - Calculating weight for id None
+INFO 2018-02-01 22:32:37,029 - Updated weight for [6 : Pratyush] to 82
+INFO 2018-02-01 22:32:40,220 - Calculating weight for id None
+INFO 2018-02-01 22:32:40,223 - Updated weight for [6 : Pratyush] to 100
+INFO 2018-02-01 22:33:30,427 - Calculating weight for id None
+INFO 2018-02-01 22:33:30,436 - Updated weight for [4 : Mahesh Waikar] to 100
+INFO 2018-02-01 22:33:51,302 - Calculating weight for id None
+INFO 2018-02-01 22:33:51,306 - Updated weight for [5 : Gaurav Gupta] to 100
+INFO 2018-02-01 22:35:08,381 - Calculating weight for id None
+INFO 2018-02-01 22:35:08,384 - Updated weight for [4 : Mahesh Waikar] to 100
+INFO 2018-02-01 22:35:14,773 - Calculating weight for id None
+INFO 2018-02-01 22:35:14,778 - Updated weight for [3 : Shruti Agarawal] to 100
+INFO 2018-02-01 22:35:33,516 - Calculating weight for id None
+INFO 2018-02-01 22:35:33,519 - Updated weight for [5 : Gaurav Gupta] to 100
+INFO 2018-02-01 22:35:42,213 - Calculating weight for id None
+INFO 2018-02-01 22:35:42,265 - Updated weight for [4 : Mahesh Waikar] to 100
+ERROR 2018-02-01 22:38:28,198 - Internal Server Error: /dashboard.html
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\views.py", line 22, in dashboard
+    print req.META['HTTP_REFERER']
+KeyError: u'HTTP_REFERER'
+ERROR 2018-02-01 22:38:40,164 - Internal Server Error: /dashboard.html
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\views.py", line 22, in dashboard
+    print req.META['HTTP_REFERER']
+KeyError: u'HTTP_REFERER'
+INFO 2018-02-01 22:42:57,275 - Calculating weight for id None
+INFO 2018-02-01 22:42:57,282 - Updated weight for [6 : Pratyush] to 100
+INFO 2018-02-01 22:43:02,176 - Calculating weight for id None
+INFO 2018-02-01 22:43:02,177 - Updated weight for [3 : Shruti Agarawal] to 100
+INFO 2018-02-01 22:43:06,256 - Calculating weight for id None
+INFO 2018-02-01 22:43:06,262 - Updated weight for [2 : Sagar Jagtap] to 100
+INFO 2018-02-01 22:43:10,267 - Calculating weight for id None
+INFO 2018-02-01 22:43:10,272 - Updated weight for [6 : Pratyush] to 100
+INFO 2018-02-01 22:43:13,595 - Calculating weight for id None
+INFO 2018-02-01 22:43:13,602 - Updated weight for [6 : Pratyush] to 115
+INFO 2018-02-01 22:43:18,865 - Calculating weight for id None
+INFO 2018-02-01 22:43:18,875 - Updated weight for [6 : Pratyush] to 100
+INFO 2018-02-01 22:46:19,009 - Calculating weight for id None
+INFO 2018-02-01 22:46:19,013 - Updated weight for [6 : Pratyush] to 100
+INFO 2018-02-01 22:46:23,151 - Calculating weight for id None
+INFO 2018-02-01 22:46:23,158 - Updated weight for [4 : Mahesh Waikar] to 100
+INFO 2018-02-01 22:47:00,322 - Calculating weight for id None
+INFO 2018-02-01 22:47:00,331 - Updated weight for [4 : Mahesh Waikar] to 100
+INFO 2018-02-01 22:47:41,132 - Calculating weight for id None
+INFO 2018-02-01 22:47:41,137 - Updated weight for [4 : Mahesh Waikar] to 100
+INFO 2018-02-01 22:47:42,775 - Calculating weight for id None
+INFO 2018-02-01 22:47:42,785 - Updated weight for [4 : Mahesh Waikar] to 82
+INFO 2018-02-01 22:48:27,696 - Calculating weight for id None
+INFO 2018-02-01 22:48:27,703 - Updated weight for [4 : Mahesh Waikar] to 82
+INFO 2018-02-01 22:48:34,316 - Calculating weight for id None
+INFO 2018-02-01 22:48:34,328 - Updated weight for [4 : Mahesh Waikar] to 49
+INFO 2018-02-01 22:49:17,236 - Calculating weight for id None
+INFO 2018-02-01 22:49:17,240 - Updated weight for [1 : Kalpesh Tawde] to 100
+INFO 2018-02-01 22:49:20,812 - Calculating weight for id None
+INFO 2018-02-01 22:49:20,822 - Updated weight for [1 : Kalpesh Tawde] to 112
+INFO 2018-02-01 22:49:24,612 - Calculating weight for id None
+INFO 2018-02-01 22:49:24,618 - Updated weight for [1 : Kalpesh Tawde] to 112
+INFO 2018-02-01 22:49:26,612 - Calculating weight for id None
+INFO 2018-02-01 22:49:26,627 - Updated weight for [1 : Kalpesh Tawde] to 124
+INFO 2018-02-01 22:49:28,311 - Calculating weight for id None
+INFO 2018-02-01 22:49:28,322 - Updated weight for [1 : Kalpesh Tawde] to 136
+INFO 2018-02-01 22:49:34,644 - Calculating weight for id None
+INFO 2018-02-01 22:49:34,648 - Updated weight for [1 : Kalpesh Tawde] to 136
+INFO 2018-02-01 22:49:36,059 - Calculating weight for id None
+INFO 2018-02-01 22:49:36,068 - Updated weight for [1 : Kalpesh Tawde] to 148
+INFO 2018-02-01 22:49:37,825 - Calculating weight for id None
+INFO 2018-02-01 22:49:37,836 - Updated weight for [1 : Kalpesh Tawde] to 160
+INFO 2018-02-01 22:49:38,079 - Calculating weight for id None
+INFO 2018-02-01 22:49:38,089 - Updated weight for [1 : Kalpesh Tawde] to 172
+INFO 2018-02-01 22:49:38,486 - Calculating weight for id None
+INFO 2018-02-01 22:49:38,493 - Updated weight for [1 : Kalpesh Tawde] to 184
+INFO 2018-02-01 22:49:41,497 - Calculating weight for id None
+INFO 2018-02-01 22:49:41,502 - Updated weight for [1 : Kalpesh Tawde] to 184
+INFO 2018-02-01 22:50:11,078 - Calculating weight for id None
+INFO 2018-02-01 22:50:11,088 - Updated weight for [1 : Kalpesh Tawde] to 100
+INFO 2018-02-01 22:50:12,473 - Calculating weight for id None
+INFO 2018-02-01 22:50:12,479 - Updated weight for [1 : Kalpesh Tawde] to 112
+INFO 2018-02-01 22:50:14,151 - Calculating weight for id None
+INFO 2018-02-01 22:50:14,155 - Updated weight for [1 : Kalpesh Tawde] to 112
+INFO 2018-02-01 22:50:14,671 - Calculating weight for id None
+INFO 2018-02-01 22:50:14,674 - Updated weight for [1 : Kalpesh Tawde] to 112
+INFO 2018-02-01 22:50:14,989 - Calculating weight for id None
+INFO 2018-02-01 22:50:14,993 - Updated weight for [1 : Kalpesh Tawde] to 112
+INFO 2018-02-01 22:50:15,302 - Calculating weight for id None
+INFO 2018-02-01 22:50:15,306 - Updated weight for [1 : Kalpesh Tawde] to 112
+INFO 2018-02-01 22:50:16,602 - Calculating weight for id None
+INFO 2018-02-01 22:50:16,607 - Updated weight for [1 : Kalpesh Tawde] to 112
+INFO 2018-02-01 22:50:19,923 - Calculating weight for id None
+INFO 2018-02-01 22:50:19,927 - Updated weight for [2 : Sagar Jagtap] to 100
+INFO 2018-02-01 22:50:23,562 - Calculating weight for id None
+INFO 2018-02-01 22:50:23,581 - Updated weight for [2 : Sagar Jagtap] to 107
+INFO 2018-02-01 22:50:26,437 - Calculating weight for id None
+INFO 2018-02-01 22:50:26,446 - Updated weight for [2 : Sagar Jagtap] to 100
+INFO 2018-02-01 22:51:15,311 - Calculating weight for id None
+INFO 2018-02-01 22:51:15,322 - Updated weight for [2 : Sagar Jagtap] to 100
+INFO 2018-02-01 22:51:18,380 - Calculating weight for id None
+INFO 2018-02-01 22:51:18,395 - Updated weight for [4 : Mahesh Waikar] to 100
+INFO 2018-02-01 22:51:21,167 - Calculating weight for id None
+INFO 2018-02-01 22:51:21,177 - Updated weight for [4 : Mahesh Waikar] to 57
+INFO 2018-02-01 22:51:24,667 - Calculating weight for id None
+INFO 2018-02-01 22:51:24,676 - Updated weight for [4 : Mahesh Waikar] to 67
+INFO 2018-02-01 22:51:27,736 - Calculating weight for id None
+INFO 2018-02-01 22:51:27,753 - Updated weight for [4 : Mahesh Waikar] to 67
+INFO 2018-02-01 22:51:29,483 - Calculating weight for id None
+INFO 2018-02-01 22:51:29,486 - Updated weight for [4 : Mahesh Waikar] to 67
+INFO 2018-02-01 22:51:30,141 - Calculating weight for id None
+INFO 2018-02-01 22:51:30,144 - Updated weight for [4 : Mahesh Waikar] to 67
+INFO 2018-02-01 22:51:30,490 - Calculating weight for id None
+INFO 2018-02-01 22:51:30,496 - Updated weight for [4 : Mahesh Waikar] to 67
+INFO 2018-02-01 22:51:32,993 - Calculating weight for id None
+INFO 2018-02-01 22:51:33,003 - Updated weight for [4 : Mahesh Waikar] to 97
+INFO 2018-02-01 22:51:34,670 - Calculating weight for id None
+INFO 2018-02-01 22:51:34,674 - Updated weight for [4 : Mahesh Waikar] to 97
+INFO 2018-02-01 22:51:37,095 - Calculating weight for id None
+INFO 2018-02-01 22:51:37,098 - Updated weight for [4 : Mahesh Waikar] to 67
+INFO 2018-02-01 22:51:38,398 - Calculating weight for id None
+INFO 2018-02-01 22:51:38,401 - Updated weight for [4 : Mahesh Waikar] to 67
+INFO 2018-02-01 22:51:44,311 - Calculating weight for id None
+INFO 2018-02-01 22:51:44,319 - Updated weight for [4 : Mahesh Waikar] to 67
+INFO 2018-02-01 22:51:46,421 - Calculating weight for id None
+INFO 2018-02-01 22:51:46,426 - Updated weight for [4 : Mahesh Waikar] to 97
+INFO 2018-02-01 22:51:46,581 - Calculating weight for id None
+INFO 2018-02-01 22:51:46,585 - Updated weight for [4 : Mahesh Waikar] to 97
+INFO 2018-02-01 22:51:49,170 - Calculating weight for id None
+INFO 2018-02-01 22:51:49,180 - Updated weight for [4 : Mahesh Waikar] to 127
+INFO 2018-02-01 22:51:49,322 - Calculating weight for id None
+INFO 2018-02-01 22:51:49,331 - Updated weight for [4 : Mahesh Waikar] to 127
+INFO 2018-02-01 22:51:51,519 - Calculating weight for id None
+INFO 2018-02-01 22:51:51,536 - Updated weight for [4 : Mahesh Waikar] to 130
+INFO 2018-02-01 22:51:52,219 - Calculating weight for id None
+INFO 2018-02-01 22:51:52,223 - Updated weight for [4 : Mahesh Waikar] to 130
+INFO 2018-02-01 22:51:59,161 - Calculating weight for id None
+INFO 2018-02-01 22:51:59,174 - Updated weight for [4 : Mahesh Waikar] to 120
+INFO 2018-02-01 22:52:00,857 - Calculating weight for id None
+INFO 2018-02-01 22:52:00,862 - Updated weight for [4 : Mahesh Waikar] to 120
+INFO 2018-02-01 22:52:50,851 - Calculating weight for id None
+INFO 2018-02-01 22:52:50,854 - Updated weight for [3 : Shruti Agarawal] to 100
+ERROR 2018-02-01 22:52:50,855 - Internal Server Error: /dashboard.html
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\views.py", line 25, in dashboard
+    calc_weight, id_name, id_mapping = obj.calc_weight_switch(dict, id, submit)
+  File "C:\Users\ktawde\hackathon\autobots\predire\static\scripts\recruit_predict.py", line 96, in calc_weight_switch
+    return self.newweight, self._data[id]["name"], dict(self._data[id]["mapping"])
+AttributeError: 'recprec' object has no attribute 'newweight'
+INFO 2018-02-01 22:53:44,427 - Calculating weight for id None
+INFO 2018-02-01 22:53:44,431 - Updated weight for [3 : Shruti Agarawal] to 100
+INFO 2018-02-01 22:53:47,576 - Calculating weight for id None
+ERROR 2018-02-01 22:53:47,576 - Internal Server Error: /dashboard.html
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\views.py", line 25, in dashboard
+    calc_weight, id_name, id_mapping = obj.calc_weight_switch(dict, id, submit)
+  File "C:\Users\ktawde\hackathon\autobots\predire\static\scripts\recruit_predict.py", line 87, in calc_weight_switch
+    new_weight += int(weight)
+TypeError: cannot concatenate 'str' and 'int' objects
+INFO 2018-02-01 22:53:59,595 - Calculating weight for id None
+INFO 2018-02-01 22:53:59,885 - Updated weight for [3 : Shruti Agarawal] to 100
+INFO 2018-02-01 22:54:02,255 - Calculating weight for id None
+INFO 2018-02-01 22:54:02,269 - Updated weight for [3 : Shruti Agarawal] to 100
+INFO 2018-02-01 22:54:04,397 - Calculating weight for id None
+INFO 2018-02-01 22:54:04,405 - Updated weight for [3 : Shruti Agarawal] to 100
+INFO 2018-02-01 22:54:08,438 - Calculating weight for id None
+INFO 2018-02-01 22:54:08,448 - Updated weight for [4 : Mahesh Waikar] to 100
+INFO 2018-02-01 22:55:02,344 - Calculating weight for id None
+INFO 2018-02-01 22:55:02,348 - Updated weight for [5 : Gaurav Gupta] to 100
+INFO 2018-02-01 22:55:05,105 - Calculating weight for id None
+ERROR 2018-02-01 22:55:05,105 - Internal Server Error: /dashboard.html
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\views.py", line 25, in dashboard
+    calc_weight, id_name, id_mapping = obj.calc_weight_switch(dict, id, submit)
+  File "C:\Users\ktawde\hackathon\autobots\predire\static\scripts\recruit_predict.py", line 86, in calc_weight_switch
+    new_weight += int(weight)
+UnboundLocalError: local variable 'new_weight' referenced before assignment
+INFO 2018-02-01 22:55:33,217 - Calculating weight for id None
+INFO 2018-02-01 22:55:33,229 - Updated weight for [5 : Gaurav Gupta] to 82
+INFO 2018-02-01 22:55:34,884 - Calculating weight for id None
+INFO 2018-02-01 22:55:34,898 - Updated weight for [5 : Gaurav Gupta] to 82
+INFO 2018-02-01 22:55:37,390 - Calculating weight for id None
+INFO 2018-02-01 22:55:37,398 - Updated weight for [5 : Gaurav Gupta] to 72
+INFO 2018-02-01 22:55:39,825 - Calculating weight for id None
+INFO 2018-02-01 22:55:39,835 - Updated weight for [5 : Gaurav Gupta] to 57
+INFO 2018-02-01 22:55:43,463 - Calculating weight for id None
+INFO 2018-02-01 22:55:43,469 - Updated weight for [4 : Mahesh Waikar] to 100
+INFO 2018-02-01 22:55:46,177 - Calculating weight for id None
+INFO 2018-02-01 22:55:46,186 - Updated weight for [5 : Gaurav Gupta] to 100
+INFO 2018-02-01 22:57:29,048 - Calculating weight for id None
+INFO 2018-02-01 22:57:29,053 - Updated weight for [5 : Gaurav Gupta] to 100
+INFO 2018-02-01 22:58:44,411 - Calculating weight for id None
+INFO 2018-02-01 22:58:46,049 - Calculating weight for id None
+INFO 2018-02-01 22:58:46,055 - Updated weight for [5 : Gaurav Gupta] to 57
+INFO 2018-02-01 22:58:49,808 - Calculating weight for id None
+INFO 2018-02-01 22:58:51,730 - Calculating weight for id None
+INFO 2018-02-01 22:58:51,734 - Updated weight for [5 : Gaurav Gupta] to 57
+INFO 2018-02-01 22:58:54,885 - Calculating weight for id None
+INFO 2018-02-01 22:58:56,880 - Calculating weight for id None
+INFO 2018-02-01 22:58:59,184 - Calculating weight for id None
+INFO 2018-02-01 22:58:59,191 - Updated weight for [4 : Mahesh Waikar] to 117
+INFO 2018-02-01 22:59:02,710 - Calculating weight for id None
+INFO 2018-02-01 22:59:06,447 - Calculating weight for id None
+INFO 2018-02-01 22:59:07,457 - Calculating weight for id None
+INFO 2018-02-01 22:59:07,463 - Updated weight for [4 : Mahesh Waikar] to 117
+INFO 2018-02-01 22:59:07,630 - Calculating weight for id None
+INFO 2018-02-01 22:59:07,634 - Updated weight for [4 : Mahesh Waikar] to 117
+INFO 2018-02-01 22:59:07,908 - Calculating weight for id None
+INFO 2018-02-01 22:59:07,914 - Updated weight for [4 : Mahesh Waikar] to 117
+INFO 2018-02-01 23:06:09,035 - Calculating weight for id None
+INFO 2018-02-01 23:06:09,039 - Updated weight for [4 : Mahesh Waikar] to 117
+INFO 2018-02-01 23:06:13,427 - Calculating weight for id None
+INFO 2018-02-01 23:06:13,431 - Updated weight for [4 : Mahesh Waikar] to 117
+INFO 2018-02-01 23:06:15,937 - Calculating weight for id None
+INFO 2018-02-01 23:06:15,941 - Updated weight for [4 : Mahesh Waikar] to 117
+INFO 2018-02-01 23:06:18,828 - Calculating weight for id None
+INFO 2018-02-01 23:06:18,832 - Updated weight for [4 : Mahesh Waikar] to 117
+INFO 2018-02-01 23:06:19,940 - Calculating weight for id None
+INFO 2018-02-01 23:06:19,946 - Updated weight for [4 : Mahesh Waikar] to 117
+INFO 2018-02-01 23:06:24,822 - Calculating weight for id None
+INFO 2018-02-01 23:06:27,223 - Calculating weight for id None
+INFO 2018-02-01 23:06:27,233 - Updated weight for [4 : Mahesh Waikar] to 127
+INFO 2018-02-01 23:06:40,098 - Calculating weight for id None
+INFO 2018-02-01 23:06:42,967 - Calculating weight for id None

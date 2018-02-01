@@ -14,20 +14,22 @@ def dashboard(request):
     id_mapping = {}
     obj = recprec()
     id = request.GET.get('id')
+    submit = request.GET.get('submit')
+
     mapping_desc = obj.get_switch()
     for val in mapping_desc:
         desc, weight = val.split("|")
         switch = request.GET.get(desc)
         if switch == "on":
             dict[desc] = weight
-    print dict
-    calc_weight, id_name, id_mapping = obj.calc_weight_switch(dict, id)
+    calc_weight, id_name, id_mapping = obj.calc_weight_switch(dict, id, submit)
     for key in id_mapping:
         if id_mapping[key] == "on":
             id_mapping[key]= "checked"
     id_mapping["weight"]= calc_weight
     id_mapping["name"] = id_name
     id_mapping["id"]= id
+
     return render_to_response(
         "dashboard.html",
         id_mapping

@@ -77,21 +77,23 @@ class recprec(object):
         #self.write_db()
         print self._weight
 
-    def calc_weight_switch(self, dictswitch, id):
+    def calc_weight_switch(self, dictswitch, id, submit):
         self.logger.info("Calculating weight for id {}".format(self._recid))
-
-        for desc, weight in dictswitch.items():
-            self._weight += int(weight)
-
+        #self._weight= self._data[id]["weight"]
         #Update database mapping
-        for mapping in self._data[id]["mapping"]:
-            if mapping not in dictswitch.keys():
-                self._data[id]["mapping"][mapping]= "off"
-            else:
-                self._data[id]["mapping"][mapping] = "on"
+        if submit:
+            for desc, weight in dictswitch.items():
+                self._weight += int(weight)
 
-        self.write_db(id, dict(self._data[id]["mapping"]))
-        return self._weight, self._data[id]["name"], dict(self._data[id]["mapping"])
+            for mapping in self._data[id]["mapping"]:
+                if mapping not in dictswitch.keys():
+                    self._data[id]["mapping"][mapping]= "off"
+                else:
+                    self._data[id]["mapping"][mapping] = "on"
+
+            self.write_db(id, dict(self._data[id]["mapping"]))
+        self._data = self.load_json('data.json')
+        return self._data[id]["weight"], self._data[id]["name"], dict(self._data[id]["mapping"])
 
     @property
     def stream(self):
