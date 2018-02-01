@@ -2,47 +2,52 @@
   "mapping" : [
     {
       "number" : 0,
-      "_desc" : "np_lt_1mth",
+      "_desc" : "radio",
       "weight" : 30
     },
     {
       "number" : 1,
-      "_desc" : "np_lt_2mth",
+      "_desc" : "radio",
       "weight" : -15
     },
     {
       "number" : 2,
-      "_desc" : "np_lt_3mth",
+      "_desc" : "radio",
       "weight" : -25
     },
     {
       "number" : 3,
-      "_desc" : "loc_outside_city",
+      "_desc" : "samecity-switch",
       "weight" : -15
     },
     {
       "number" : 4,
-      "_desc" : "married",
+      "_desc" : "single-switch",
       "weight" : -3
     },
     {
       "number": 5,
-      "_desc": "referred",
+      "_desc": "referred-switch",
       "weight" : 10
     },
     {
       "number": 6,
-      "_desc": "from_big_brand",
+      "_desc": "top-company-switch",
       "weight" : -10
     },
     {
       "number": 7,
-      "_desc": "has_offer",
+      "_desc": "offer-switch",
       "weight" : -15
     },
     {
       "number": 8,
-      "_desc": "offered_more_salary",
+      "_desc": "morepackage-switch",
+      "weight" : 30
+    },
+    {
+      "number": 9,
+      "_desc": "actively-switch",
       "weight" : 30
     }
   ]
