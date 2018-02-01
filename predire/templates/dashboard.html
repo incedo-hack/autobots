@@ -1,0 +1,126 @@
+{{weight}}
+<!doctype html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <title>Predire by Autobots</title>
+      <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+      <link href="/static/css/main_dashboard.css" rel="stylesheet">
+   </head>
+   <body class="login-call">
+      <!--| Navbar |-->
+      <div class="myheader">
+         <div class="container">
+            <div class="logo-holder">
+               <img src="/static/img/incedo-header-logo.png" alt="Incedo">
+            </div>
+            <div class="avtar">
+               <a href="login.html" class="logout">Logout</a>
+            </div>
+            <i class="makeitclear"></i>
+         </div>
+      </div>
+      <!--| Data Table |-->
+      <div class="mydata">
+         <div class="container mydatacard">
+            <div class="left-holder">
+               <a href="index.html" class="previous">&#8249;</a>
+               <h1>Gaurav Gupta</h1>
+               <p>This is a base score dashboard for information of candidate.</p>
+            </div>
+            <div class="right-holder">
+               <div class="score-card">
+                  <h1>{{weight}}</h1>
+                  <p>Base Score</p>
+               </div>
+            </div>
+            <i class="makeitclear"></i>
+         </div>
+      </div>
+      <div style="clear: both;">
+      <div class="container">
+         <form id="skills-form">
+            <div class="row">
+               <div class="col-md-4">
+                  <div class="card radio-card">
+                     <h2>Notice period</h2>
+                     <div class="cover-up">
+                        <ul>
+                           <li>
+                              <label class="radio-package">1 Month
+                              <input type="radio" name="radio" checked>
+                              <span class="checkmark"></span>
+                              </label>
+                           </li>
+                           <li>
+                              <label class="radio-package">2 Month
+                              <input type="radio" name="radio">
+                              <span class="checkmark"></span>
+                              </label>
+                           </li>
+                           <li>
+                              <label class="radio-package">3 Month
+                              <input type="radio" name="radio">
+                              <span class="checkmark"></span>
+                              </label>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="card">
+                     <h2>Possess offer</h2>
+                     <label class="switch"><input type="checkbox" name="offer-switch" checked><span class="slider round"></span></label>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="card">
+                     <h2>Incedo offered more package</h2>
+                     <label class="switch"><input type="checkbox" name="morepackage-switch"><span class="slider round"></span></label>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="card">
+                     <h2>From same city</h2>
+                     <label class="switch"><input type="checkbox" name="samecity-switch" checked><span class="slider round"></span></label>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="card">
+                     <h2>Married</h2>
+                     <label class="switch"><input type="checkbox" name="single-switch"><span class="slider round"></span></label>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="card">
+                     <h2>Belongs to top company</h2>
+                     <label class="switch"><input type="checkbox" name="top-company-switch" checked><span class="slider round"></span></label>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="card">
+                     <h2>Actively looking for job change</h2>
+                     <label class="switch"><input type="checkbox" name="actively-switch"><span class="slider round"></span></label>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="card">
+                     <h2>Referred by Incedo Employee</h2>
+                     <label class="switch"><input type="checkbox" name="referred-switch"><span class="slider round"></span></label>
+                  </div>
+               </div>
+            </div>
+            <div class="submit-button"><button type="submit" form="skills-form" value="Submit" class="btn btn-lg btn-primary btn-block">Submit</button></div>
+         </form>
+      </div>
+      <!--| Core Bootstrap Javascripts |-->
+      <script src="/static/js/jquery-3.2.1.slim.min.js"></script>
+      <script src="/static/js/main.js"></script>
+      <script src="/static/js/popper.min.js"></script>
+      <script src="/static/js/bootstrap.min.js"></script>
+   </body>
+</html>

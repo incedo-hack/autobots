@@ -535,3 +535,411 @@ Traceback (most recent call last):
     self._inf.number_to_words(int(math.ceil(data[line]['weight']) / 10)),
 NameError: global name 'math' is not defined
 WARNING 2018-02-01 09:47:01,947 - Not Found: /favicon.ico
+WARNING 2018-02-01 14:38:35,931 - Not Found: /js/popper.min.js
+WARNING 2018-02-01 14:38:37,898 - Not Found: /css/bootstrap.min.css
+WARNING 2018-02-01 14:38:37,901 - Not Found: /css/main_dashboard.css
+WARNING 2018-02-01 14:38:37,904 - Not Found: /js/jquery-3.2.1.slim.min.js
+WARNING 2018-02-01 14:38:37,921 - Not Found: /js/popper.min.js
+WARNING 2018-02-01 14:38:37,944 - Not Found: /js/main.js
+WARNING 2018-02-01 14:38:37,956 - Not Found: /js/bootstrap.min.js
+WARNING 2018-02-01 14:38:37,956 - Not Found: /img/incedo-header-logo.png
+WARNING 2018-02-01 14:38:37,982 - Not Found: /js/popper.min.js
+WARNING 2018-02-01 14:38:37,996 - Not Found: /js/bootstrap.min.js
+WARNING 2018-02-01 14:39:47,619 - Not Found: /tabular.html
+WARNING 2018-02-01 14:40:29,065 - Not Found: /index.html
+ERROR 2018-02-01 15:16:09,184 - Internal Server Error: /dashboard.html
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\views.py", line 17, in dashboard
+    dict[val]= request.GET.get(val)
+TypeError: 'tuple' object does not support item assignment
+ERROR 2018-02-01 15:16:12,868 - Internal Server Error: /dashboard.html
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\views.py", line 17, in dashboard
+    dict[val]= request.GET.get(val)
+TypeError: 'tuple' object does not support item assignment
+ERROR 2018-02-01 15:16:31,992 - Internal Server Error: /dashboard.html
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\views.py", line 17, in dashboard
+    dict[val]= request.GET.get(val)
+TypeError: 'tuple' object does not support item assignment
+ERROR 2018-02-01 15:31:04,484 - Internal Server Error: /dashboard.html
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\views.py", line 15, in dashboard
+    switch = obj.get_switch()
+  File "C:\Users\ktawde\hackathon\autobots\predire\static\scripts\recruit_predict.py", line 32, in get_switch
+    'mapping']]
+TypeError: coercing to Unicode: need string or buffer, int found
+ERROR 2018-02-01 15:32:03,967 - Internal Server Error: /dashboard.html
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\views.py", line 15, in dashboard
+    switch = obj.get_switch()
+  File "C:\Users\ktawde\hackathon\autobots\predire\static\scripts\recruit_predict.py", line 32, in get_switch
+    'mapping']]
+TypeError: coercing to Unicode: need string or buffer, int found
+ERROR 2018-02-01 15:32:21,523 - Internal Server Error: /dashboard.html
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\views.py", line 15, in dashboard
+    switch = obj.get_switch()
+  File "C:\Users\ktawde\hackathon\autobots\predire\static\scripts\recruit_predict.py", line 32, in get_switch
+    'mapping']]
+TypeError: coercing to Unicode: need string or buffer, int found
+ERROR 2018-02-01 15:49:32,858 - Internal Server Error: /dashboard.html
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\views.py", line 21, in dashboard
+    calc_weight = obj.calc_weight_switch(dict)
+TypeError: calc_weight_switch() takes exactly 1 argument (2 given)
+INFO 2018-02-01 15:49:51,427 - Calculating weight for id None
+ERROR 2018-02-01 15:49:51,428 - Internal Server Error: /dashboard.html
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\views.py", line 21, in dashboard
+    calc_weight = obj.calc_weight_switch(dict)
+  File "C:\Users\ktawde\hackathon\autobots\predire\static\scripts\recruit_predict.py", line 82, in calc_weight_switch
+    self._weight += weight
+TypeError: unsupported operand type(s) for +=: 'int' and 'unicode'
+INFO 2018-02-01 15:50:13,243 - Calculating weight for id None
+ERROR 2018-02-01 15:50:13,247 - Internal Server Error: /dashboard.html
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\views.py", line 21, in dashboard
+    calc_weight = obj.calc_weight_switch(dict)
+  File "C:\Users\ktawde\hackathon\autobots\predire\static\scripts\recruit_predict.py", line 83, in calc_weight_switch
+    self.write_db()
+  File "C:\Users\ktawde\hackathon\autobots\predire\static\scripts\recruit_predict.py", line 52, in write_db
+    data[self._recid]["weight"] = self._weight
+KeyError: None
+INFO 2018-02-01 15:50:39,670 - Calculating weight for id None
+ERROR 2018-02-01 15:50:39,671 - Internal Server Error: /dashboard.html
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\views.py", line 21, in dashboard
+    calc_weight = obj.calc_weight_switch(dict)
+  File "C:\Users\ktawde\hackathon\autobots\predire\static\scripts\recruit_predict.py", line 83, in calc_weight_switch
+    self.write_db()
+  File "C:\Users\ktawde\hackathon\autobots\predire\static\scripts\recruit_predict.py", line 52, in write_db
+    data[self._recid]["weight"] = self._weight
+KeyError: None
+INFO 2018-02-01 15:50:40,670 - Calculating weight for id None
+ERROR 2018-02-01 15:50:40,670 - Internal Server Error: /dashboard.html
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\views.py", line 21, in dashboard
+    calc_weight = obj.calc_weight_switch(dict)
+  File "C:\Users\ktawde\hackathon\autobots\predire\static\scripts\recruit_predict.py", line 83, in calc_weight_switch
+    self.write_db()
+  File "C:\Users\ktawde\hackathon\autobots\predire\static\scripts\recruit_predict.py", line 52, in write_db
+    data[self._recid]["weight"] = self._weight
+KeyError: None
+INFO 2018-02-01 15:50:41,529 - Calculating weight for id None
+ERROR 2018-02-01 15:50:41,530 - Internal Server Error: /dashboard.html
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\views.py", line 21, in dashboard
+    calc_weight = obj.calc_weight_switch(dict)
+  File "C:\Users\ktawde\hackathon\autobots\predire\static\scripts\recruit_predict.py", line 83, in calc_weight_switch
+    self.write_db()
+  File "C:\Users\ktawde\hackathon\autobots\predire\static\scripts\recruit_predict.py", line 52, in write_db
+    data[self._recid]["weight"] = self._weight
+KeyError: None
+INFO 2018-02-01 15:52:26,483 - Calculating weight for id None
+INFO 2018-02-01 15:52:44,881 - Calculating weight for id None
+INFO 2018-02-01 15:52:46,071 - Calculating weight for id None
+INFO 2018-02-01 15:52:51,456 - Calculating weight for id None
+ERROR 2018-02-01 15:52:51,463 - Internal Server Error: /dashboard.html
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\views.py", line 21, in dashboard
+    calc_weight = obj.calc_weight_switch(dict)
+  File "C:\Users\ktawde\hackathon\autobots\predire\static\scripts\recruit_predict.py", line 84, in calc_weight_switch
+    self.write_db()
+  File "C:\Users\ktawde\hackathon\autobots\predire\static\scripts\recruit_predict.py", line 52, in write_db
+    data[self._recid]["weight"] = self._weight
+KeyError: None
+INFO 2018-02-01 15:52:56,503 - Calculating weight for id None
+INFO 2018-02-01 15:53:04,556 - Calculating weight for id None
+INFO 2018-02-01 15:53:05,920 - Calculating weight for id None
+INFO 2018-02-01 15:53:16,220 - Calculating weight for id None
+INFO 2018-02-01 15:53:50,898 - Calculating weight for id None
+INFO 2018-02-01 15:54:07,098 - Calculating weight for id None
+INFO 2018-02-01 15:54:15,219 - Calculating weight for id None
+INFO 2018-02-01 15:54:21,141 - Calculating weight for id None
+INFO 2018-02-01 15:54:28,009 - Calculating weight for id None
+INFO 2018-02-01 15:54:30,627 - Calculating weight for id None
+INFO 2018-02-01 15:54:49,532 - Calculating weight for id None
+INFO 2018-02-01 15:54:54,088 - Calculating weight for id None
+INFO 2018-02-01 15:54:59,038 - Calculating weight for id None
+INFO 2018-02-01 16:01:59,404 - Calculating weight for id None
+INFO 2018-02-01 16:04:40,283 - Calculating weight for id None
+INFO 2018-02-01 16:04:59,430 - Calculating weight for id None
+INFO 2018-02-01 17:44:46,822 - Calculating weight for id None
+INFO 2018-02-01 17:47:10,966 - Calculating weight for id None
+INFO 2018-02-01 17:47:40,963 - Calculating weight for id None
+ERROR 2018-02-01 17:47:52,947 - Internal Server Error: /index.html
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\views.py", line 10, in index
+    return render_to_response("index.html", {'name':name})
+  File "C:\Python27\lib\site-packages\django\shortcuts.py", line 21, in render_to_response
+    content = loader.render_to_string(template_name, context, using=using)
+  File "C:\Python27\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "C:\Python27\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 207, in render
+    return self._render(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "C:\Python27\lib\site-packages\django\template\library.py", line 203, in render
+    output = self.func(*resolved_args, **resolved_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\templatetags\tags.py", line 9, in getList
+    return obj.html_load_json("data.json")
+  File "C:\Users\ktawde\hackathon\autobots\predire\static\scripts\recruit_predict.py", line 36, in html_load_json
+    data = self.load_json(infile)
+  File "C:\Users\ktawde\hackathon\autobots\predire\static\scripts\recruit_predict.py", line 27, in load_json
+    data = json.load(data_file)
+  File "C:\Python27\lib\json\__init__.py", line 291, in load
+    **kw)
+  File "C:\Python27\lib\json\__init__.py", line 339, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python27\lib\json\decoder.py", line 364, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python27\lib\json\decoder.py", line 382, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+ERROR 2018-02-01 17:47:55,397 - Internal Server Error: /index.html
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\views.py", line 10, in index
+    return render_to_response("index.html", {'name':name})
+  File "C:\Python27\lib\site-packages\django\shortcuts.py", line 21, in render_to_response
+    content = loader.render_to_string(template_name, context, using=using)
+  File "C:\Python27\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "C:\Python27\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 207, in render
+    return self._render(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "C:\Python27\lib\site-packages\django\template\library.py", line 203, in render
+    output = self.func(*resolved_args, **resolved_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\templatetags\tags.py", line 9, in getList
+    return obj.html_load_json("data.json")
+  File "C:\Users\ktawde\hackathon\autobots\predire\static\scripts\recruit_predict.py", line 36, in html_load_json
+    data = self.load_json(infile)
+  File "C:\Users\ktawde\hackathon\autobots\predire\static\scripts\recruit_predict.py", line 27, in load_json
+    data = json.load(data_file)
+  File "C:\Python27\lib\json\__init__.py", line 291, in load
+    **kw)
+  File "C:\Python27\lib\json\__init__.py", line 339, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python27\lib\json\decoder.py", line 364, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python27\lib\json\decoder.py", line 382, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+INFO 2018-02-01 17:47:57,803 - Calculating weight for id None
+ERROR 2018-02-01 17:48:01,105 - Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\views.py", line 10, in index
+    return render_to_response("index.html", {'name':name})
+  File "C:\Python27\lib\site-packages\django\shortcuts.py", line 21, in render_to_response
+    content = loader.render_to_string(template_name, context, using=using)
+  File "C:\Python27\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "C:\Python27\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 207, in render
+    return self._render(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "C:\Python27\lib\site-packages\django\template\library.py", line 203, in render
+    output = self.func(*resolved_args, **resolved_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\templatetags\tags.py", line 9, in getList
+    return obj.html_load_json("data.json")
+  File "C:\Users\ktawde\hackathon\autobots\predire\static\scripts\recruit_predict.py", line 36, in html_load_json
+    data = self.load_json(infile)
+  File "C:\Users\ktawde\hackathon\autobots\predire\static\scripts\recruit_predict.py", line 27, in load_json
+    data = json.load(data_file)
+  File "C:\Python27\lib\json\__init__.py", line 291, in load
+    **kw)
+  File "C:\Python27\lib\json\__init__.py", line 339, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python27\lib\json\decoder.py", line 364, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python27\lib\json\decoder.py", line 382, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+INFO 2018-02-01 17:48:24,697 - Calculating weight for id None
+INFO 2018-02-01 17:48:27,315 - Calculating weight for id None
+ERROR 2018-02-01 17:49:00,979 - Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\views.py", line 10, in index
+    return render_to_response("index.html", {'name':name})
+  File "C:\Python27\lib\site-packages\django\shortcuts.py", line 21, in render_to_response
+    content = loader.render_to_string(template_name, context, using=using)
+  File "C:\Python27\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "C:\Python27\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 207, in render
+    return self._render(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "C:\Python27\lib\site-packages\django\template\library.py", line 203, in render
+    output = self.func(*resolved_args, **resolved_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\templatetags\tags.py", line 9, in getList
+    return obj.html_load_json("data.json")
+  File "C:\Users\ktawde\hackathon\autobots\predire\static\scripts\recruit_predict.py", line 36, in html_load_json
+    data = self.load_json(infile)
+  File "C:\Users\ktawde\hackathon\autobots\predire\static\scripts\recruit_predict.py", line 27, in load_json
+    data = json.load(data_file)
+  File "C:\Python27\lib\json\__init__.py", line 291, in load
+    **kw)
+  File "C:\Python27\lib\json\__init__.py", line 339, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python27\lib\json\decoder.py", line 364, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python27\lib\json\decoder.py", line 382, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+INFO 2018-02-01 17:49:51,421 - Calculating weight for id None
+INFO 2018-02-01 17:55:28,193 - Calculating weight for id None
+WARNING 2018-02-01 18:04:37,125 - Not Found: /favicon.ico
+WARNING 2018-02-01 18:16:11,312 - Not Found: /favicon.ico
+INFO 2018-02-01 18:17:43,915 - Calculating weight for id None
+INFO 2018-02-01 18:46:42,341 - Calculating weight for id None
+INFO 2018-02-01 18:47:17,849 - Calculating weight for id None
+INFO 2018-02-01 18:47:29,933 - Calculating weight for id None
+INFO 2018-02-01 18:47:37,286 - Calculating weight for id None
+INFO 2018-02-01 18:47:42,701 - Calculating weight for id None
+INFO 2018-02-01 18:47:47,890 - Calculating weight for id None
+INFO 2018-02-01 18:48:05,286 - Calculating weight for id None
+INFO 2018-02-01 18:48:22,164 - Calculating weight for id None
+INFO 2018-02-01 18:54:46,496 - Calculating weight for id None
+INFO 2018-02-01 18:55:49,453 - Calculating weight for id None
+INFO 2018-02-01 18:58:22,203 - Calculating weight for id None
+INFO 2018-02-01 18:59:26,194 - Calculating weight for id None
+INFO 2018-02-01 18:59:33,329 - Calculating weight for id None
+INFO 2018-02-01 18:59:54,474 - Calculating weight for id None
+INFO 2018-02-01 19:00:25,012 - Calculating weight for id None
+INFO 2018-02-01 19:00:41,470 - Calculating weight for id None
+INFO 2018-02-01 19:00:51,733 - Calculating weight for id None
+INFO 2018-02-01 19:04:16,654 - Calculating weight for id None
+INFO 2018-02-01 19:08:12,186 - Calculating weight for id None
+INFO 2018-02-01 19:08:20,188 - Calculating weight for id None
+INFO 2018-02-01 19:08:28,082 - Calculating weight for id None
+INFO 2018-02-01 19:08:37,144 - Calculating weight for id None
+INFO 2018-02-01 19:08:42,681 - Calculating weight for id None
+INFO 2018-02-01 19:09:34,183 - Calculating weight for id None
+INFO 2018-02-01 19:09:55,430 - Calculating weight for id None

@@ -28,11 +28,18 @@ class recprec(object):
             data = json.load(data_file)
         return data
 
+    def get_switch(self):
+        return [val['_desc'] + "|" + str(val['weight']) for val in
+                self._mapping[
+            'mapping']]
+
     def html_load_json(self, infile):
         data = self.load_json(infile)
         table = ""
         for line in reversed(sorted(data.keys())):
-            table += '<tr><td>{}</td><td>{}</td><td>{}</td><td><div ' \
+            table += '<tr class="mytr"><td id="mytd">{}</td><td>{' \
+                     '}</td><td>{' \
+                     '}</td><td><div ' \
                      'class="mid-graph"><div class="{} ' \
                      'mid-graph-bar-status">{}</div></div></td></tr>'.format(
                 line,
@@ -68,8 +75,20 @@ class recprec(object):
             self.mapping_desc[self._mapping["mapping"][idx]["_desc"]] = flag
             if flag == "Y":
                 self._weight += self._mapping["mapping"][idx]["weight"]
-        self.write_db()
+        #self.write_db()
         print self._weight
+
+    def calc_weight_switch(self, dictswitch):
+        """
+        Read each character of stream and calculate the weight based on mapping.
+        """
+        self.logger.info("Calculating weight for id {}".format(self._recid))
+        print dictswitch
+        for desc, weight in dictswitch.items():
+            self._weight += int(weight)
+        # self.write_db()
+        print self._weight
+        return self._weight
 
     @property
     def stream(self):
@@ -83,5 +102,5 @@ class recprec(object):
 
 #c = recprec()
 #c.stream = 'Y|Y|Y|Y|Y|Y|Y|1'  # setter called
-#c.calc_weight()
+#c.get_switch()
 #c.html_load_json("data.json")
