@@ -12,6 +12,7 @@ class recprec(object):
         self._weight = 100
         self.mapping_desc = {}
         self._mapping = self.load_json('mapping.json')
+        self._data = self.load_json('data.json')
         self._inf = inflect.engine()
         logging.basicConfig(
             filename = "main.log",
@@ -30,8 +31,7 @@ class recprec(object):
 
     def get_switch(self):
         return [val['_desc'] + "|" + str(val['weight']) for val in
-                self._mapping[
-            'mapping']]
+                self._mapping['mapping']]
 
     def html_load_json(self, infile):
         data = self.load_json(infile)
@@ -50,18 +50,17 @@ class recprec(object):
             )
         return table
 
-    def write_db(self):
+    def write_db(self, id, id_mapping):
         data = self.load_json('data.json')
-        data[self._recid]["weight"] = self._weight
-        #data[self._recid]["mapping"] = "|".join(self._stream)
-        data[self._recid]["mapping"] = self.mapping_desc
+        data[id]["weight"] = self._weight
+        data[id]["mapping"] = id_mapping
         with open('data.json', 'w') as outfile:
             json.dump(data, outfile)
 
         self.logger.info(
             "Updated weight for [{} : {}] to {}".format(
-            self._recid,
-            data[self._recid]["name"],
+            id,
+            data[id]["name"],
             self._weight
             )
         )
@@ -78,17 +77,21 @@ class recprec(object):
         #self.write_db()
         print self._weight
 
-    def calc_weight_switch(self, dictswitch):
-        """
-        Read each character of stream and calculate the weight based on mapping.
-        """
+    def calc_weight_switch(self, dictswitch, id):
         self.logger.info("Calculating weight for id {}".format(self._recid))
-        print dictswitch
+
         for desc, weight in dictswitch.items():
             self._weight += int(weight)
-        # self.write_db()
-        print self._weight
-        return self._weight
+
+        #Update database mapping
+        for mapping in self._data[id]["mapping"]:
+            if mapping not in dictswitch.keys():
+                self._data[id]["mapping"][mapping]= "off"
+            else:
+                self._data[id]["mapping"][mapping] = "on"
+
+        self.write_db(id, dict(self._data[id]["mapping"]))
+        return self._weight, self._data[id]["name"], dict(self._data[id]["mapping"])
 
     @property
     def stream(self):
@@ -98,7 +101,6 @@ class recprec(object):
     def stream(self, value):
         self._stream = value.split("|")[0:-1]
         self._recid = value.split("|")[-1]
-        print self._recid
 
 #c = recprec()
 #c.stream = 'Y|Y|Y|Y|Y|Y|Y|1'  # setter called

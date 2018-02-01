@@ -943,3 +943,534 @@ INFO 2018-02-01 19:08:37,144 - Calculating weight for id None
 INFO 2018-02-01 19:08:42,681 - Calculating weight for id None
 INFO 2018-02-01 19:09:34,183 - Calculating weight for id None
 INFO 2018-02-01 19:09:55,430 - Calculating weight for id None
+INFO 2018-02-01 19:23:19,526 - Calculating weight for id None
+INFO 2018-02-01 19:26:21,217 - Calculating weight for id None
+INFO 2018-02-01 19:26:23,398 - Calculating weight for id None
+INFO 2018-02-01 19:26:25,940 - Calculating weight for id None
+INFO 2018-02-01 19:26:28,915 - Calculating weight for id None
+INFO 2018-02-01 19:26:32,436 - Calculating weight for id None
+INFO 2018-02-01 19:26:39,802 - Calculating weight for id None
+INFO 2018-02-01 19:26:47,535 - Calculating weight for id None
+INFO 2018-02-01 19:26:57,407 - Calculating weight for id None
+INFO 2018-02-01 19:27:32,302 - Calculating weight for id None
+INFO 2018-02-01 19:27:36,855 - Calculating weight for id None
+INFO 2018-02-01 19:28:55,413 - Calculating weight for id None
+INFO 2018-02-01 19:29:59,822 - Calculating weight for id None
+INFO 2018-02-01 19:30:01,733 - Calculating weight for id None
+INFO 2018-02-01 19:30:05,313 - Calculating weight for id None
+INFO 2018-02-01 19:37:17,615 - Calculating weight for id None
+INFO 2018-02-01 19:37:21,979 - Calculating weight for id None
+INFO 2018-02-01 19:37:24,178 - Calculating weight for id None
+INFO 2018-02-01 19:38:23,815 - Calculating weight for id None
+INFO 2018-02-01 19:51:55,421 - Calculating weight for id None
+INFO 2018-02-01 19:52:02,421 - Calculating weight for id None
+INFO 2018-02-01 19:54:07,884 - Calculating weight for id None
+INFO 2018-02-01 19:54:21,917 - Calculating weight for id None
+INFO 2018-02-01 19:54:49,217 - Calculating weight for id None
+INFO 2018-02-01 20:08:15,913 - Calculating weight for id None
+INFO 2018-02-01 20:10:44,944 - Calculating weight for id None
+INFO 2018-02-01 20:12:37,543 - Calculating weight for id None
+ERROR 2018-02-01 20:12:37,552 - Internal Server Error: /dashboard.html
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\views.py", line 29, in dashboard
+    {'weight':calc_weight, 'id':id}
+  File "C:\Python27\lib\site-packages\django\shortcuts.py", line 21, in render_to_response
+    content = loader.render_to_string(template_name, context, using=using)
+  File "C:\Python27\lib\site-packages\django\template\loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Python27\lib\site-packages\django\template\loader.py", line 21, in get_template
+    return engine.get_template(template_name)
+  File "C:\Python27\lib\site-packages\django\template\backends\django.py", line 39, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Python27\lib\site-packages\django\template\engine.py", line 162, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Python27\lib\site-packages\django\template\engine.py", line 136, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "C:\Python27\lib\site-packages\django\template\loaders\base.py", line 44, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 191, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 230, in compile_nodelist
+    return parser.parse()
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 486, in parse
+    raise self.error(token, e)
+TemplateSyntaxError: Could not parse the remainder: '-switch' from 'morepackage-switch'
+INFO 2018-02-01 20:13:56,897 - Calculating weight for id None
+ERROR 2018-02-01 20:13:56,910 - Internal Server Error: /dashboard.html
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\views.py", line 29, in dashboard
+    {'weight-abc':calc_weight, 'id':id}
+  File "C:\Python27\lib\site-packages\django\shortcuts.py", line 21, in render_to_response
+    content = loader.render_to_string(template_name, context, using=using)
+  File "C:\Python27\lib\site-packages\django\template\loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Python27\lib\site-packages\django\template\loader.py", line 21, in get_template
+    return engine.get_template(template_name)
+  File "C:\Python27\lib\site-packages\django\template\backends\django.py", line 39, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Python27\lib\site-packages\django\template\engine.py", line 162, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Python27\lib\site-packages\django\template\engine.py", line 136, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "C:\Python27\lib\site-packages\django\template\loaders\base.py", line 44, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 191, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 230, in compile_nodelist
+    return parser.parse()
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 486, in parse
+    raise self.error(token, e)
+TemplateSyntaxError: Could not parse the remainder: '-abc' from 'weight-abc'
+INFO 2018-02-01 20:14:06,835 - Calculating weight for id None
+ERROR 2018-02-01 20:21:56,653 - Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\views.py", line 10, in index
+    return render_to_response("index.html", {'name':name})
+  File "C:\Python27\lib\site-packages\django\shortcuts.py", line 21, in render_to_response
+    content = loader.render_to_string(template_name, context, using=using)
+  File "C:\Python27\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "C:\Python27\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 207, in render
+    return self._render(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "C:\Python27\lib\site-packages\django\template\library.py", line 203, in render
+    output = self.func(*resolved_args, **resolved_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\templatetags\tags.py", line 8, in getList
+    obj = recprec()
+  File "C:\Users\ktawde\hackathon\autobots\predire\static\scripts\recruit_predict.py", line 14, in __init__
+    self._mapping = self.load_json('mapping.json')
+  File "C:\Users\ktawde\hackathon\autobots\predire\static\scripts\recruit_predict.py", line 30, in load_json
+    data = json.load(data_file)
+  File "C:\Python27\lib\json\__init__.py", line 291, in load
+    **kw)
+  File "C:\Python27\lib\json\__init__.py", line 339, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python27\lib\json\decoder.py", line 364, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python27\lib\json\decoder.py", line 382, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+INFO 2018-02-01 20:22:34,101 - Calculating weight for id None
+INFO 2018-02-01 20:23:13,032 - Calculating weight for id None
+INFO 2018-02-01 20:23:14,489 - Calculating weight for id None
+INFO 2018-02-01 20:23:14,937 - Calculating weight for id None
+INFO 2018-02-01 20:23:15,089 - Calculating weight for id None
+INFO 2018-02-01 20:23:53,030 - Calculating weight for id None
+INFO 2018-02-01 20:23:53,903 - Calculating weight for id None
+INFO 2018-02-01 20:24:13,492 - Calculating weight for id None
+INFO 2018-02-01 20:24:34,240 - Calculating weight for id None
+INFO 2018-02-01 20:25:13,582 - Calculating weight for id None
+INFO 2018-02-01 20:25:42,201 - Calculating weight for id None
+ERROR 2018-02-01 20:25:42,203 - Internal Server Error: /dashboard.html
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\views.py", line 28, in dashboard
+    {id_mapping}
+TypeError: unhashable type: 'dict'
+INFO 2018-02-01 20:27:06,270 - Calculating weight for id None
+INFO 2018-02-01 20:27:24,400 - Calculating weight for id None
+INFO 2018-02-01 20:27:53,680 - Calculating weight for id None
+INFO 2018-02-01 20:28:23,674 - Calculating weight for id None
+INFO 2018-02-01 20:28:35,986 - Calculating weight for id None
+INFO 2018-02-01 20:28:57,789 - Calculating weight for id None
+INFO 2018-02-01 20:29:20,986 - Calculating weight for id None
+INFO 2018-02-01 20:34:23,654 - Calculating weight for id None
+INFO 2018-02-01 20:34:26,257 - Calculating weight for id None
+ERROR 2018-02-01 20:34:26,257 - Internal Server Error: /dashboard.html
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\views.py", line 23, in dashboard
+    calc_weight, id_mapping = obj.calc_weight_switch(dict, id)
+  File "C:\Users\ktawde\hackathon\autobots\predire\static\scripts\recruit_predict.py", line 89, in calc_weight_switch
+    return self._weight, dict(self._data[id]["mapping"])
+KeyError: None
+INFO 2018-02-01 20:34:48,217 - Calculating weight for id None
+ERROR 2018-02-01 20:34:48,217 - Internal Server Error: /dashboard.html
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\views.py", line 23, in dashboard
+    calc_weight, id_mapping = obj.calc_weight_switch(dict, id)
+  File "C:\Users\ktawde\hackathon\autobots\predire\static\scripts\recruit_predict.py", line 89, in calc_weight_switch
+    return self._weight, dict(self._data[id]["mapping"])
+KeyError: None
+INFO 2018-02-01 20:34:55,292 - Calculating weight for id None
+ERROR 2018-02-01 20:34:55,292 - Internal Server Error: /dashboard.html
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\views.py", line 23, in dashboard
+    calc_weight, id_mapping = obj.calc_weight_switch(dict, id)
+  File "C:\Users\ktawde\hackathon\autobots\predire\static\scripts\recruit_predict.py", line 89, in calc_weight_switch
+    return self._weight, dict(self._data[id]["mapping"])
+KeyError: None
+INFO 2018-02-01 20:35:06,247 - Calculating weight for id None
+ERROR 2018-02-01 20:35:06,247 - Internal Server Error: /dashboard.html
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\views.py", line 23, in dashboard
+    calc_weight, id_mapping = obj.calc_weight_switch(dict, id)
+  File "C:\Users\ktawde\hackathon\autobots\predire\static\scripts\recruit_predict.py", line 89, in calc_weight_switch
+    return self._weight, dict(self._data[id]["mapping"])
+KeyError: None
+INFO 2018-02-01 20:35:17,901 - Calculating weight for id None
+INFO 2018-02-01 20:35:21,398 - Calculating weight for id None
+ERROR 2018-02-01 20:35:21,398 - Internal Server Error: /dashboard.html
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\views.py", line 23, in dashboard
+    calc_weight, id_mapping = obj.calc_weight_switch(dict, id)
+  File "C:\Users\ktawde\hackathon\autobots\predire\static\scripts\recruit_predict.py", line 89, in calc_weight_switch
+    return self._weight, dict(self._data[id]["mapping"])
+KeyError: None
+INFO 2018-02-01 20:35:34,773 - Calculating weight for id None
+INFO 2018-02-01 20:38:37,273 - Calculating weight for id None
+INFO 2018-02-01 20:41:09,242 - Calculating weight for id None
+ERROR 2018-02-01 20:41:09,242 - Internal Server Error: /dashboard.html
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\views.py", line 23, in dashboard
+    calc_weight, id_name, id_mapping = obj.calc_weight_switch(dict, id)
+  File "C:\Users\ktawde\hackathon\autobots\predire\static\scripts\recruit_predict.py", line 89, in calc_weight_switch
+    return self._weight, dict(self._data[id]["name"]), dict(self._data[id][
+ValueError: dictionary update sequence element #0 has length 1; 2 is required
+INFO 2018-02-01 20:41:53,834 - Calculating weight for id None
+INFO 2018-02-01 20:42:12,956 - Calculating weight for id None
+INFO 2018-02-01 20:42:16,967 - Calculating weight for id None
+INFO 2018-02-01 20:42:20,232 - Calculating weight for id None
+INFO 2018-02-01 20:42:23,848 - Calculating weight for id None
+INFO 2018-02-01 20:42:26,770 - Calculating weight for id None
+INFO 2018-02-01 20:42:44,707 - Calculating weight for id None
+INFO 2018-02-01 20:42:47,341 - Calculating weight for id None
+ERROR 2018-02-01 20:42:47,342 - Internal Server Error: /dashboard.html
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\views.py", line 23, in dashboard
+    calc_weight, id_name, id_mapping = obj.calc_weight_switch(dict, id)
+  File "C:\Users\ktawde\hackathon\autobots\predire\static\scripts\recruit_predict.py", line 89, in calc_weight_switch
+    return self._weight, self._data[id]["name"], dict(self._data[id]["mapping"])
+KeyError: None
+INFO 2018-02-01 20:43:11,520 - Calculating weight for id None
+ERROR 2018-02-01 20:43:11,520 - Internal Server Error: /dashboard.html
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\views.py", line 23, in dashboard
+    calc_weight, id_name, id_mapping = obj.calc_weight_switch(dict, id)
+  File "C:\Users\ktawde\hackathon\autobots\predire\static\scripts\recruit_predict.py", line 89, in calc_weight_switch
+    return self._weight, self._data[id]["name"], dict(self._data[id]["mapping"])
+KeyError: None
+INFO 2018-02-01 20:44:36,365 - Calculating weight for id None
+ERROR 2018-02-01 20:44:36,365 - Internal Server Error: /dashboard.html
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\views.py", line 23, in dashboard
+    calc_weight, id_name, id_mapping = obj.calc_weight_switch(dict, id)
+  File "C:\Users\ktawde\hackathon\autobots\predire\static\scripts\recruit_predict.py", line 89, in calc_weight_switch
+    return self._weight, self._data[id]["name"], dict(self._data[id]["mapping"])
+KeyError: None
+INFO 2018-02-01 20:45:06,706 - Calculating weight for id None
+INFO 2018-02-01 20:45:09,346 - Calculating weight for id None
+INFO 2018-02-01 20:45:12,776 - Calculating weight for id None
+ERROR 2018-02-01 20:45:12,776 - Internal Server Error: /dashboard.html
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\views.py", line 23, in dashboard
+    calc_weight, id_name, id_mapping = obj.calc_weight_switch(dict, id)
+  File "C:\Users\ktawde\hackathon\autobots\predire\static\scripts\recruit_predict.py", line 89, in calc_weight_switch
+    return self._weight, self._data[id]["name"], dict(self._data[id]["mapping"])
+KeyError: None
+INFO 2018-02-01 20:46:06,440 - Calculating weight for id None
+ERROR 2018-02-01 20:46:06,440 - Internal Server Error: /dashboard.html
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\views.py", line 23, in dashboard
+    calc_weight, id_name, id_mapping = obj.calc_weight_switch(dict, id)
+  File "C:\Users\ktawde\hackathon\autobots\predire\static\scripts\recruit_predict.py", line 89, in calc_weight_switch
+    print self._data[id]["name"]
+KeyError: None
+INFO 2018-02-01 20:46:15,279 - Calculating weight for id None
+ERROR 2018-02-01 20:46:15,279 - Internal Server Error: /dashboard.html
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\views.py", line 23, in dashboard
+    calc_weight, id_name, id_mapping = obj.calc_weight_switch(dict, id)
+  File "C:\Users\ktawde\hackathon\autobots\predire\static\scripts\recruit_predict.py", line 89, in calc_weight_switch
+    print self._data[id]["name"]
+KeyError: None
+INFO 2018-02-01 20:47:02,690 - Calculating weight for id None
+INFO 2018-02-01 20:48:03,976 - Calculating weight for id None
+INFO 2018-02-01 20:48:13,431 - Calculating weight for id None
+INFO 2018-02-01 20:48:18,278 - Calculating weight for id None
+ERROR 2018-02-01 20:48:18,278 - Internal Server Error: /dashboard.html
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\views.py", line 23, in dashboard
+    calc_weight, id_name, id_mapping = obj.calc_weight_switch(dict, id)
+  File "C:\Users\ktawde\hackathon\autobots\predire\static\scripts\recruit_predict.py", line 89, in calc_weight_switch
+    print self._data[id]["name"]
+KeyError: u''
+INFO 2018-02-01 20:49:09,094 - Calculating weight for id None
+ERROR 2018-02-01 20:49:09,095 - Internal Server Error: /dashboard.html
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\views.py", line 23, in dashboard
+    calc_weight, id_name, id_mapping = obj.calc_weight_switch(dict, id)
+  File "C:\Users\ktawde\hackathon\autobots\predire\static\scripts\recruit_predict.py", line 89, in calc_weight_switch
+    print self._data[id]["name"]
+KeyError: u''
+INFO 2018-02-01 20:49:14,283 - Calculating weight for id None
+INFO 2018-02-01 20:49:16,023 - Calculating weight for id None
+INFO 2018-02-01 21:10:26,323 - Calculating weight for id None
+INFO 2018-02-01 21:10:29,088 - Calculating weight for id None
+INFO 2018-02-01 21:10:31,980 - Calculating weight for id None
+INFO 2018-02-01 21:10:36,473 - Calculating weight for id None
+INFO 2018-02-01 21:10:39,134 - Calculating weight for id None
+INFO 2018-02-01 21:13:55,624 - Calculating weight for id None
+INFO 2018-02-01 21:13:57,002 - Calculating weight for id None
+INFO 2018-02-01 21:14:00,346 - Calculating weight for id None
+INFO 2018-02-01 21:14:03,171 - Calculating weight for id None
+INFO 2018-02-01 21:14:10,782 - Calculating weight for id None
+INFO 2018-02-01 21:14:31,506 - Calculating weight for id None
+INFO 2018-02-01 21:14:34,594 - Calculating weight for id None
+INFO 2018-02-01 21:14:56,286 - Calculating weight for id None
+INFO 2018-02-01 21:17:23,257 - Calculating weight for id None
+INFO 2018-02-01 21:17:27,155 - Calculating weight for id None
+INFO 2018-02-01 21:17:28,701 - Calculating weight for id None
+INFO 2018-02-01 21:17:47,756 - Calculating weight for id None
+INFO 2018-02-01 21:17:51,374 - Calculating weight for id None
+INFO 2018-02-01 21:17:55,403 - Calculating weight for id None
+INFO 2018-02-01 21:21:45,673 - Calculating weight for id None
+INFO 2018-02-01 21:23:05,421 - Calculating weight for id None
+ERROR 2018-02-01 21:23:05,436 - Internal Server Error: /dashboard.html
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\views.py", line 23, in dashboard
+    calc_weight, id_name, id_mapping = obj.calc_weight_switch(dict, id)
+  File "C:\Users\ktawde\hackathon\autobots\predire\static\scripts\recruit_predict.py", line 89, in calc_weight_switch
+    self.write_db(id, dict(self._data[id]["mapping"]))
+  File "C:\Users\ktawde\hackathon\autobots\predire\static\scripts\recruit_predict.py", line 55, in write_db
+    data[self._recid]["weight"] = self._weight
+KeyError: None
+INFO 2018-02-01 21:23:42,516 - Calculating weight for id None
+ERROR 2018-02-01 21:23:42,519 - Internal Server Error: /dashboard.html
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\views.py", line 23, in dashboard
+    calc_weight, id_name, id_mapping = obj.calc_weight_switch(dict, id)
+  File "C:\Users\ktawde\hackathon\autobots\predire\static\scripts\recruit_predict.py", line 89, in calc_weight_switch
+    self.write_db(id, dict(self._data[id]["mapping"]))
+TypeError: write_db() takes exactly 1 argument (3 given)
+INFO 2018-02-01 21:23:47,081 - Calculating weight for id None
+ERROR 2018-02-01 21:23:47,085 - Internal Server Error: /dashboard.html
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\views.py", line 23, in dashboard
+    calc_weight, id_name, id_mapping = obj.calc_weight_switch(dict, id)
+  File "C:\Users\ktawde\hackathon\autobots\predire\static\scripts\recruit_predict.py", line 89, in calc_weight_switch
+    self.write_db(id, dict(self._data[id]["mapping"]))
+TypeError: write_db() takes exactly 1 argument (3 given)
+INFO 2018-02-01 21:23:59,065 - Calculating weight for id None
+INFO 2018-02-01 21:24:00,644 - Calculating weight for id None
+INFO 2018-02-01 21:27:39,174 - Calculating weight for id None
+ERROR 2018-02-01 21:27:39,184 - Internal Server Error: /dashboard.html
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\views.py", line 23, in dashboard
+    calc_weight, id_name, id_mapping = obj.calc_weight_switch(dict, id)
+  File "C:\Users\ktawde\hackathon\autobots\predire\static\scripts\recruit_predict.py", line 88, in calc_weight_switch
+    self.write_db(id, dict(self._data[id]["mapping"]))
+  File "C:\Users\ktawde\hackathon\autobots\predire\static\scripts\recruit_predict.py", line 63, in write_db
+    data[self._recid]["name"],
+KeyError: None
+INFO 2018-02-01 21:28:01,970 - Calculating weight for id None
+INFO 2018-02-01 21:28:01,982 - Updated weight for [2 : Sagar Jagtap] to 102
+INFO 2018-02-01 21:28:05,381 - Calculating weight for id None
+INFO 2018-02-01 21:28:05,392 - Updated weight for [2 : Sagar Jagtap] to 105
+INFO 2018-02-01 21:28:46,201 - Calculating weight for id None
+INFO 2018-02-01 21:28:46,217 - Updated weight for [2 : Sagar Jagtap] to 105
+INFO 2018-02-01 21:28:55,622 - Calculating weight for id None
+INFO 2018-02-01 21:28:55,683 - Updated weight for [2 : Sagar Jagtap] to 105
+INFO 2018-02-01 21:29:00,928 - Calculating weight for id None
+INFO 2018-02-01 21:29:01,012 - Updated weight for [2 : Sagar Jagtap] to 112
+INFO 2018-02-01 21:29:20,663 - Calculating weight for id None
+INFO 2018-02-01 21:29:20,668 - Updated weight for [2 : Sagar Jagtap] to 105
+INFO 2018-02-01 21:31:05,792 - Calculating weight for id None
+INFO 2018-02-01 21:31:05,801 - Updated weight for [2 : Sagar Jagtap] to 102
+INFO 2018-02-01 21:31:32,700 - Calculating weight for id None
+INFO 2018-02-01 21:31:32,710 - Updated weight for [1 : Kalpesh Tawde] to 100
+INFO 2018-02-01 21:31:40,186 - Calculating weight for id None
+INFO 2018-02-01 21:31:40,210 - Updated weight for [2 : Sagar Jagtap] to 100
+INFO 2018-02-01 21:35:46,819 - Calculating weight for id None
+INFO 2018-02-01 21:35:46,828 - Updated weight for [2 : Sagar Jagtap] to 117
+INFO 2018-02-01 21:39:59,831 - Calculating weight for id None
+INFO 2018-02-01 21:39:59,835 - Updated weight for [2 : Sagar Jagtap] to 102
+INFO 2018-02-01 21:41:00,915 - Calculating weight for id None
+INFO 2018-02-01 21:41:00,923 - Updated weight for [2 : Sagar Jagtap] to 105
+INFO 2018-02-01 21:43:37,476 - Calculating weight for id None
+INFO 2018-02-01 21:43:37,483 - Updated weight for [2 : Sagar Jagtap] to 105
+INFO 2018-02-01 21:44:48,463 - Calculating weight for id None
+ERROR 2018-02-01 21:44:48,463 - Internal Server Error: /dashboard.html
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\views.py", line 24, in dashboard
+    calc_weight, id_name, id_mapping = obj.calc_weight_switch(dict, id)
+  File "C:\Users\ktawde\hackathon\autobots\predire\static\scripts\recruit_predict.py", line 86, in calc_weight_switch
+    for map in self._data[id]["mapping"]:
+RuntimeError: dictionary changed size during iteration
+INFO 2018-02-01 21:45:37,246 - Calculating weight for id None
+INFO 2018-02-01 21:45:37,313 - Updated weight for [2 : Sagar Jagtap] to 105
+INFO 2018-02-01 21:45:40,456 - Calculating weight for id None
+INFO 2018-02-01 21:45:40,463 - Updated weight for [2 : Sagar Jagtap] to 120
+INFO 2018-02-01 21:45:43,388 - Calculating weight for id None
+INFO 2018-02-01 21:45:43,391 - Updated weight for [2 : Sagar Jagtap] to 120
+INFO 2018-02-01 21:45:46,147 - Calculating weight for id None
+INFO 2018-02-01 21:45:46,155 - Updated weight for [2 : Sagar Jagtap] to 90
+INFO 2018-02-01 21:46:05,334 - Calculating weight for id None
+INFO 2018-02-01 21:46:05,344 - Updated weight for [2 : Sagar Jagtap] to 75
+INFO 2018-02-01 21:46:07,855 - Calculating weight for id None
+INFO 2018-02-01 21:46:07,859 - Updated weight for [2 : Sagar Jagtap] to 75
+INFO 2018-02-01 21:46:33,957 - Calculating weight for id None
+INFO 2018-02-01 21:46:33,964 - Updated weight for [2 : Sagar Jagtap] to 75
+INFO 2018-02-01 21:46:36,312 - Calculating weight for id None
+INFO 2018-02-01 21:46:36,321 - Updated weight for [2 : Sagar Jagtap] to 72
+INFO 2018-02-01 21:46:38,730 - Calculating weight for id None
+INFO 2018-02-01 21:46:38,740 - Updated weight for [2 : Sagar Jagtap] to 82
+INFO 2018-02-01 21:46:40,793 - Calculating weight for id None
+INFO 2018-02-01 21:46:40,805 - Updated weight for [2 : Sagar Jagtap] to 72
+INFO 2018-02-01 21:46:53,418 - Calculating weight for id None
+INFO 2018-02-01 21:46:53,430 - Updated weight for [2 : Sagar Jagtap] to 87
+INFO 2018-02-01 21:46:59,141 - Calculating weight for id None
+INFO 2018-02-01 21:46:59,151 - Updated weight for [2 : Sagar Jagtap] to 75
+INFO 2018-02-01 21:47:01,661 - Calculating weight for id None
+INFO 2018-02-01 21:47:01,668 - Updated weight for [2 : Sagar Jagtap] to 72
+INFO 2018-02-01 21:47:04,266 - Calculating weight for id None
+INFO 2018-02-01 21:47:04,273 - Updated weight for [2 : Sagar Jagtap] to 57
+INFO 2018-02-01 21:47:10,266 - Calculating weight for id None
+INFO 2018-02-01 21:47:10,272 - Updated weight for [2 : Sagar Jagtap] to 75
+INFO 2018-02-01 21:47:13,763 - Calculating weight for id None
+INFO 2018-02-01 21:47:13,770 - Updated weight for [3 : Shruti Agarawal] to 100
+INFO 2018-02-01 21:47:15,526 - Calculating weight for id None
+INFO 2018-02-01 21:47:15,533 - Updated weight for [3 : Shruti Agarawal] to 75

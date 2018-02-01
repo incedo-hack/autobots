@@ -17,37 +17,37 @@
     },
     {
       "number" : 3,
-      "_desc" : "samecity-switch",
+      "_desc" : "samecity_switch",
       "weight" : -15
     },
     {
       "number" : 4,
-      "_desc" : "single-switch",
+      "_desc" : "single_switch",
       "weight" : -3
     },
     {
       "number": 5,
-      "_desc": "referred-switch",
+      "_desc": "referred_switch",
       "weight" : 10
     },
     {
       "number": 6,
-      "_desc": "top-company-switch",
+      "_desc": "top_company_switch",
       "weight" : -10
     },
     {
       "number": 7,
-      "_desc": "offer-switch",
+      "_desc": "offer_switch",
       "weight" : -15
     },
     {
       "number": 8,
-      "_desc": "morepackage-switch",
+      "_desc": "morepackage_switch",
       "weight" : 30
     },
     {
       "number": 9,
-      "_desc": "actively-switch",
+      "_desc": "actively_switch",
       "weight" : 30
     }
   ]

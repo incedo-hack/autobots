@@ -11,12 +11,24 @@ def index(request):
 
 def dashboard(request):
     dict = {}
+    id_mapping = {}
     obj = recprec()
-    switch = obj.get_switch()
-    for val in switch:
+    id = request.GET.get('id')
+    mapping_desc = obj.get_switch()
+    for val in mapping_desc:
         desc, weight = val.split("|")
         switch = request.GET.get(desc)
         if switch == "on":
             dict[desc] = weight
-    calc_weight = obj.calc_weight_switch(dict)
-    return render_to_response("dashboard.html", {'weight':calc_weight})
+    print dict
+    calc_weight, id_name, id_mapping = obj.calc_weight_switch(dict, id)
+    for key in id_mapping:
+        if id_mapping[key] == "on":
+            id_mapping[key]= "checked"
+    id_mapping["weight"]= calc_weight
+    id_mapping["name"] = id_name
+    id_mapping["id"]= id
+    return render_to_response(
+        "dashboard.html",
+        id_mapping
+    )

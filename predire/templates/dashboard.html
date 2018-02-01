@@ -1,4 +1,4 @@
-{{weight}}
+{{id}}
 <!doctype html>
 <html lang="en">
    <head>
@@ -28,7 +28,7 @@
          <div class="container mydatacard">
             <div class="left-holder">
                <a href="index.html" class="previous">&#8249;</a>
-               <h1>Gaurav Gupta</h1>
+               <h1>{{name}}</h1>
                <p>This is a base score dashboard for information of candidate.</p>
             </div>
             <div class="right-holder">
@@ -43,6 +43,7 @@
       <div style="clear: both;">
       <div class="container">
          <form id="skills-form">
+            <input type="hidden" name="id" value="{{id}}">
             <div class="row">
                <div class="col-md-4">
                   <div class="card radio-card">
@@ -74,43 +75,64 @@
                <div class="col-md-4">
                   <div class="card">
                      <h2>Possess offer</h2>
-                     <label class="switch"><input type="checkbox" name="offer-switch" checked><span class="slider round"></span></label>
+                     <label class="switch"><input type="checkbox"
+                                                  name="offer_switch"
+                                                  {{offer_switch}}><span
+                             class="slider round"></span></label>
                   </div>
                </div>
                <div class="col-md-4">
                   <div class="card">
                      <h2>Incedo offered more package</h2>
-                     <label class="switch"><input type="checkbox" name="morepackage-switch"><span class="slider round"></span></label>
+                     <label class="switch"><input type="checkbox"
+                                                  name="morepackage_switch"
+                                                  {{morepackage_switch}}><span
+                             class="slider round"></span></label>
                   </div>
                </div>
                <div class="col-md-4">
                   <div class="card">
                      <h2>From same city</h2>
-                     <label class="switch"><input type="checkbox" name="samecity-switch" checked><span class="slider round"></span></label>
+                     <label class="switch"><input type="checkbox"
+                                                  name="samecity_switch"
+                                                  {{samecity_switch}}><span
+                             class="slider round"></span></label>
                   </div>
                </div>
                <div class="col-md-4">
                   <div class="card">
                      <h2>Married</h2>
-                     <label class="switch"><input type="checkbox" name="single-switch"><span class="slider round"></span></label>
+                     <label class="switch"><input type="checkbox"
+                                                  name="single_switch"
+                                                  {{single_switch}}><span
+                             class="slider round"></span></label>
                   </div>
                </div>
                <div class="col-md-4">
                   <div class="card">
                      <h2>Belongs to top company</h2>
-                     <label class="switch"><input type="checkbox" name="top-company-switch" checked><span class="slider round"></span></label>
+                     <label class="switch"><input type="checkbox"
+                                                  name="top_company_switch"
+                                                  {{top_company_switch}}><span
+                             class="slider round"></span></label>
                   </div>
                </div>
                <div class="col-md-4">
                   <div class="card">
                      <h2>Actively looking for job change</h2>
-                     <label class="switch"><input type="checkbox" name="actively-switch"><span class="slider round"></span></label>
+                     <label class="switch"><input type="checkbox"
+                                                  name="actively_switch"
+                                                  {{actively_switch}}><span
+                             class="slider round"></span></label>
                   </div>
                </div>
                <div class="col-md-4">
                   <div class="card">
                      <h2>Referred by Incedo Employee</h2>
-                     <label class="switch"><input type="checkbox" name="referred-switch"><span class="slider round"></span></label>
+                     <label class="switch"><input type="checkbox"
+                                                  name="referred_switch"
+                                                  {{referred_switch}}><span
+                             class="slider round"></span></label>
                   </div>
                </div>
             </div>
