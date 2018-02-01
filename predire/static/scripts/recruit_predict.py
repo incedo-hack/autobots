@@ -9,7 +9,7 @@ class recprec(object):
     def __init__(self):
         self._stream = None
         self._recid = None
-        self._weight = 0
+        self._weight = 100
         self._mapping = self.load_json("mapping.json")
         self._inf = inflect.engine()
         logging.basicConfig(
