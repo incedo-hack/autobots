@@ -1,5 +1,6 @@
 {% load tags %}
 {% getList as result %}
+{{ name }}
 
 <!doctype html>
 <html lang="en">
@@ -56,6 +57,7 @@
             </thead>
             <tbody>
               {% autoescape off %}{{ result }}{% endautoescape %}
+              {% autoescape off %}{{ request.GET.name }}{% endautoescape %}
             </tbody>
           </table>
       </div>

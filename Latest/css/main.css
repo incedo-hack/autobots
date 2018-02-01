@@ -1,0 +1,351 @@
+/*----------------------------------------------|   Opening Screen   |----------------------------------------------*/
+
+.curtain-call {
+	background-color: #343a40!important;
+}
+
+.myheader,
+.logo-holder,
+.opening-credits {
+	clear: both;
+	float: left;
+	margin-left: 0px;
+}
+
+.myheader {
+	width: 100%;
+	display: block;
+	background-color: #343a40!important;
+	padding: 15px 0px;
+}
+
+.logo-holder {
+	width: 130px;
+	display: block;
+	cursor: pointer;
+}
+
+.opening-credits {
+	width: 100%;
+	display: block;
+	font-weight: 300;
+}
+
+.opening-credits h1 {
+	color: #fff!important;
+	font-weight: 300;
+	font-size: 60px!important;
+	margin-bottom: 30px;
+}
+
+.my-story {
+	color: #F2F4F4;
+	text-align: center;
+	margin-top: 120px;
+}
+
+.preface {
+	font-size: 21px;
+}
+
+.opening-credits p {
+	margin-bottom: 20px;
+}
+
+.opening-credits p a {
+	color: #fff!important;
+	font-size: 18px;
+	display: inline-block;
+	margin: 0px 5px;
+	font-weight: 400;
+	text-shadow: 0px 2px #17202A;
+	text-decoration: none;
+}
+
+.explore {
+	clear: both;
+	width: 300px;
+	display: block;
+	margin: 30px auto;
+}
+
+
+/*----------------------------------------------|   Login Screen   |----------------------------------------------*/
+
+.login-call {
+	background-color: #f5f5f5;
+}
+
+.form-parent {
+	clear: both;
+	width: 100%;
+	max-width: 350px;
+	padding: 15px 20px;
+	margin: 100px auto;
+	background-color: #fff;
+	border-radius: 6px;
+	border: 1px solid #CFD8DC;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	padding-bottom: 30px;
+}
+
+.form-parent form h3 {
+	margin: 16px 0px 20px;
+	font-weight: 400!important;
+	text-align: center;
+}
+
+.form-parent .form-signin .form-control {
+	position: relative;
+	box-sizing: border-box;
+	height: auto;
+	padding: 10px;
+	font-size: 16px;
+}
+
+.form-parent .form-signin .checkbox {
+	font-weight: 400;
+	text-align: center;
+	margin: 15px 0px;
+}
+
+
+/*----------------------------------------------|   Dashboard Screen   |----------------------------------------------*/
+
+.avtar {
+	float: right;
+}
+
+.avtar .logout {
+	color: #fff!important;
+	cursor: pointer;
+}
+
+.makeitclear {
+	clear: both;
+}
+
+.mydata {
+	clear: both;
+	float: left;
+	margin-left: 0px;
+	width: 100%;
+	display: block;
+}
+
+.mydatacard {}
+
+.left-holder {
+	clear: both;
+	float: left;
+	margin-left: 0px;
+	width: 50%;
+	display: block;
+	padding-top: 30px;
+}
+
+.previous {
+	float: left;
+	display: inline-block;
+	border: 2px solid #212529;
+	color: #212529;
+	display: inline-block;
+	margin-right: 15px;
+	padding: 0px 12px;
+	border-radius: 50%;
+	padding-bottom: 4px;
+	margin-top: 10px;
+}
+
+.previous:hover {
+	color: #212529;
+	text-decoration: none;
+}
+
+.left-holder h1 {
+	float: left;
+	display: inline-block;
+}
+
+.left-holder p {
+	float: left;
+	display: inline-block;
+}
+
+.right-holder {
+	float: right;
+	margin-right: 0px;
+	width: 50%;
+	display: block;
+	padding-top: 20px;
+}
+
+.score-card {
+	float: right;
+	background-color: #4CAF50;
+	padding: 10px 15px 0px 15px;
+	border-radius: 6px;
+	text-align: center;
+	color: #fff;
+}
+
+.card {
+	min-height: 110px;
+	background-color: #fff;
+	padding: 10px;
+	margin-top: 15px;
+	padding-bottom: 5px;
+	background-color: #fff;
+	border-radius: 6px;
+	border: 1px solid #CFD8DC;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+	margin-bottom: 10px;
+	border-bottom: 3px solid #607D8B;
+}
+
+.card h2 {
+	font-size: 19px!important;
+	font-weight: 400!important;
+	margin-bottom: 20px;
+}
+
+
+/*----------------------------------------------|   CSS Switch Screen   |----------------------------------------------*/
+
+.switch {
+	position: relative;
+	display: inline-block;
+	width: 60px;
+	height: 34px;
+}
+
+.switch input {
+	display: none;
+}
+
+.slider {
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #ccc;
+	-webkit-transition: .4s;
+	transition: .4s;
+}
+
+.slider:before {
+	position: absolute;
+	content: "";
+	height: 26px;
+	width: 26px;
+	left: 4px;
+	bottom: 4px;
+	background-color: white;
+	-webkit-transition: .4s;
+	transition: .4s;
+}
+
+input:checked+.slider {
+	background-color: #2196F3;
+}
+
+input:focus+.slider {
+	box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked+.slider:before {
+	-webkit-transform: translateX(26px);
+	-ms-transform: translateX(26px);
+	transform: translateX(26px);
+}
+
+
+/* Rounded sliders */
+
+.slider.round {
+	border-radius: 34px;
+}
+
+.slider.round:before {
+	border-radius: 50%;
+}
+
+
+/*----------------------------------------------|   CSS Radio Screen   |----------------------------------------------*/
+
+.cover-up ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.cover-up ul li {
+	float: left;
+	margin-right: 15px;
+}
+
+.radio-package {
+	display: block;
+	position: relative;
+	padding-left: 35px;
+	margin-bottom: 12px;
+	cursor: pointer;
+	font-size: 15px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.radio-package input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+}
+
+.checkmark {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 25px;
+	width: 25px;
+	background-color: #eee;
+	border-radius: 50%;
+}
+
+.radio-package:hover input~.checkmark {
+	background-color: #ccc;
+}
+
+.radio-package input:checked~.checkmark {
+	background-color: #2196F3;
+}
+
+.checkmark:after {
+	content: "";
+	position: absolute;
+	display: none;
+}
+
+.radio-package input:checked~.checkmark:after {
+	display: block;
+}
+
+.radio-package .checkmark:after {
+	top: 9px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: white;
+}
+
+.submit-button{
+	clear: both;
+	width: 300px;
+	display: block;
+	margin: 0px auto;
+}
