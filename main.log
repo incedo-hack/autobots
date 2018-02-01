@@ -534,3 +534,4 @@ Traceback (most recent call last):
   File "C:\Users\ktawde\hackathon\autobots\predire\static\scripts\recruit_predict.py", line 38, in html_load_json
     self._inf.number_to_words(int(math.ceil(data[line]['weight']) / 10)),
 NameError: global name 'math' is not defined
+WARNING 2018-02-01 09:47:01,947 - Not Found: /favicon.ico
