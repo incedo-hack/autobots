@@ -9,7 +9,7 @@ class recprec(object):
     def __init__(self):
         self._stream = None
         self._recid = None
-        self._weight = 100
+        self._weight = 50
         self.mapping_desc = {}
         self._mapping = self.load_json('mapping.json')
         self._data = self.load_json('data.json')
@@ -82,6 +82,7 @@ class recprec(object):
         #self._weight= self._data[id]["weight"]
         #Update database mapping
         if submit:
+            self._weight= 50
             for desc, weight in dictswitch.items():
                 self._weight += int(weight)
 

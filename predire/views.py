@@ -26,6 +26,11 @@ def dashboard(request):
     for key in id_mapping:
         if id_mapping[key] == "on":
             id_mapping[key]= "checked"
+
+    print calc_weight
+    # if calc_weight > 100:
+    #     calc_weight= 100
+
     id_mapping["weight"]= calc_weight
     id_mapping["name"] = id_name
     id_mapping["id"]= id

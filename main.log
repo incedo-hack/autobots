@@ -1879,3 +1879,405 @@ INFO 2018-02-01 23:06:27,223 - Calculating weight for id None
 INFO 2018-02-01 23:06:27,233 - Updated weight for [4 : Mahesh Waikar] to 127
 INFO 2018-02-01 23:06:40,098 - Calculating weight for id None
 INFO 2018-02-01 23:06:42,967 - Calculating weight for id None
+INFO 2018-02-01 23:10:39,394 - Calculating weight for id None
+INFO 2018-02-01 23:10:42,786 - Calculating weight for id None
+INFO 2018-02-01 23:10:42,806 - Updated weight for [5 : Gaurav Gupta] to 57
+INFO 2018-02-01 23:12:07,230 - Calculating weight for id None
+INFO 2018-02-01 23:12:07,236 - Updated weight for [5 : Gaurav Gupta] to 57
+INFO 2018-02-01 23:12:11,474 - Calculating weight for id None
+INFO 2018-02-01 23:12:11,480 - Updated weight for [5 : Gaurav Gupta] to 57
+INFO 2018-02-01 23:12:12,967 - Calculating weight for id None
+INFO 2018-02-01 23:12:12,970 - Updated weight for [5 : Gaurav Gupta] to 57
+WARNING 2018-02-02 09:33:11,747 - Not Found: /favicon.ico
+INFO 2018-02-02 09:33:13,855 - Calculating weight for id None
+INFO 2018-02-02 09:33:17,224 - Calculating weight for id None
+INFO 2018-02-02 09:33:17,233 - Updated weight for [6 : Pratyush] to 112
+INFO 2018-02-02 09:33:20,036 - Calculating weight for id None
+INFO 2018-02-02 09:33:20,046 - Updated weight for [6 : Pratyush] to 97
+INFO 2018-02-02 09:33:25,352 - Calculating weight for id None
+INFO 2018-02-02 09:42:48,664 - Calculating weight for id None
+INFO 2018-02-02 09:42:48,674 - Updated weight for [6 : Pratyush] to 57
+INFO 2018-02-02 09:42:53,730 - Calculating weight for id None
+INFO 2018-02-02 09:42:55,760 - Calculating weight for id None
+INFO 2018-02-02 09:42:55,773 - Updated weight for [3 : Shruti Agarawal] to 75
+INFO 2018-02-02 09:42:58,187 - Calculating weight for id None
+INFO 2018-02-02 09:42:58,194 - Updated weight for [3 : Shruti Agarawal] to 60
+INFO 2018-02-02 09:43:04,861 - Calculating weight for id None
+INFO 2018-02-02 09:43:04,880 - Updated weight for [3 : Shruti Agarawal] to 70
+INFO 2018-02-02 09:43:12,042 - Calculating weight for id None
+INFO 2018-02-02 09:43:14,140 - Calculating weight for id None
+INFO 2018-02-02 09:43:14,148 - Updated weight for [4 : Mahesh Waikar] to 137
+INFO 2018-02-02 09:43:15,921 - Calculating weight for id None
+INFO 2018-02-02 09:43:15,931 - Updated weight for [4 : Mahesh Waikar] to 140
+INFO 2018-02-02 09:43:17,934 - Calculating weight for id None
+INFO 2018-02-02 09:43:17,941 - Updated weight for [4 : Mahesh Waikar] to 155
+INFO 2018-02-02 09:47:12,005 - Calculating weight for id None
+INFO 2018-02-02 09:47:14,993 - Calculating weight for id None
+INFO 2018-02-02 09:47:15,002 - Updated weight for [4 : Mahesh Waikar] to 85
+INFO 2018-02-02 09:47:18,680 - Calculating weight for id None
+INFO 2018-02-02 09:47:18,694 - Updated weight for [4 : Mahesh Waikar] to 115
+INFO 2018-02-02 09:47:26,637 - Calculating weight for id None
+INFO 2018-02-02 09:47:26,644 - Updated weight for [4 : Mahesh Waikar] to 85
+INFO 2018-02-02 09:47:29,176 - Calculating weight for id None
+INFO 2018-02-02 09:47:29,184 - Updated weight for [4 : Mahesh Waikar] to 70
+INFO 2018-02-02 09:48:18,799 - Calculating weight for id None
+INFO 2018-02-02 09:48:18,805 - Updated weight for [4 : Mahesh Waikar] to 70
+INFO 2018-02-02 09:48:22,283 - Calculating weight for id None
+INFO 2018-02-02 09:48:22,289 - Updated weight for [4 : Mahesh Waikar] to 85
+INFO 2018-02-02 09:48:24,285 - Calculating weight for id None
+INFO 2018-02-02 09:48:24,290 - Updated weight for [4 : Mahesh Waikar] to 70
+INFO 2018-02-02 09:48:29,000 - Calculating weight for id None
+INFO 2018-02-02 09:48:29,015 - Updated weight for [4 : Mahesh Waikar] to 67
+INFO 2018-02-02 09:48:32,872 - Calculating weight for id None
+INFO 2018-02-02 09:48:32,881 - Updated weight for [4 : Mahesh Waikar] to 57
+INFO 2018-02-02 09:48:35,464 - Calculating weight for id None
+INFO 2018-02-02 09:48:35,473 - Updated weight for [4 : Mahesh Waikar] to 87
+INFO 2018-02-02 09:48:40,358 - Calculating weight for id None
+INFO 2018-02-02 09:48:40,365 - Updated weight for [4 : Mahesh Waikar] to 97
+INFO 2018-02-02 09:49:55,627 - Calculating weight for id None
+INFO 2018-02-02 09:49:55,631 - Updated weight for [4 : Mahesh Waikar] to 97
+INFO 2018-02-02 09:49:59,576 - Calculating weight for id None
+INFO 2018-02-02 09:49:59,581 - Updated weight for [4 : Mahesh Waikar] to 87
+INFO 2018-02-02 09:50:01,545 - Calculating weight for id None
+INFO 2018-02-02 09:50:01,549 - Updated weight for [4 : Mahesh Waikar] to 97
+INFO 2018-02-02 09:50:04,141 - Calculating weight for id None
+INFO 2018-02-02 09:50:04,150 - Updated weight for [4 : Mahesh Waikar] to 127
+INFO 2018-02-02 09:50:08,848 - Calculating weight for id None
+INFO 2018-02-02 09:50:08,858 - Updated weight for [4 : Mahesh Waikar] to 142
+INFO 2018-02-02 09:50:10,176 - Calculating weight for id None
+INFO 2018-02-02 09:50:10,178 - Updated weight for [4 : Mahesh Waikar] to 142
+INFO 2018-02-02 09:50:11,865 - Calculating weight for id None
+INFO 2018-02-02 09:50:11,874 - Updated weight for [4 : Mahesh Waikar] to 145
+INFO 2018-02-02 09:50:17,319 - Calculating weight for id None
+INFO 2018-02-02 09:50:17,325 - Updated weight for [4 : Mahesh Waikar] to 115
+INFO 2018-02-02 09:50:19,640 - Calculating weight for id None
+INFO 2018-02-02 09:50:19,655 - Updated weight for [4 : Mahesh Waikar] to 125
+INFO 2018-02-02 09:50:32,503 - Calculating weight for id None
+INFO 2018-02-02 09:50:32,509 - Updated weight for [4 : Mahesh Waikar] to 125
+INFO 2018-02-02 09:50:36,273 - Calculating weight for id None
+INFO 2018-02-02 09:50:36,280 - Updated weight for [4 : Mahesh Waikar] to 122
+INFO 2018-02-02 09:50:47,914 - Calculating weight for id None
+INFO 2018-02-02 09:50:47,924 - Updated weight for [4 : Mahesh Waikar] to 152
+INFO 2018-02-02 09:50:59,914 - Calculating weight for id None
+INFO 2018-02-02 09:50:59,930 - Updated weight for [4 : Mahesh Waikar] to 100
+INFO 2018-02-02 09:51:01,348 - Calculating weight for id None
+INFO 2018-02-02 09:51:01,352 - Updated weight for [4 : Mahesh Waikar] to 100
+INFO 2018-02-02 09:51:08,135 - Calculating weight for id None
+INFO 2018-02-02 09:51:08,140 - Updated weight for [4 : Mahesh Waikar] to 85
+INFO 2018-02-02 09:51:12,378 - Calculating weight for id None
+INFO 2018-02-02 09:51:12,387 - Updated weight for [4 : Mahesh Waikar] to 115
+INFO 2018-02-02 09:51:15,019 - Calculating weight for id None
+INFO 2018-02-02 09:51:15,023 - Updated weight for [4 : Mahesh Waikar] to 85
+INFO 2018-02-02 09:51:16,854 - Calculating weight for id None
+INFO 2018-02-02 09:51:16,864 - Updated weight for [4 : Mahesh Waikar] to 82
+INFO 2018-02-02 09:51:19,039 - Calculating weight for id None
+INFO 2018-02-02 09:51:19,046 - Updated weight for [4 : Mahesh Waikar] to 72
+INFO 2018-02-02 09:51:21,227 - Calculating weight for id None
+INFO 2018-02-02 09:51:21,236 - Updated weight for [4 : Mahesh Waikar] to 57
+INFO 2018-02-02 09:51:24,186 - Calculating weight for id None
+INFO 2018-02-02 09:51:24,196 - Updated weight for [4 : Mahesh Waikar] to 87
+INFO 2018-02-02 09:51:26,709 - Calculating weight for id None
+INFO 2018-02-02 09:51:26,713 - Updated weight for [4 : Mahesh Waikar] to 57
+INFO 2018-02-02 09:51:32,362 - Calculating weight for id None
+INFO 2018-02-02 09:51:32,375 - Updated weight for [4 : Mahesh Waikar] to 72
+INFO 2018-02-02 09:51:37,256 - Calculating weight for id None
+INFO 2018-02-02 09:51:37,267 - Updated weight for [4 : Mahesh Waikar] to 75
+INFO 2018-02-02 09:51:47,322 - Calculating weight for id None
+INFO 2018-02-02 09:51:47,328 - Updated weight for [4 : Mahesh Waikar] to 75
+INFO 2018-02-02 09:54:54,471 - Calculating weight for id None
+INFO 2018-02-02 09:54:54,476 - Updated weight for [4 : Mahesh Waikar] to 75
+INFO 2018-02-02 09:55:36,780 - Calculating weight for id None
+INFO 2018-02-02 09:55:36,882 - Updated weight for [4 : Mahesh Waikar] to 75
+INFO 2018-02-02 09:55:40,177 - Calculating weight for id None
+INFO 2018-02-02 09:55:40,180 - Updated weight for [4 : Mahesh Waikar] to 75
+INFO 2018-02-02 09:56:34,971 - Calculating weight for id None
+INFO 2018-02-02 09:56:35,415 - Updated weight for [4 : Mahesh Waikar] to 75
+INFO 2018-02-02 09:56:40,701 - Calculating weight for id None
+INFO 2018-02-02 09:56:40,711 - Updated weight for [4 : Mahesh Waikar] to 105
+INFO 2018-02-02 09:59:46,974 - Calculating weight for id None
+INFO 2018-02-02 09:59:46,984 - Updated weight for [4 : Mahesh Waikar] to 120
+INFO 2018-02-02 09:59:51,855 - Calculating weight for id None
+INFO 2018-02-02 09:59:51,869 - Updated weight for [4 : Mahesh Waikar] to 105
+INFO 2018-02-02 09:59:53,308 - Calculating weight for id None
+INFO 2018-02-02 09:59:53,312 - Updated weight for [4 : Mahesh Waikar] to 105
+INFO 2018-02-02 09:59:55,009 - Calculating weight for id None
+INFO 2018-02-02 09:59:55,019 - Updated weight for [4 : Mahesh Waikar] to 102
+INFO 2018-02-02 09:59:59,697 - Calculating weight for id None
+INFO 2018-02-02 10:00:03,275 - Calculating weight for id None
+INFO 2018-02-02 10:00:03,282 - Updated weight for [3 : Shruti Agarawal] to 130
+INFO 2018-02-02 10:00:05,937 - Calculating weight for id None
+INFO 2018-02-02 10:00:05,944 - Updated weight for [3 : Shruti Agarawal] to 127
+INFO 2018-02-02 10:00:06,865 - Calculating weight for id None
+INFO 2018-02-02 10:00:06,871 - Updated weight for [3 : Shruti Agarawal] to 127
+INFO 2018-02-02 10:00:07,677 - Calculating weight for id None
+INFO 2018-02-02 10:00:07,680 - Updated weight for [3 : Shruti Agarawal] to 127
+INFO 2018-02-02 10:00:08,463 - Calculating weight for id None
+INFO 2018-02-02 10:00:08,473 - Updated weight for [3 : Shruti Agarawal] to 127
+INFO 2018-02-02 10:00:08,677 - Calculating weight for id None
+INFO 2018-02-02 10:00:08,681 - Updated weight for [3 : Shruti Agarawal] to 127
+INFO 2018-02-02 10:00:08,993 - Calculating weight for id None
+INFO 2018-02-02 10:00:08,997 - Updated weight for [3 : Shruti Agarawal] to 127
+INFO 2018-02-02 10:00:09,355 - Calculating weight for id None
+INFO 2018-02-02 10:00:09,358 - Updated weight for [3 : Shruti Agarawal] to 127
+INFO 2018-02-02 10:01:05,188 - Calculating weight for id None
+INFO 2018-02-02 10:01:05,207 - Updated weight for [3 : Shruti Agarawal] to 127
+INFO 2018-02-02 10:01:14,207 - Calculating weight for id None
+INFO 2018-02-02 10:01:21,611 - Calculating weight for id None
+INFO 2018-02-02 10:01:21,621 - Updated weight for [6 : Pratyush] to 85
+INFO 2018-02-02 10:01:25,022 - Calculating weight for id None
+INFO 2018-02-02 10:01:25,045 - Updated weight for [6 : Pratyush] to 115
+INFO 2018-02-02 10:01:31,900 - Calculating weight for id None
+INFO 2018-02-02 10:01:31,903 - Updated weight for [6 : Pratyush] to 85
+INFO 2018-02-02 10:01:36,361 - Calculating weight for id None
+INFO 2018-02-02 10:01:36,365 - Updated weight for [6 : Pratyush] to 115
+INFO 2018-02-02 10:01:39,476 - Calculating weight for id None
+INFO 2018-02-02 10:01:39,490 - Updated weight for [6 : Pratyush] to 100
+INFO 2018-02-02 10:01:54,917 - Calculating weight for id None
+INFO 2018-02-02 10:01:54,921 - Updated weight for [6 : Pratyush] to 100
+INFO 2018-02-02 10:01:57,786 - Calculating weight for id None
+INFO 2018-02-02 10:01:57,792 - Updated weight for [6 : Pratyush] to 100
+INFO 2018-02-02 10:02:01,352 - Calculating weight for id None
+INFO 2018-02-02 10:02:03,681 - Calculating weight for id None
+INFO 2018-02-02 10:02:03,687 - Updated weight for [6 : Pratyush] to 115
+INFO 2018-02-02 10:02:06,003 - Calculating weight for id None
+INFO 2018-02-02 10:02:06,013 - Updated weight for [6 : Pratyush] to 112
+INFO 2018-02-02 10:02:08,163 - Calculating weight for id None
+INFO 2018-02-02 10:02:08,186 - Updated weight for [6 : Pratyush] to 82
+INFO 2018-02-02 10:02:51,733 - Calculating weight for id None
+INFO 2018-02-02 10:02:51,736 - Updated weight for [6 : Pratyush] to 82
+INFO 2018-02-02 10:02:54,043 - Calculating weight for id None
+INFO 2018-02-02 10:02:54,048 - Updated weight for [6 : Pratyush] to 112
+INFO 2018-02-02 10:02:58,019 - Calculating weight for id None
+INFO 2018-02-02 10:02:58,029 - Updated weight for [6 : Pratyush] to 97
+INFO 2018-02-02 10:03:01,171 - Calculating weight for id None
+INFO 2018-02-02 10:03:01,180 - Updated weight for [6 : Pratyush] to 87
+INFO 2018-02-02 10:03:03,384 - Calculating weight for id None
+INFO 2018-02-02 10:03:03,392 - Updated weight for [6 : Pratyush] to 97
+INFO 2018-02-02 10:03:05,474 - Calculating weight for id None
+INFO 2018-02-02 10:03:05,484 - Updated weight for [6 : Pratyush] to 67
+INFO 2018-02-02 10:03:20,308 - Calculating weight for id None
+INFO 2018-02-02 10:03:20,318 - Updated weight for [6 : Pratyush] to 85
+INFO 2018-02-02 10:03:24,585 - Calculating weight for id None
+INFO 2018-02-02 10:03:28,440 - Calculating weight for id None
+INFO 2018-02-02 10:03:28,446 - Updated weight for [6 : Pratyush] to 115
+INFO 2018-02-02 10:05:57,658 - Calculating weight for id None
+INFO 2018-02-02 10:06:02,280 - Calculating weight for id None
+INFO 2018-02-02 10:06:02,292 - Updated weight for [4 : Mahesh Waikar] to 85
+INFO 2018-02-02 10:06:07,289 - Calculating weight for id None
+INFO 2018-02-02 10:06:07,296 - Updated weight for [4 : Mahesh Waikar] to 80
+INFO 2018-02-02 10:06:26,002 - Calculating weight for id None
+INFO 2018-02-02 10:06:26,006 - Updated weight for [4 : Mahesh Waikar] to 100
+INFO 2018-02-02 10:06:37,871 - Calculating weight for id None
+INFO 2018-02-02 10:06:37,882 - Updated weight for [4 : Mahesh Waikar] to 85
+INFO 2018-02-02 10:06:40,134 - Calculating weight for id None
+INFO 2018-02-02 10:06:40,144 - Updated weight for [4 : Mahesh Waikar] to 82
+INFO 2018-02-02 10:06:42,161 - Calculating weight for id None
+INFO 2018-02-02 10:06:42,167 - Updated weight for [4 : Mahesh Waikar] to 77
+INFO 2018-02-02 10:06:44,979 - Calculating weight for id None
+INFO 2018-02-02 10:06:44,990 - Updated weight for [4 : Mahesh Waikar] to 47
+INFO 2018-02-02 10:07:00,687 - Calculating weight for id None
+INFO 2018-02-02 10:07:00,694 - Updated weight for [4 : Mahesh Waikar] to 72
+INFO 2018-02-02 10:07:03,519 - Calculating weight for id None
+INFO 2018-02-02 10:07:03,523 - Updated weight for [4 : Mahesh Waikar] to 77
+INFO 2018-02-02 10:07:06,298 - Calculating weight for id None
+INFO 2018-02-02 10:07:06,302 - Updated weight for [4 : Mahesh Waikar] to 72
+INFO 2018-02-02 10:07:07,828 - Calculating weight for id None
+INFO 2018-02-02 10:07:07,835 - Updated weight for [4 : Mahesh Waikar] to 77
+INFO 2018-02-02 10:07:09,325 - Calculating weight for id None
+INFO 2018-02-02 10:07:09,329 - Updated weight for [4 : Mahesh Waikar] to 72
+INFO 2018-02-02 10:07:12,253 - Calculating weight for id None
+INFO 2018-02-02 10:07:12,260 - Updated weight for [4 : Mahesh Waikar] to 57
+INFO 2018-02-02 10:07:14,960 - Calculating weight for id None
+INFO 2018-02-02 10:07:14,969 - Updated weight for [4 : Mahesh Waikar] to 52
+INFO 2018-02-02 10:07:25,559 - Calculating weight for id None
+INFO 2018-02-02 10:07:25,569 - Updated weight for [4 : Mahesh Waikar] to 22
+INFO 2018-02-02 10:07:28,444 - Calculating weight for id None
+INFO 2018-02-02 10:07:28,459 - Updated weight for [4 : Mahesh Waikar] to 52
+INFO 2018-02-02 10:07:56,250 - Calculating weight for id None
+INFO 2018-02-02 10:07:56,255 - Updated weight for [4 : Mahesh Waikar] to 57
+INFO 2018-02-02 10:08:22,726 - Calculating weight for id None
+INFO 2018-02-02 10:08:22,733 - Updated weight for [4 : Mahesh Waikar] to 100
+INFO 2018-02-02 10:09:10,726 - Calculating weight for id None
+INFO 2018-02-02 10:09:10,736 - Updated weight for [4 : Mahesh Waikar] to 100
+INFO 2018-02-02 10:09:13,736 - Calculating weight for id None
+INFO 2018-02-02 10:09:33,808 - Calculating weight for id None
+INFO 2018-02-02 10:09:38,730 - Calculating weight for id None
+INFO 2018-02-02 10:09:38,736 - Updated weight for [1 : Kalpesh Tawde] to 100
+INFO 2018-02-02 10:09:42,776 - Calculating weight for id None
+INFO 2018-02-02 10:09:42,789 - Updated weight for [1 : Kalpesh Tawde] to 95
+INFO 2018-02-02 10:09:49,289 - Calculating weight for id None
+INFO 2018-02-02 10:09:49,293 - Updated weight for [1 : Kalpesh Tawde] to 100
+INFO 2018-02-02 10:10:14,852 - Calculating weight for id None
+INFO 2018-02-02 10:10:14,859 - Updated weight for [1 : Kalpesh Tawde] to 105
+INFO 2018-02-02 10:10:17,790 - Calculating weight for id None
+INFO 2018-02-02 10:10:17,793 - Updated weight for [1 : Kalpesh Tawde] to 105
+INFO 2018-02-02 10:10:20,457 - Calculating weight for id None
+INFO 2018-02-02 10:10:20,461 - Updated weight for [1 : Kalpesh Tawde] to 105
+INFO 2018-02-02 10:10:22,677 - Calculating weight for id None
+INFO 2018-02-02 10:10:22,690 - Updated weight for [1 : Kalpesh Tawde] to 90
+INFO 2018-02-02 10:10:49,184 - Calculating weight for id None
+INFO 2018-02-02 10:10:49,188 - Updated weight for [1 : Kalpesh Tawde] to 90
+INFO 2018-02-02 10:10:51,542 - Calculating weight for id None
+INFO 2018-02-02 10:10:51,555 - Updated weight for [1 : Kalpesh Tawde] to 105
+INFO 2018-02-02 10:11:00,207 - Calculating weight for id None
+INFO 2018-02-02 10:11:00,223 - Updated weight for [1 : Kalpesh Tawde] to 85
+INFO 2018-02-02 10:11:04,355 - Calculating weight for id None
+INFO 2018-02-02 10:11:04,359 - Updated weight for [1 : Kalpesh Tawde] to 85
+INFO 2018-02-02 10:11:10,822 - Calculating weight for id None
+INFO 2018-02-02 10:11:10,828 - Updated weight for [1 : Kalpesh Tawde] to 85
+INFO 2018-02-02 10:11:17,676 - Calculating weight for id None
+INFO 2018-02-02 10:11:17,683 - Updated weight for [1 : Kalpesh Tawde] to 85
+INFO 2018-02-02 10:11:20,348 - Calculating weight for id None
+INFO 2018-02-02 10:11:20,355 - Updated weight for [1 : Kalpesh Tawde] to 82
+INFO 2018-02-02 10:11:22,548 - Calculating weight for id None
+INFO 2018-02-02 10:11:22,555 - Updated weight for [1 : Kalpesh Tawde] to 77
+INFO 2018-02-02 10:11:26,006 - Calculating weight for id None
+INFO 2018-02-02 10:11:26,019 - Updated weight for [1 : Kalpesh Tawde] to 82
+INFO 2018-02-02 10:16:18,020 - Calculating weight for id None
+INFO 2018-02-02 10:16:20,377 - Calculating weight for id None
+INFO 2018-02-02 10:16:29,585 - Calculating weight for id None
+INFO 2018-02-02 10:16:29,598 - Updated weight for [1 : Kalpesh Tawde] to 85
+INFO 2018-02-02 10:17:26,963 - Calculating weight for id None
+INFO 2018-02-02 10:17:30,227 - Calculating weight for id None
+INFO 2018-02-02 10:17:30,233 - Updated weight for [1 : Kalpesh Tawde] to 85
+INFO 2018-02-02 10:17:57,779 - Calculating weight for id None
+INFO 2018-02-02 10:17:57,786 - Updated weight for [1 : Kalpesh Tawde] to 95
+INFO 2018-02-02 10:18:01,115 - Calculating weight for id None
+INFO 2018-02-02 10:18:01,130 - Updated weight for [1 : Kalpesh Tawde] to 80
+INFO 2018-02-02 10:18:03,565 - Calculating weight for id None
+INFO 2018-02-02 10:18:03,572 - Updated weight for [1 : Kalpesh Tawde] to 85
+INFO 2018-02-02 10:18:05,756 - Calculating weight for id None
+INFO 2018-02-02 10:18:05,763 - Updated weight for [1 : Kalpesh Tawde] to 90
+INFO 2018-02-02 10:18:07,865 - Calculating weight for id None
+INFO 2018-02-02 10:18:07,878 - Updated weight for [1 : Kalpesh Tawde] to 60
+INFO 2018-02-02 10:18:10,480 - Calculating weight for id None
+INFO 2018-02-02 10:18:10,490 - Updated weight for [1 : Kalpesh Tawde] to 65
+INFO 2018-02-02 10:18:13,585 - Calculating weight for id None
+INFO 2018-02-02 10:18:13,596 - Updated weight for [1 : Kalpesh Tawde] to 80
+INFO 2018-02-02 10:18:22,224 - Calculating weight for id None
+INFO 2018-02-02 10:18:22,230 - Updated weight for [1 : Kalpesh Tawde] to 65
+INFO 2018-02-02 10:18:30,446 - Calculating weight for id None
+INFO 2018-02-02 10:18:30,450 - Updated weight for [1 : Kalpesh Tawde] to 80
+INFO 2018-02-02 10:18:55,640 - Calculating weight for id None
+INFO 2018-02-02 10:18:55,644 - Updated weight for [1 : Kalpesh Tawde] to 65
+INFO 2018-02-02 10:19:31,023 - Calculating weight for id None
+INFO 2018-02-02 10:19:31,028 - Updated weight for [1 : Kalpesh Tawde] to 65
+INFO 2018-02-02 10:19:32,861 - Calculating weight for id None
+INFO 2018-02-02 10:19:32,868 - Updated weight for [1 : Kalpesh Tawde] to 65
+INFO 2018-02-02 10:19:34,756 - Calculating weight for id None
+INFO 2018-02-02 10:19:34,767 - Updated weight for [1 : Kalpesh Tawde] to 60
+INFO 2018-02-02 10:20:38,493 - Calculating weight for id None
+INFO 2018-02-02 10:20:38,497 - Updated weight for [1 : Kalpesh Tawde] to 60
+INFO 2018-02-02 10:20:41,223 - Calculating weight for id None
+INFO 2018-02-02 10:20:41,226 - Updated weight for [1 : Kalpesh Tawde] to 60
+INFO 2018-02-02 10:21:55,444 - Calculating weight for id None
+INFO 2018-02-02 10:22:05,556 - Calculating weight for id None
+INFO 2018-02-02 10:22:05,565 - Updated weight for [1 : Kalpesh Tawde] to 125
+INFO 2018-02-02 10:22:28,415 - Calculating weight for id None
+INFO 2018-02-02 10:22:28,427 - Updated weight for [1 : Kalpesh Tawde] to 100
+INFO 2018-02-02 10:22:31,680 - Calculating weight for id None
+INFO 2018-02-02 10:22:31,688 - Updated weight for [1 : Kalpesh Tawde] to 105
+INFO 2018-02-02 10:22:35,697 - Calculating weight for id None
+INFO 2018-02-02 10:22:35,701 - Updated weight for [1 : Kalpesh Tawde] to 100
+INFO 2018-02-02 10:22:39,677 - Calculating weight for id None
+INFO 2018-02-02 10:22:39,681 - Updated weight for [1 : Kalpesh Tawde] to 100
+INFO 2018-02-02 10:22:40,562 - Calculating weight for id None
+INFO 2018-02-02 10:22:40,566 - Updated weight for [1 : Kalpesh Tawde] to 100
+INFO 2018-02-02 10:22:41,049 - Calculating weight for id None
+INFO 2018-02-02 10:22:41,055 - Updated weight for [1 : Kalpesh Tawde] to 100
+INFO 2018-02-02 10:22:41,762 - Calculating weight for id None
+INFO 2018-02-02 10:22:41,766 - Updated weight for [1 : Kalpesh Tawde] to 100
+INFO 2018-02-02 10:22:43,490 - Calculating weight for id None
+INFO 2018-02-02 10:22:43,499 - Updated weight for [1 : Kalpesh Tawde] to 85
+INFO 2018-02-02 10:22:49,237 - Calculating weight for id None
+INFO 2018-02-02 10:22:49,259 - Updated weight for [1 : Kalpesh Tawde] to 90
+INFO 2018-02-02 10:22:51,648 - Calculating weight for id None
+INFO 2018-02-02 10:22:51,658 - Updated weight for [1 : Kalpesh Tawde] to 100
+INFO 2018-02-02 10:22:55,588 - Calculating weight for id None
+INFO 2018-02-02 10:22:55,594 - Updated weight for [1 : Kalpesh Tawde] to 100
+INFO 2018-02-02 10:24:35,463 - Calculating weight for id None
+INFO 2018-02-02 10:24:43,823 - Calculating weight for id None
+INFO 2018-02-02 10:24:43,832 - Updated weight for [1 : Kalpesh Tawde] to 75
+INFO 2018-02-02 10:24:52,875 - Calculating weight for id None
+INFO 2018-02-02 10:24:52,878 - Updated weight for [1 : Kalpesh Tawde] to 75
+INFO 2018-02-02 10:24:55,877 - Calculating weight for id None
+INFO 2018-02-02 10:24:55,884 - Updated weight for [1 : Kalpesh Tawde] to 80
+INFO 2018-02-02 10:24:59,490 - Calculating weight for id None
+INFO 2018-02-02 10:24:59,499 - Updated weight for [1 : Kalpesh Tawde] to 75
+INFO 2018-02-02 10:25:01,335 - Calculating weight for id None
+INFO 2018-02-02 10:25:01,338 - Updated weight for [1 : Kalpesh Tawde] to 80
+INFO 2018-02-02 10:25:04,061 - Calculating weight for id None
+INFO 2018-02-02 10:25:04,069 - Updated weight for [1 : Kalpesh Tawde] to 90
+INFO 2018-02-02 10:25:06,028 - Calculating weight for id None
+INFO 2018-02-02 10:25:06,032 - Updated weight for [1 : Kalpesh Tawde] to 75
+INFO 2018-02-02 10:25:48,516 - Calculating weight for id None
+INFO 2018-02-02 10:25:51,825 - Calculating weight for id None
+INFO 2018-02-02 10:25:51,835 - Updated weight for [1 : Kalpesh Tawde] to 105
+INFO 2018-02-02 10:25:55,095 - Calculating weight for id None
+INFO 2018-02-02 10:25:55,098 - Updated weight for [1 : Kalpesh Tawde] to 90
+INFO 2018-02-02 10:25:58,773 - Calculating weight for id None
+INFO 2018-02-02 10:25:58,778 - Updated weight for [1 : Kalpesh Tawde] to 105
+INFO 2018-02-02 10:26:00,648 - Calculating weight for id None
+INFO 2018-02-02 10:26:00,651 - Updated weight for [1 : Kalpesh Tawde] to 90
+INFO 2018-02-02 10:26:06,723 - Calculating weight for id None
+INFO 2018-02-02 10:26:06,727 - Updated weight for [1 : Kalpesh Tawde] to 90
+INFO 2018-02-02 10:26:37,917 - Calculating weight for id None
+INFO 2018-02-02 10:26:37,928 - Updated weight for [1 : Kalpesh Tawde] to 100
+INFO 2018-02-02 10:26:41,740 - Calculating weight for id None
+INFO 2018-02-02 10:26:41,743 - Updated weight for [1 : Kalpesh Tawde] to 85
+INFO 2018-02-02 10:26:43,927 - Calculating weight for id None
+INFO 2018-02-02 10:26:43,934 - Updated weight for [1 : Kalpesh Tawde] to 90
+INFO 2018-02-02 10:26:47,459 - Calculating weight for id None
+INFO 2018-02-02 10:26:47,467 - Updated weight for [1 : Kalpesh Tawde] to 70
+INFO 2018-02-02 10:26:50,381 - Calculating weight for id None
+INFO 2018-02-02 10:26:50,388 - Updated weight for [1 : Kalpesh Tawde] to 75
+INFO 2018-02-02 10:26:55,799 - Calculating weight for id None
+INFO 2018-02-02 10:26:55,809 - Updated weight for [1 : Kalpesh Tawde] to 90
+INFO 2018-02-02 10:26:59,861 - Calculating weight for id None
+INFO 2018-02-02 10:26:59,869 - Updated weight for [1 : Kalpesh Tawde] to 85
+INFO 2018-02-02 10:28:12,253 - Calculating weight for id None
+INFO 2018-02-02 10:28:21,576 - Calculating weight for id None
+INFO 2018-02-02 10:28:24,112 - Calculating weight for id None
+INFO 2018-02-02 10:28:24,121 - Updated weight for [4 : Mahesh Waikar] to 35
+INFO 2018-02-02 10:28:31,989 - Calculating weight for id None
+INFO 2018-02-02 10:28:31,996 - Updated weight for [4 : Mahesh Waikar] to 45
+INFO 2018-02-02 10:28:35,851 - Calculating weight for id None
+INFO 2018-02-02 10:28:35,861 - Updated weight for [4 : Mahesh Waikar] to 50
+INFO 2018-02-02 10:28:38,586 - Calculating weight for id None
+INFO 2018-02-02 10:28:38,596 - Updated weight for [4 : Mahesh Waikar] to 55
+INFO 2018-02-02 10:29:04,459 - Calculating weight for id None
+INFO 2018-02-02 10:29:04,464 - Updated weight for [4 : Mahesh Waikar] to 55
+INFO 2018-02-02 10:29:09,634 - Calculating weight for id None
+INFO 2018-02-02 10:29:09,647 - Updated weight for [4 : Mahesh Waikar] to 40
+INFO 2018-02-02 10:29:12,519 - Calculating weight for id None
+INFO 2018-02-02 10:29:12,528 - Updated weight for [4 : Mahesh Waikar] to 20
+INFO 2018-02-02 10:29:41,499 - Calculating weight for id None
+INFO 2018-02-02 10:29:41,505 - Updated weight for [4 : Mahesh Waikar] to 40
+INFO 2018-02-02 10:29:43,549 - Calculating weight for id None
+INFO 2018-02-02 10:29:43,563 - Updated weight for [4 : Mahesh Waikar] to 60
+INFO 2018-02-02 10:29:45,930 - Calculating weight for id None
+INFO 2018-02-02 10:29:45,938 - Updated weight for [4 : Mahesh Waikar] to 60
+INFO 2018-02-02 10:29:46,536 - Calculating weight for id None
+INFO 2018-02-02 10:29:46,546 - Updated weight for [4 : Mahesh Waikar] to 60
+INFO 2018-02-02 10:29:47,081 - Calculating weight for id None
+INFO 2018-02-02 10:29:47,085 - Updated weight for [4 : Mahesh Waikar] to 60
+INFO 2018-02-02 10:30:06,234 - Calculating weight for id None
+INFO 2018-02-02 10:30:06,243 - Updated weight for [4 : Mahesh Waikar] to 20
+INFO 2018-02-02 10:30:08,582 - Calculating weight for id None
+INFO 2018-02-02 10:30:08,592 - Updated weight for [4 : Mahesh Waikar] to 20
+INFO 2018-02-02 10:30:10,459 - Calculating weight for id None
+INFO 2018-02-02 10:30:10,463 - Updated weight for [4 : Mahesh Waikar] to 40
+INFO 2018-02-02 10:30:45,187 - Calculating weight for id None
+INFO 2018-02-02 10:30:45,190 - Updated weight for [4 : Mahesh Waikar] to 40
+INFO 2018-02-02 10:30:48,282 - Calculating weight for id None
+INFO 2018-02-02 10:30:48,286 - Updated weight for [4 : Mahesh Waikar] to 20
+INFO 2018-02-02 10:30:50,615 - Calculating weight for id None
+INFO 2018-02-02 10:30:50,621 - Updated weight for [4 : Mahesh Waikar] to 25
+INFO 2018-02-02 10:31:10,319 - Calculating weight for id None
+INFO 2018-02-02 10:31:10,336 - Updated weight for [4 : Mahesh Waikar] to 75
+INFO 2018-02-02 10:31:31,618 - Calculating weight for id None
+INFO 2018-02-02 10:31:31,635 - Updated weight for [4 : Mahesh Waikar] to 60
+INFO 2018-02-02 10:31:33,798 - Calculating weight for id None
+INFO 2018-02-02 10:31:33,805 - Updated weight for [4 : Mahesh Waikar] to 45
+INFO 2018-02-02 10:31:35,720 - Calculating weight for id None
+INFO 2018-02-02 10:31:35,727 - Updated weight for [4 : Mahesh Waikar] to 25

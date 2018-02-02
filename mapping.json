@@ -3,32 +3,32 @@
     {
       "number" : 0,
       "_desc" : "lt_1mth_check",
-      "weight" : -5
+      "weight" : 15
     },
     {
       "number" : 1,
       "_desc" : "lt_2mth_check",
-      "weight" : -15
+      "weight" : 10
     },
     {
       "number" : 2,
       "_desc" : "lt_3mth_check",
-      "weight" : -25
+      "weight" : 5
     },
     {
       "number" : 3,
       "_desc" : "samecity_switch",
-      "weight" : -5
+      "weight" : 5
     },
     {
       "number" : 4,
       "_desc" : "single_switch",
-      "weight" : -3
+      "weight" : 5
     },
     {
       "number": 5,
       "_desc": "referred_switch",
-      "weight" : -5
+      "weight" : 5
     },
     {
       "number": 6,
@@ -43,12 +43,12 @@
     {
       "number": 8,
       "_desc": "morepackage_switch",
-      "weight" : -5
+      "weight" : 10
     },
     {
       "number": 9,
       "_desc": "actively_switch",
-      "weight" : -30
+      "weight" : -20
     }
   ]
 }
