@@ -2914,3 +2914,64 @@ INFO 2018-02-02 12:04:15,111 - Calculating weight for id None
 INFO 2018-02-02 12:04:15,124 - Updated weight for [3 : Shruti Agarawal] to 35
 INFO 2018-02-02 12:04:17,290 - Calculating weight for id None
 INFO 2018-02-02 12:04:17,298 - Updated weight for [3 : Shruti Agarawal] to 15
+INFO 2018-02-02 12:06:27,841 - Calculating weight for id None
+INFO 2018-02-02 12:06:32,400 - Calculating weight for id None
+INFO 2018-02-02 12:06:37,568 - Calculating weight for id None
+INFO 2018-02-02 12:06:37,576 - Updated weight for [5 : Gaurav Gupta] to 60
+INFO 2018-02-02 12:06:44,500 - Calculating weight for id None
+INFO 2018-02-02 12:06:44,509 - Updated weight for [5 : Gaurav Gupta] to 50
+INFO 2018-02-02 12:06:47,059 - Calculating weight for id None
+INFO 2018-02-02 12:06:47,066 - Updated weight for [5 : Gaurav Gupta] to 35
+INFO 2018-02-02 12:08:23,930 - Calculating weight for id None
+INFO 2018-02-02 12:08:31,384 - Calculating weight for id None
+INFO 2018-02-02 12:08:31,394 - Updated weight for [6 : Pratyush] to 40
+INFO 2018-02-02 12:09:37,805 - Calculating weight for id None
+INFO 2018-02-02 12:09:37,813 - Updated weight for [6 : Pratyush] to 45
+INFO 2018-02-02 12:09:40,430 - Calculating weight for id None
+INFO 2018-02-02 12:09:40,436 - Updated weight for [6 : Pratyush] to 50
+INFO 2018-02-02 12:09:51,494 - Calculating weight for id None
+INFO 2018-02-02 12:09:51,499 - Updated weight for [6 : Pratyush] to 45
+INFO 2018-02-02 12:09:53,749 - Calculating weight for id None
+INFO 2018-02-02 12:09:53,753 - Updated weight for [6 : Pratyush] to 40
+INFO 2018-02-02 12:11:14,779 - Calculating weight for id None
+INFO 2018-02-02 12:11:14,786 - Updated weight for [6 : Pratyush] to 45
+INFO 2018-02-02 12:11:17,881 - Calculating weight for id None
+INFO 2018-02-02 12:11:17,885 - Updated weight for [6 : Pratyush] to 50
+INFO 2018-02-02 12:11:33,755 - Calculating weight for id None
+INFO 2018-02-02 12:11:33,763 - Updated weight for [6 : Pratyush] to 65
+INFO 2018-02-02 12:11:37,487 - Calculating weight for id None
+INFO 2018-02-02 12:11:37,496 - Updated weight for [6 : Pratyush] to 55
+INFO 2018-02-02 12:11:43,836 - Calculating weight for id None
+INFO 2018-02-02 12:11:43,845 - Updated weight for [6 : Pratyush] to 60
+INFO 2018-02-02 12:12:21,392 - Calculating weight for id None
+INFO 2018-02-02 12:12:21,398 - Updated weight for [6 : Pratyush] to 60
+INFO 2018-02-02 12:12:25,753 - Calculating weight for id None
+INFO 2018-02-02 12:12:25,755 - Updated weight for [6 : Pratyush] to 65
+INFO 2018-02-02 12:12:27,746 - Calculating weight for id None
+INFO 2018-02-02 12:12:27,756 - Updated weight for [6 : Pratyush] to 45
+INFO 2018-02-02 12:12:48,039 - Calculating weight for id None
+INFO 2018-02-02 12:12:48,043 - Updated weight for [6 : Pratyush] to 45
+INFO 2018-02-02 12:12:50,808 - Calculating weight for id None
+INFO 2018-02-02 12:12:50,812 - Updated weight for [6 : Pratyush] to 45
+INFO 2018-02-02 12:12:52,913 - Calculating weight for id None
+INFO 2018-02-02 12:12:52,917 - Updated weight for [6 : Pratyush] to 45
+INFO 2018-02-02 12:12:55,982 - Calculating weight for id None
+INFO 2018-02-02 12:12:55,986 - Updated weight for [6 : Pratyush] to 45
+INFO 2018-02-02 12:12:56,668 - Calculating weight for id None
+INFO 2018-02-02 12:12:56,674 - Updated weight for [6 : Pratyush] to 45
+INFO 2018-02-02 12:12:58,901 - Calculating weight for id None
+INFO 2018-02-02 12:12:58,911 - Updated weight for [6 : Pratyush] to 30
+INFO 2018-02-02 12:13:02,562 - Calculating weight for id None
+INFO 2018-02-02 12:13:02,569 - Updated weight for [6 : Pratyush] to 10
+INFO 2018-02-02 12:13:05,601 - Calculating weight for id None
+INFO 2018-02-02 12:13:05,611 - Updated weight for [6 : Pratyush] to -5
+INFO 2018-02-02 12:13:29,926 - Calculating weight for id None
+INFO 2018-02-02 12:13:29,934 - Updated weight for [6 : Pratyush] to 5
+INFO 2018-02-02 12:13:40,566 - Calculating weight for id None
+INFO 2018-02-02 12:13:40,575 - Updated weight for [6 : Pratyush] to 20
+INFO 2018-02-02 12:13:42,730 - Calculating weight for id None
+INFO 2018-02-02 12:13:42,736 - Updated weight for [6 : Pratyush] to 30
+INFO 2018-02-02 12:13:44,943 - Calculating weight for id None
+INFO 2018-02-02 12:13:44,946 - Updated weight for [6 : Pratyush] to 45
+INFO 2018-02-02 12:13:47,677 - Calculating weight for id None
+INFO 2018-02-02 12:13:47,684 - Updated weight for [6 : Pratyush] to 50

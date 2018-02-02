@@ -7,7 +7,7 @@
     },
     {
       "number" : 0,
-          "_desc" : "lt_1mth_check",
+      "_desc" : "lt_1mth_check",
       "weight" : 15
     },
     {
@@ -18,7 +18,7 @@
     {
       "number" : 2,
       "_desc" : "lt_3mth_check",
-      "weight" : 5
+      "weight" : -5
     },
     {
       "number" : 3,
@@ -53,7 +53,7 @@
     {
       "number": 9,
       "_desc": "actively_switch",
-      "weight" : -20
+      "weight" : -10
     }
   ]
 }
