@@ -17,11 +17,20 @@ def dashboard(request):
     submit = request.GET.get('submit')
 
     mapping_desc = obj.get_switch()
+
     for val in mapping_desc:
         desc, weight = val.split("|")
+        print desc + "|" + str(weight)
+
         switch = request.GET.get(desc)
+        if desc == "radio":
+            desc = switch
+            switch = "on"
+            dict[desc] = weight
+
         if switch == "on":
             dict[desc] = weight
+
     calc_weight, id_name, id_mapping = obj.calc_weight_switch(dict, id, submit)
     for key in id_mapping:
         if id_mapping[key] == "on":

@@ -1,6 +1,11 @@
 {
   "mapping" : [
     {
+      "number" : -1,
+      "_desc" : "radio",
+      "weight" : 0
+    },
+    {
       "number" : 0,
       "_desc" : "lt_1mth_check",
       "weight" : 15

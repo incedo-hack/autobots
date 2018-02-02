@@ -2281,3 +2281,227 @@ INFO 2018-02-02 10:31:33,798 - Calculating weight for id None
 INFO 2018-02-02 10:31:33,805 - Updated weight for [4 : Mahesh Waikar] to 45
 INFO 2018-02-02 10:31:35,720 - Calculating weight for id None
 INFO 2018-02-02 10:31:35,727 - Updated weight for [4 : Mahesh Waikar] to 25
+INFO 2018-02-02 10:33:35,073 - Calculating weight for id None
+INFO 2018-02-02 10:33:35,078 - Updated weight for [4 : Mahesh Waikar] to 25
+INFO 2018-02-02 10:33:39,115 - Calculating weight for id None
+INFO 2018-02-02 10:33:39,124 - Updated weight for [4 : Mahesh Waikar] to 25
+INFO 2018-02-02 10:39:18,868 - Calculating weight for id None
+INFO 2018-02-02 10:39:23,003 - Calculating weight for id None
+INFO 2018-02-02 10:39:23,009 - Updated weight for [4 : Mahesh Waikar] to 25
+INFO 2018-02-02 10:39:28,298 - Calculating weight for id None
+INFO 2018-02-02 10:39:28,302 - Updated weight for [4 : Mahesh Waikar] to 25
+INFO 2018-02-02 10:41:22,141 - Calculating weight for id None
+INFO 2018-02-02 10:41:22,145 - Updated weight for [4 : Mahesh Waikar] to 25
+INFO 2018-02-02 10:41:24,401 - Calculating weight for id None
+INFO 2018-02-02 10:41:24,405 - Updated weight for [4 : Mahesh Waikar] to 25
+INFO 2018-02-02 10:43:23,717 - Calculating weight for id None
+INFO 2018-02-02 10:43:23,724 - Updated weight for [4 : Mahesh Waikar] to 25
+ERROR 2018-02-02 10:43:45,322 - Internal Server Error: /dashboard.html
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\views.py", line 23, in dashboard
+    print desc +" " +switch
+TypeError: coercing to Unicode: need string or buffer, NoneType found
+ERROR 2018-02-02 10:43:59,983 - Internal Server Error: /dashboard.html
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\views.py", line 23, in dashboard
+    print desc + " " + switch
+TypeError: coercing to Unicode: need string or buffer, NoneType found
+INFO 2018-02-02 10:44:24,283 - Calculating weight for id None
+INFO 2018-02-02 10:44:24,289 - Updated weight for [4 : Mahesh Waikar] to 25
+INFO 2018-02-02 10:44:35,505 - Calculating weight for id None
+INFO 2018-02-02 10:44:35,509 - Updated weight for [4 : Mahesh Waikar] to 25
+INFO 2018-02-02 10:45:02,305 - Calculating weight for id None
+INFO 2018-02-02 10:45:02,309 - Updated weight for [4 : Mahesh Waikar] to 25
+INFO 2018-02-02 10:45:30,194 - Calculating weight for id None
+INFO 2018-02-02 10:45:30,200 - Updated weight for [4 : Mahesh Waikar] to 25
+INFO 2018-02-02 10:45:32,348 - Calculating weight for id None
+INFO 2018-02-02 10:45:32,351 - Updated weight for [4 : Mahesh Waikar] to 25
+INFO 2018-02-02 10:45:34,443 - Calculating weight for id None
+INFO 2018-02-02 10:45:34,447 - Updated weight for [4 : Mahesh Waikar] to 25
+INFO 2018-02-02 10:48:25,476 - Calculating weight for id None
+INFO 2018-02-02 10:48:25,480 - Updated weight for [4 : Mahesh Waikar] to 25
+INFO 2018-02-02 10:48:25,854 - Calculating weight for id None
+INFO 2018-02-02 10:48:25,858 - Updated weight for [4 : Mahesh Waikar] to 25
+INFO 2018-02-02 10:50:03,160 - Calculating weight for id None
+INFO 2018-02-02 10:50:03,167 - Updated weight for [4 : Mahesh Waikar] to 25
+INFO 2018-02-02 10:50:05,418 - Calculating weight for id None
+INFO 2018-02-02 10:50:05,423 - Updated weight for [4 : Mahesh Waikar] to 25
+INFO 2018-02-02 10:50:10,065 - Calculating weight for id None
+INFO 2018-02-02 10:50:10,069 - Updated weight for [4 : Mahesh Waikar] to 25
+INFO 2018-02-02 10:50:18,016 - Calculating weight for id None
+INFO 2018-02-02 10:50:18,023 - Updated weight for [4 : Mahesh Waikar] to 50
+INFO 2018-02-02 10:50:20,819 - Calculating weight for id None
+INFO 2018-02-02 10:50:20,822 - Updated weight for [4 : Mahesh Waikar] to 50
+INFO 2018-02-02 10:50:24,536 - Calculating weight for id None
+INFO 2018-02-02 10:50:24,543 - Updated weight for [4 : Mahesh Waikar] to 50
+INFO 2018-02-02 10:50:53,108 - Calculating weight for id None
+INFO 2018-02-02 10:50:53,111 - Updated weight for [4 : Mahesh Waikar] to 50
+INFO 2018-02-02 10:51:08,055 - Calculating weight for id None
+INFO 2018-02-02 10:51:08,059 - Updated weight for [4 : Mahesh Waikar] to 50
+INFO 2018-02-02 10:51:33,111 - Calculating weight for id None
+INFO 2018-02-02 10:51:33,121 - Updated weight for [4 : Mahesh Waikar] to 55
+INFO 2018-02-02 10:51:36,615 - Calculating weight for id None
+INFO 2018-02-02 10:51:36,622 - Updated weight for [4 : Mahesh Waikar] to 55
+INFO 2018-02-02 10:51:42,647 - Calculating weight for id None
+INFO 2018-02-02 10:51:42,654 - Updated weight for [4 : Mahesh Waikar] to 55
+INFO 2018-02-02 10:51:44,000 - Calculating weight for id None
+INFO 2018-02-02 10:51:44,006 - Updated weight for [4 : Mahesh Waikar] to 55
+INFO 2018-02-02 10:51:46,809 - Calculating weight for id None
+INFO 2018-02-02 10:51:46,815 - Updated weight for [4 : Mahesh Waikar] to 55
+INFO 2018-02-02 10:51:48,466 - Calculating weight for id None
+INFO 2018-02-02 10:51:48,473 - Updated weight for [4 : Mahesh Waikar] to 60
+INFO 2018-02-02 10:51:50,759 - Calculating weight for id None
+INFO 2018-02-02 10:51:50,767 - Updated weight for [4 : Mahesh Waikar] to 60
+INFO 2018-02-02 10:51:51,710 - Calculating weight for id None
+INFO 2018-02-02 10:51:51,717 - Updated weight for [4 : Mahesh Waikar] to 60
+INFO 2018-02-02 10:51:51,907 - Calculating weight for id None
+INFO 2018-02-02 10:51:51,914 - Updated weight for [4 : Mahesh Waikar] to 60
+INFO 2018-02-02 10:52:12,605 - Calculating weight for id None
+INFO 2018-02-02 10:52:16,259 - Calculating weight for id None
+INFO 2018-02-02 10:52:16,266 - Updated weight for [6 : Pratyush] to 55
+INFO 2018-02-02 10:52:19,352 - Calculating weight for id None
+INFO 2018-02-02 10:52:19,361 - Updated weight for [6 : Pratyush] to 55
+INFO 2018-02-02 10:52:22,655 - Calculating weight for id None
+INFO 2018-02-02 10:52:22,663 - Updated weight for [6 : Pratyush] to 55
+INFO 2018-02-02 10:52:24,773 - Calculating weight for id None
+INFO 2018-02-02 10:52:24,780 - Updated weight for [6 : Pratyush] to 55
+INFO 2018-02-02 10:52:28,163 - Calculating weight for id None
+INFO 2018-02-02 10:52:28,167 - Updated weight for [6 : Pratyush] to 55
+INFO 2018-02-02 10:52:29,115 - Calculating weight for id None
+INFO 2018-02-02 10:52:29,121 - Updated weight for [6 : Pratyush] to 60
+INFO 2018-02-02 10:52:39,091 - Calculating weight for id None
+INFO 2018-02-02 10:52:42,016 - Calculating weight for id None
+INFO 2018-02-02 10:52:42,023 - Updated weight for [2 : Sagar Jagtap] to 55
+INFO 2018-02-02 10:52:51,377 - Calculating weight for id None
+INFO 2018-02-02 10:52:52,536 - Calculating weight for id None
+INFO 2018-02-02 10:52:52,539 - Updated weight for [2 : Sagar Jagtap] to 55
+INFO 2018-02-02 10:52:54,924 - Calculating weight for id None
+INFO 2018-02-02 10:52:54,933 - Updated weight for [2 : Sagar Jagtap] to 55
+INFO 2018-02-02 10:54:01,025 - Calculating weight for id None
+INFO 2018-02-02 10:54:01,029 - Updated weight for [2 : Sagar Jagtap] to 55
+INFO 2018-02-02 10:55:34,983 - Calculating weight for id None
+INFO 2018-02-02 10:55:34,989 - Updated weight for [2 : Sagar Jagtap] to 55
+INFO 2018-02-02 10:55:39,809 - Calculating weight for id None
+INFO 2018-02-02 10:55:39,812 - Updated weight for [2 : Sagar Jagtap] to 55
+INFO 2018-02-02 10:56:05,744 - Calculating weight for id None
+INFO 2018-02-02 10:56:05,750 - Updated weight for [2 : Sagar Jagtap] to 55
+INFO 2018-02-02 10:57:38,201 - Calculating weight for id None
+INFO 2018-02-02 10:57:38,211 - Updated weight for [2 : Sagar Jagtap] to 50
+INFO 2018-02-02 10:57:40,571 - Calculating weight for id None
+INFO 2018-02-02 10:57:40,575 - Updated weight for [2 : Sagar Jagtap] to 50
+INFO 2018-02-02 10:57:49,112 - Calculating weight for id None
+INFO 2018-02-02 10:57:49,117 - Updated weight for [2 : Sagar Jagtap] to 50
+INFO 2018-02-02 10:57:51,516 - Calculating weight for id None
+INFO 2018-02-02 10:57:51,525 - Updated weight for [2 : Sagar Jagtap] to 50
+INFO 2018-02-02 10:58:06,339 - Calculating weight for id None
+INFO 2018-02-02 10:58:06,345 - Updated weight for [2 : Sagar Jagtap] to 50
+INFO 2018-02-02 10:58:17,198 - Calculating weight for id None
+INFO 2018-02-02 10:58:17,204 - Updated weight for [2 : Sagar Jagtap] to 50
+INFO 2018-02-02 10:58:19,598 - Calculating weight for id None
+INFO 2018-02-02 10:58:19,601 - Updated weight for [2 : Sagar Jagtap] to 50
+INFO 2018-02-02 10:58:22,897 - Calculating weight for id None
+INFO 2018-02-02 10:58:22,903 - Updated weight for [2 : Sagar Jagtap] to 50
+INFO 2018-02-02 11:00:36,529 - Calculating weight for id None
+INFO 2018-02-02 11:00:39,298 - Calculating weight for id None
+INFO 2018-02-02 11:00:39,309 - Updated weight for [5 : Gaurav Gupta] to 50
+INFO 2018-02-02 11:02:44,838 - Calculating weight for id None
+INFO 2018-02-02 11:02:44,846 - Updated weight for [5 : Gaurav Gupta] to 50
+ERROR 2018-02-02 11:03:34,364 - Internal Server Error: /dashboard.html
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\views.py", line 26, in dashboard
+    print desc + "|" + switch
+TypeError: coercing to Unicode: need string or buffer, NoneType found
+INFO 2018-02-02 11:03:55,131 - Calculating weight for id None
+INFO 2018-02-02 11:03:55,177 - Updated weight for [5 : Gaurav Gupta] to 50
+INFO 2018-02-02 11:03:56,894 - Calculating weight for id None
+INFO 2018-02-02 11:03:56,900 - Updated weight for [5 : Gaurav Gupta] to 50
+INFO 2018-02-02 11:04:06,878 - Calculating weight for id None
+INFO 2018-02-02 11:04:06,884 - Updated weight for [5 : Gaurav Gupta] to 50
+INFO 2018-02-02 11:04:54,953 - Calculating weight for id None
+INFO 2018-02-02 11:04:54,957 - Updated weight for [5 : Gaurav Gupta] to 50
+INFO 2018-02-02 11:05:01,579 - Calculating weight for id None
+INFO 2018-02-02 11:05:01,592 - Updated weight for [5 : Gaurav Gupta] to 45
+INFO 2018-02-02 11:05:53,282 - Calculating weight for id None
+INFO 2018-02-02 11:05:53,288 - Updated weight for [5 : Gaurav Gupta] to 45
+INFO 2018-02-02 11:06:11,848 - Calculating weight for id None
+INFO 2018-02-02 11:06:11,851 - Updated weight for [5 : Gaurav Gupta] to 45
+INFO 2018-02-02 11:06:14,924 - Calculating weight for id None
+INFO 2018-02-02 11:06:14,927 - Updated weight for [5 : Gaurav Gupta] to 45
+INFO 2018-02-02 11:08:03,325 - Calculating weight for id None
+INFO 2018-02-02 11:08:03,328 - Updated weight for [5 : Gaurav Gupta] to 45
+INFO 2018-02-02 11:08:25,937 - Calculating weight for id None
+INFO 2018-02-02 11:08:25,941 - Updated weight for [5 : Gaurav Gupta] to 45
+INFO 2018-02-02 11:09:14,075 - Calculating weight for id None
+INFO 2018-02-02 11:09:14,081 - Updated weight for [5 : Gaurav Gupta] to 45
+INFO 2018-02-02 11:11:31,559 - Calculating weight for id None
+INFO 2018-02-02 11:11:31,568 - Updated weight for [5 : Gaurav Gupta] to 45
+INFO 2018-02-02 11:11:33,940 - Calculating weight for id None
+INFO 2018-02-02 11:11:33,947 - Updated weight for [5 : Gaurav Gupta] to 45
+INFO 2018-02-02 11:11:45,357 - Calculating weight for id None
+INFO 2018-02-02 11:11:45,362 - Updated weight for [5 : Gaurav Gupta] to 45
+INFO 2018-02-02 11:12:55,525 - Calculating weight for id None
+INFO 2018-02-02 11:12:55,529 - Updated weight for [5 : Gaurav Gupta] to 45
+INFO 2018-02-02 11:12:57,773 - Calculating weight for id None
+INFO 2018-02-02 11:12:57,776 - Updated weight for [5 : Gaurav Gupta] to 45
+INFO 2018-02-02 11:13:22,279 - Calculating weight for id None
+INFO 2018-02-02 11:13:22,286 - Updated weight for [5 : Gaurav Gupta] to 45
+INFO 2018-02-02 11:14:08,617 - Calculating weight for id None
+INFO 2018-02-02 11:14:08,624 - Updated weight for [5 : Gaurav Gupta] to 45
+INFO 2018-02-02 11:14:15,525 - Calculating weight for id None
+INFO 2018-02-02 11:14:15,538 - Updated weight for [5 : Gaurav Gupta] to 45
+INFO 2018-02-02 11:14:18,607 - Calculating weight for id None
+INFO 2018-02-02 11:14:18,611 - Updated weight for [5 : Gaurav Gupta] to 45
+INFO 2018-02-02 11:14:46,841 - Calculating weight for id None
+INFO 2018-02-02 11:14:46,848 - Updated weight for [5 : Gaurav Gupta] to 45
+INFO 2018-02-02 11:17:22,375 - Calculating weight for id None
+INFO 2018-02-02 11:17:22,384 - Updated weight for [5 : Gaurav Gupta] to 45
+INFO 2018-02-02 11:17:25,887 - Calculating weight for id None
+INFO 2018-02-02 11:17:25,891 - Updated weight for [5 : Gaurav Gupta] to 45
+INFO 2018-02-02 11:17:27,407 - Calculating weight for id None
+INFO 2018-02-02 11:17:27,411 - Updated weight for [5 : Gaurav Gupta] to 45
+INFO 2018-02-02 11:17:29,812 - Calculating weight for id None
+INFO 2018-02-02 11:17:29,819 - Updated weight for [5 : Gaurav Gupta] to 45
+INFO 2018-02-02 11:17:31,443 - Calculating weight for id None
+INFO 2018-02-02 11:17:31,447 - Updated weight for [5 : Gaurav Gupta] to 45
+INFO 2018-02-02 11:17:31,602 - Calculating weight for id None
+INFO 2018-02-02 11:17:31,609 - Updated weight for [5 : Gaurav Gupta] to 45
+INFO 2018-02-02 11:17:31,834 - Calculating weight for id None
+INFO 2018-02-02 11:17:31,838 - Updated weight for [5 : Gaurav Gupta] to 45
+INFO 2018-02-02 11:17:32,023 - Calculating weight for id None
+INFO 2018-02-02 11:17:32,026 - Updated weight for [5 : Gaurav Gupta] to 45
+INFO 2018-02-02 11:17:43,903 - Calculating weight for id None
+INFO 2018-02-02 11:17:43,917 - Updated weight for [5 : Gaurav Gupta] to 45
+INFO 2018-02-02 11:18:46,954 - Calculating weight for id None
+INFO 2018-02-02 11:18:46,960 - Updated weight for [5 : Gaurav Gupta] to 45
+INFO 2018-02-02 11:19:46,109 - Calculating weight for id None
+INFO 2018-02-02 11:19:46,115 - Updated weight for [5 : Gaurav Gupta] to 45
+INFO 2018-02-02 11:20:07,118 - Calculating weight for id None
+INFO 2018-02-02 11:20:07,122 - Updated weight for [5 : Gaurav Gupta] to 45
+INFO 2018-02-02 11:20:09,940 - Calculating weight for id None
+INFO 2018-02-02 11:20:09,943 - Updated weight for [5 : Gaurav Gupta] to 45
+INFO 2018-02-02 11:20:24,711 - Calculating weight for id None
+INFO 2018-02-02 11:20:24,716 - Updated weight for [5 : Gaurav Gupta] to 45
+INFO 2018-02-02 11:21:04,951 - Calculating weight for id None
+INFO 2018-02-02 11:21:04,956 - Updated weight for [5 : Gaurav Gupta] to 45
+INFO 2018-02-02 11:21:48,759 - Calculating weight for id None
+INFO 2018-02-02 11:21:48,766 - Updated weight for [5 : Gaurav Gupta] to 45
+INFO 2018-02-02 11:22:27,342 - Calculating weight for id None
+INFO 2018-02-02 11:22:27,351 - Updated weight for [5 : Gaurav Gupta] to 45
