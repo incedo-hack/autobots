@@ -11,22 +11,29 @@ def index(request):
 
 def dashboard(request):
     dict = {}
+    tempdict = {}
     id_mapping = {}
     obj = recprec()
     id = request.GET.get('id')
     submit = request.GET.get('submit')
-
     mapping_desc = obj.get_switch()
+    for s in mapping_desc:
+        k, v = s.split("|")
+        tempdict[k]= v
 
     for val in mapping_desc:
         desc, weight = val.split("|")
-        print desc + "|" + str(weight)
-
         switch = request.GET.get(desc)
+        if desc == "lt_1mth_check" or desc == "lt_2mth_check" or desc == \
+                "lt_3mth_check":
+            continue
         if desc == "radio":
+            if not switch:
+                switch = "lt_1mth_check"
             desc = switch
             switch = "on"
-            dict[desc] = weight
+
+            weight = tempdict[desc]
 
         if switch == "on":
             dict[desc] = weight
@@ -43,6 +50,8 @@ def dashboard(request):
     id_mapping["weight"]= calc_weight
     id_mapping["name"] = id_name
     id_mapping["id"]= id
+
+    print id_mapping
 
     return render_to_response(
         "dashboard.html",

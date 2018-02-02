@@ -2505,3 +2505,412 @@ INFO 2018-02-02 11:21:48,759 - Calculating weight for id None
 INFO 2018-02-02 11:21:48,766 - Updated weight for [5 : Gaurav Gupta] to 45
 INFO 2018-02-02 11:22:27,342 - Calculating weight for id None
 INFO 2018-02-02 11:22:27,351 - Updated weight for [5 : Gaurav Gupta] to 45
+INFO 2018-02-02 11:26:56,779 - Calculating weight for id None
+INFO 2018-02-02 11:26:56,788 - Updated weight for [5 : Gaurav Gupta] to 45
+INFO 2018-02-02 11:27:20,056 - Calculating weight for id None
+INFO 2018-02-02 11:27:20,062 - Updated weight for [5 : Gaurav Gupta] to 45
+INFO 2018-02-02 11:30:51,296 - Calculating weight for id None
+INFO 2018-02-02 11:30:51,305 - Updated weight for [5 : Gaurav Gupta] to 45
+INFO 2018-02-02 11:30:53,131 - Calculating weight for id None
+INFO 2018-02-02 11:30:53,163 - Updated weight for [5 : Gaurav Gupta] to 45
+INFO 2018-02-02 11:30:54,289 - Calculating weight for id None
+INFO 2018-02-02 11:30:54,299 - Updated weight for [5 : Gaurav Gupta] to 45
+INFO 2018-02-02 11:31:01,469 - Calculating weight for id None
+INFO 2018-02-02 11:31:01,471 - Updated weight for [5 : Gaurav Gupta] to 45
+INFO 2018-02-02 11:32:03,398 - Calculating weight for id None
+INFO 2018-02-02 11:32:03,401 - Updated weight for [5 : Gaurav Gupta] to 45
+INFO 2018-02-02 11:32:14,414 - Calculating weight for id None
+INFO 2018-02-02 11:32:14,426 - Updated weight for [5 : Gaurav Gupta] to 45
+INFO 2018-02-02 11:32:50,167 - Calculating weight for id None
+INFO 2018-02-02 11:32:50,171 - Updated weight for [5 : Gaurav Gupta] to 45
+INFO 2018-02-02 11:33:38,148 - Calculating weight for id None
+INFO 2018-02-02 11:33:38,180 - Updated weight for [5 : Gaurav Gupta] to 45
+INFO 2018-02-02 11:33:54,933 - Calculating weight for id None
+INFO 2018-02-02 11:33:54,937 - Updated weight for [5 : Gaurav Gupta] to 45
+INFO 2018-02-02 11:34:33,739 - Calculating weight for id None
+INFO 2018-02-02 11:34:33,746 - Updated weight for [5 : Gaurav Gupta] to 45
+INFO 2018-02-02 11:35:07,834 - Calculating weight for id None
+INFO 2018-02-02 11:35:07,844 - Updated weight for [5 : Gaurav Gupta] to 45
+INFO 2018-02-02 11:43:07,461 - Calculating weight for id None
+INFO 2018-02-02 11:43:07,470 - Updated weight for [5 : Gaurav Gupta] to 60
+INFO 2018-02-02 11:43:11,315 - Calculating weight for id None
+INFO 2018-02-02 11:43:11,322 - Updated weight for [5 : Gaurav Gupta] to 55
+INFO 2018-02-02 11:43:13,872 - Calculating weight for id None
+INFO 2018-02-02 11:43:13,877 - Updated weight for [5 : Gaurav Gupta] to 55
+INFO 2018-02-02 11:43:17,168 - Calculating weight for id None
+INFO 2018-02-02 11:43:17,171 - Updated weight for [5 : Gaurav Gupta] to 60
+INFO 2018-02-02 11:43:19,918 - Calculating weight for id None
+INFO 2018-02-02 11:43:19,923 - Updated weight for [5 : Gaurav Gupta] to 55
+INFO 2018-02-02 11:43:22,808 - Calculating weight for id None
+INFO 2018-02-02 11:43:22,812 - Updated weight for [5 : Gaurav Gupta] to 55
+INFO 2018-02-02 11:44:12,499 - Calculating weight for id None
+INFO 2018-02-02 11:44:12,506 - Updated weight for [5 : Gaurav Gupta] to 55
+INFO 2018-02-02 11:44:15,960 - Calculating weight for id None
+INFO 2018-02-02 11:44:15,963 - Updated weight for [5 : Gaurav Gupta] to 55
+INFO 2018-02-02 11:44:29,332 - Calculating weight for id None
+INFO 2018-02-02 11:44:29,335 - Updated weight for [5 : Gaurav Gupta] to 55
+INFO 2018-02-02 11:44:31,698 - Calculating weight for id None
+INFO 2018-02-02 11:44:31,706 - Updated weight for [5 : Gaurav Gupta] to 50
+INFO 2018-02-02 11:44:39,562 - Calculating weight for id None
+INFO 2018-02-02 11:44:39,569 - Updated weight for [5 : Gaurav Gupta] to 60
+INFO 2018-02-02 11:44:41,746 - Calculating weight for id None
+INFO 2018-02-02 11:44:41,750 - Updated weight for [5 : Gaurav Gupta] to 55
+INFO 2018-02-02 11:45:56,502 - Calculating weight for id None
+INFO 2018-02-02 11:45:56,506 - Updated weight for [5 : Gaurav Gupta] to 55
+INFO 2018-02-02 11:46:21,411 - Calculating weight for id None
+INFO 2018-02-02 11:46:21,421 - Updated weight for [5 : Gaurav Gupta] to 65
+INFO 2018-02-02 11:46:23,638 - Calculating weight for id None
+INFO 2018-02-02 11:46:23,645 - Updated weight for [5 : Gaurav Gupta] to 70
+INFO 2018-02-02 11:46:25,677 - Calculating weight for id None
+INFO 2018-02-02 11:46:25,686 - Updated weight for [5 : Gaurav Gupta] to 60
+ERROR 2018-02-02 11:46:35,494 - Internal Server Error: /dashboard.html
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\views.py", line 34, in dashboard
+    weight= tempdict[desc]
+KeyError: None
+ERROR 2018-02-02 11:46:43,604 - Internal Server Error: /dashboard.html
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\views.py", line 34, in dashboard
+    weight= tempdict[desc]
+KeyError: None
+ERROR 2018-02-02 11:48:15,499 - Internal Server Error: /dashboard.html
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\views.py", line 34, in dashboard
+    weight = tempdict[desc]
+KeyError: None
+ERROR 2018-02-02 11:49:18,687 - Internal Server Error: /dashboard.html
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\views.py", line 34, in dashboard
+    weight = tempdict[desc]
+KeyError: None
+INFO 2018-02-02 11:50:42,030 - Calculating weight for id None
+INFO 2018-02-02 11:50:43,959 - Calculating weight for id None
+INFO 2018-02-02 11:50:43,967 - Updated weight for [6 : Pratyush] to 55
+INFO 2018-02-02 11:50:46,196 - Calculating weight for id None
+INFO 2018-02-02 11:50:46,210 - Updated weight for [6 : Pratyush] to 55
+INFO 2018-02-02 11:50:47,828 - Calculating weight for id None
+INFO 2018-02-02 11:50:47,838 - Updated weight for [6 : Pratyush] to 60
+INFO 2018-02-02 11:50:49,599 - Calculating weight for id None
+INFO 2018-02-02 11:50:49,608 - Updated weight for [6 : Pratyush] to 45
+INFO 2018-02-02 11:50:51,756 - Calculating weight for id None
+INFO 2018-02-02 11:50:51,763 - Updated weight for [6 : Pratyush] to 25
+INFO 2018-02-02 11:51:01,390 - Calculating weight for id None
+INFO 2018-02-02 11:51:01,403 - Updated weight for [6 : Pratyush] to 25
+INFO 2018-02-02 11:51:45,785 - Calculating weight for id None
+INFO 2018-02-02 11:51:45,792 - Updated weight for [6 : Pratyush] to 30
+INFO 2018-02-02 11:51:47,813 - Calculating weight for id None
+INFO 2018-02-02 11:51:47,822 - Updated weight for [6 : Pratyush] to 15
+INFO 2018-02-02 11:51:49,861 - Calculating weight for id None
+INFO 2018-02-02 11:51:49,868 - Updated weight for [6 : Pratyush] to 25
+INFO 2018-02-02 11:51:52,295 - Calculating weight for id None
+INFO 2018-02-02 11:51:52,302 - Updated weight for [6 : Pratyush] to 20
+INFO 2018-02-02 11:51:56,105 - Calculating weight for id None
+INFO 2018-02-02 11:51:56,109 - Updated weight for [6 : Pratyush] to 25
+INFO 2018-02-02 11:51:59,278 - Calculating weight for id None
+INFO 2018-02-02 11:51:59,288 - Updated weight for [6 : Pratyush] to 20
+INFO 2018-02-02 11:52:01,901 - Calculating weight for id None
+INFO 2018-02-02 11:52:01,926 - Updated weight for [6 : Pratyush] to 35
+ERROR 2018-02-02 11:53:13,259 - Internal Server Error: /dashboard.html
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\views.py", line 34, in dashboard
+    weight = tempdict[desc]
+KeyError: None
+INFO 2018-02-02 11:53:22,351 - Calculating weight for id None
+ERROR 2018-02-02 11:54:29,900 - Internal Server Error: /dashboard.html
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\views.py", line 33, in dashboard
+    print tempdict[desc]
+KeyError: None
+INFO 2018-02-02 11:54:43,282 - Calculating weight for id None
+INFO 2018-02-02 11:55:11,137 - Calculating weight for id None
+INFO 2018-02-02 11:55:11,147 - Updated weight for [4 : Mahesh Waikar] to 55
+INFO 2018-02-02 11:55:17,223 - Calculating weight for id None
+INFO 2018-02-02 11:55:17,233 - Updated weight for [4 : Mahesh Waikar] to 55
+INFO 2018-02-02 11:55:45,683 - Calculating weight for id None
+INFO 2018-02-02 11:55:45,687 - Updated weight for [4 : Mahesh Waikar] to 55
+INFO 2018-02-02 11:55:50,010 - Calculating weight for id None
+INFO 2018-02-02 11:55:53,736 - Calculating weight for id None
+INFO 2018-02-02 11:55:53,743 - Updated weight for [3 : Shruti Agarawal] to 50
+INFO 2018-02-02 11:55:56,359 - Calculating weight for id None
+INFO 2018-02-02 11:55:56,371 - Updated weight for [3 : Shruti Agarawal] to 50
+INFO 2018-02-02 11:56:07,154 - Calculating weight for id None
+INFO 2018-02-02 11:56:07,161 - Updated weight for [3 : Shruti Agarawal] to 60
+ERROR 2018-02-02 11:56:09,128 - Internal Server Error: /dashboard.html
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\views.py", line 34, in dashboard
+    weight = tempdict[desc]
+KeyError: None
+ERROR 2018-02-02 11:56:14,953 - Internal Server Error: /dashboard.html
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\views.py", line 34, in dashboard
+    weight = tempdict[desc]
+KeyError: None
+ERROR 2018-02-02 11:56:15,135 - Internal Server Error: /dashboard.html
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\views.py", line 34, in dashboard
+    weight = tempdict[desc]
+KeyError: None
+ERROR 2018-02-02 11:56:15,315 - Internal Server Error: /dashboard.html
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\views.py", line 34, in dashboard
+    weight = tempdict[desc]
+KeyError: None
+ERROR 2018-02-02 11:56:15,520 - Internal Server Error: /dashboard.html
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\views.py", line 34, in dashboard
+    weight = tempdict[desc]
+KeyError: None
+ERROR 2018-02-02 11:56:15,707 - Internal Server Error: /dashboard.html
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\views.py", line 34, in dashboard
+    weight = tempdict[desc]
+KeyError: None
+ERROR 2018-02-02 11:56:15,931 - Internal Server Error: /dashboard.html
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\views.py", line 34, in dashboard
+    weight = tempdict[desc]
+KeyError: None
+ERROR 2018-02-02 11:56:16,191 - Internal Server Error: /dashboard.html
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\views.py", line 34, in dashboard
+    weight = tempdict[desc]
+KeyError: None
+ERROR 2018-02-02 11:56:16,290 - Internal Server Error: /dashboard.html
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\views.py", line 34, in dashboard
+    weight = tempdict[desc]
+KeyError: None
+ERROR 2018-02-02 11:56:28,759 - Internal Server Error: /dashboard.html
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\views.py", line 34, in dashboard
+    weight = tempdict[desc]
+KeyError: None
+ERROR 2018-02-02 11:56:29,546 - Internal Server Error: /dashboard.html
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\views.py", line 34, in dashboard
+    weight = tempdict[desc]
+KeyError: None
+ERROR 2018-02-02 11:56:29,742 - Internal Server Error: /dashboard.html
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\views.py", line 34, in dashboard
+    weight = tempdict[desc]
+KeyError: None
+ERROR 2018-02-02 11:56:29,894 - Internal Server Error: /dashboard.html
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\views.py", line 34, in dashboard
+    weight = tempdict[desc]
+KeyError: None
+ERROR 2018-02-02 11:56:45,861 - Internal Server Error: /dashboard.html
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\views.py", line 34, in dashboard
+    weight = tempdict[desc]
+KeyError: None
+ERROR 2018-02-02 11:57:00,627 - Internal Server Error: /dashboard.html
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\views.py", line 34, in dashboard
+    weight = tempdict[desc]
+KeyError: None
+ERROR 2018-02-02 11:57:26,035 - Internal Server Error: /dashboard.html
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\views.py", line 34, in dashboard
+    weight = tempdict[desc]
+KeyError: None
+ERROR 2018-02-02 11:57:58,678 - Internal Server Error: /dashboard.html
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\views.py", line 34, in dashboard
+    weight = tempdict[desc]
+KeyError: None
+INFO 2018-02-02 11:58:15,180 - Calculating weight for id None
+INFO 2018-02-02 11:58:49,361 - Calculating weight for id None
+INFO 2018-02-02 11:58:51,211 - Calculating weight for id None
+INFO 2018-02-02 11:58:54,280 - Calculating weight for id None
+INFO 2018-02-02 11:58:57,622 - Calculating weight for id None
+INFO 2018-02-02 11:58:57,631 - Updated weight for [5 : Gaurav Gupta] to 55
+INFO 2018-02-02 11:59:00,069 - Calculating weight for id None
+INFO 2018-02-02 11:59:00,082 - Updated weight for [5 : Gaurav Gupta] to 55
+INFO 2018-02-02 11:59:03,513 - Calculating weight for id None
+INFO 2018-02-02 11:59:03,525 - Updated weight for [5 : Gaurav Gupta] to 55
+INFO 2018-02-02 11:59:05,648 - Calculating weight for id None
+INFO 2018-02-02 11:59:05,661 - Updated weight for [5 : Gaurav Gupta] to 55
+INFO 2018-02-02 11:59:07,293 - Calculating weight for id None
+INFO 2018-02-02 11:59:07,302 - Updated weight for [5 : Gaurav Gupta] to 50
+INFO 2018-02-02 11:59:09,388 - Calculating weight for id None
+INFO 2018-02-02 11:59:09,398 - Updated weight for [5 : Gaurav Gupta] to 50
+INFO 2018-02-02 11:59:10,112 - Calculating weight for id None
+INFO 2018-02-02 11:59:10,118 - Updated weight for [5 : Gaurav Gupta] to 50
+INFO 2018-02-02 11:59:25,993 - Calculating weight for id None
+INFO 2018-02-02 11:59:28,039 - Calculating weight for id None
+INFO 2018-02-02 11:59:40,292 - Calculating weight for id None
+ERROR 2018-02-02 12:00:16,493 - Internal Server Error: /dashboard.html
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ktawde\hackathon\autobots\predire\views.py", line 34, in dashboard
+    weight = tempdict[desc]
+KeyError: None
+INFO 2018-02-02 12:00:48,141 - Calculating weight for id None
+INFO 2018-02-02 12:00:48,917 - Calculating weight for id None
+INFO 2018-02-02 12:00:49,155 - Calculating weight for id None
+INFO 2018-02-02 12:00:52,017 - Calculating weight for id None
+INFO 2018-02-02 12:00:55,651 - Calculating weight for id None
+INFO 2018-02-02 12:01:52,503 - Calculating weight for id None
+INFO 2018-02-02 12:03:44,170 - Calculating weight for id None
+INFO 2018-02-02 12:03:47,637 - Calculating weight for id None
+INFO 2018-02-02 12:03:47,644 - Updated weight for [6 : Pratyush] to 45
+INFO 2018-02-02 12:03:49,960 - Calculating weight for id None
+INFO 2018-02-02 12:03:49,971 - Updated weight for [6 : Pratyush] to 50
+INFO 2018-02-02 12:03:59,410 - Calculating weight for id None
+INFO 2018-02-02 12:03:59,414 - Updated weight for [6 : Pratyush] to 50
+INFO 2018-02-02 12:04:03,538 - Calculating weight for id None
+INFO 2018-02-02 12:04:06,744 - Calculating weight for id None
+INFO 2018-02-02 12:04:06,752 - Updated weight for [3 : Shruti Agarawal] to 45
+INFO 2018-02-02 12:04:10,079 - Calculating weight for id None
+INFO 2018-02-02 12:04:10,086 - Updated weight for [3 : Shruti Agarawal] to 40
+INFO 2018-02-02 12:04:12,884 - Calculating weight for id None
+INFO 2018-02-02 12:04:12,894 - Updated weight for [3 : Shruti Agarawal] to 50
+INFO 2018-02-02 12:04:15,111 - Calculating weight for id None
+INFO 2018-02-02 12:04:15,124 - Updated weight for [3 : Shruti Agarawal] to 35
+INFO 2018-02-02 12:04:17,290 - Calculating weight for id None
+INFO 2018-02-02 12:04:17,298 - Updated weight for [3 : Shruti Agarawal] to 15
